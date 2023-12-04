@@ -1,0 +1,71 @@
+site_name: Kirastar - 深空摄影系列笔记
+repo_url: https://github.com/ZhenHuangLab/Kirastar
+repo_name: ZhenHuangLab/Kirastar
+theme:
+  name: material
+  custom_dir: overrides
+  language: zh
+  icon:
+    repo: fontawesome/brands/git-alt
+    edit: material/pencil 
+    view: material/eye
+  palette:
+      # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.follow
+    - content.action.edit
+    - content.action.view
+extra:
+  social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/ZhenHuangLab
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+  generator: false
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - git-committers:
+      repository: ZhenHuangLab/Kirastar
+      branch: main
+  - git-authors
+
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2023 Zhen Huang
+
+nav:
+  - 主页: 'index.md'
+  - 前期: 'test.md'
