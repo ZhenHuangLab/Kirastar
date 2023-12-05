@@ -5,7 +5,7 @@ theme:
   name: material
   custom_dir: overrides
   language: zh
-  favicon: material/telescope
+  favicon: fontawesome/solid/star-half-stroke
   icon:
     logo: material/telescope
     repo: fontawesome/brands/git-alt
@@ -64,6 +64,11 @@ extra:
       link: /en/ 
       lang: en
   generator: false
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 plugins:
   - search
