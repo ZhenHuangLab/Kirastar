@@ -1,22 +1,21 @@
 ---
-
 comments: true
-
 ---
-# Welcome to MkDocs
+# KIRASTAR - 深空摄影系列笔记
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+这是一本关于天文摄影的笔记，主要是系统性地记录我在学习天文摄影过程中的一些心得以及体会，方便对这方面感兴趣的天文爱好者进行参考及查阅；同时，也是我送给浙大天协的一份礼物，感谢四年的本科时光有你们的陪伴。如果没有浙大天协的伙伴们，就没有现在的我。
 
-## Commands
+## 发行说明
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+!!! Warning "目前该网站仍然没有稳定的发行版本"
+    该网站仍然处于制作的初级阶段，大量内容尚未实装，体系不完备、且内容可能会随时变化。因此，目前不建议您将本书作为正式的参考资料。
 
-## Project layout
+在本书中涉及的一些作者自制的图表，或者是作者自己的摄影作品，未经授权禁止随意转载，也不能用于商业用途。
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+本书采用Github Pages + MkDocs-material主题进行构建，内容主要使用Markdown语言进行编写。
+
+## 一起贡献吧！
+
+由于本人水平有限，入坑深空的时间也没有很久，再加上天文摄影（业余天文）的整个知识体系相当繁杂，本书中难免会出现一些不完善的或者是错误的地方。因此，如果您有更好的建议，或者也想将自己的一些笔记/心得体会分享，欢迎您通过Github的Pull Request功能来为本书做出贡献！
+
+如果有任何疑问，可以随时通过邮箱[hzvictor@zju.edu.cn](mailto: hzvictor@zju.edu.cn)联系我；也欢迎直接在相应页面的下方进行评论！

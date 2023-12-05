@@ -1,8 +1,10 @@
-site_name: Kirastar - 深空摄影系列笔记
+site_name: Kirastar - 天文摄影系列笔记
+site_url: https://kirastar.zhenhuang.site/
 repo_url: https://github.com/ZhenHuangLab/Kirastar
 repo_name: ZhenHuangLab/Kirastar
 edit_uri: edit/main/docs/
-copyright: Copyright &copy; 2023 Zhen Huang
+site_description: 一个自制的天文摄影系列笔记网站
+copyright: Copyright &copy; 2023 <a href="https://github.com/ZhenHuangLab" target="_blank" rel="noopener">Zhen Huang</a>
 
 theme:
   name: material
@@ -61,16 +63,35 @@ extra:
   generator: false
 
 markdown_extensions:
+  # Python Markdown
+  - abbr
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.betterem # improves the detection of Markup to emphasize text in Markdown using special characters
-  - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.critic
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 plugins:
   - search
@@ -85,6 +106,7 @@ plugins:
 extra_javascript:
   - javascripts/mathjax.js
   - javascripts/katex.js 
+  - javascripts/extra.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
@@ -92,12 +114,14 @@ extra_javascript:
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - stylesheets/extra.css
 
+
+# 这是这本书的结构体系
 nav:
   - 主页: 
     - index.md
-    - 测试1: test1.md
-    - 测试2: 
-      - test2.md
-      - 测试3: test3.md
-  - 前期: 'test.md'
+    - 序言: notes/intro/introduction.md
+    - 修订说明: notes/intro/revise-notes.md
+    - 目录: notes/intro/contents.md
+  - 成像原理: 'test.md'
