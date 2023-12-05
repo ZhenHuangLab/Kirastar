@@ -36,6 +36,7 @@ theme:
     - navigation.tracking
     - navigation.path
     - navigation.top
+    - navigation.indexes
     - navigation.footer
     - search.suggest
     - search.highlight
@@ -45,6 +46,8 @@ theme:
     - announce.dismiss
 extra:
   social:
+      - icon: fontawesome/solid/home
+        link: https://zhenhuang.site/
       - icon: fontawesome/brands/github
         link: https://github.com/ZhenHuangLab
       - icon: fontawesome/brands/bilibili
@@ -77,5 +80,7 @@ nav:
   - 主页: 
     - index.md
     - 测试1: test1.md
-    - 测试2: test2.md
+    - 测试2: 
+      - test2.md
+      - 测试3: test3.md
   - 前期: 'test.md'
