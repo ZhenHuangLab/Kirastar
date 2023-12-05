@@ -6,6 +6,7 @@ theme:
   custom_dir: overrides
   language: zh
   icon:
+    logo: material/telescope
     repo: fontawesome/brands/git-alt
     edit: material/pencil 
     view: material/eye
