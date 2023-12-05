@@ -47,15 +47,15 @@ theme:
 extra:
   social:
       - icon: fontawesome/solid/home
-        link: https://zhenhuang.site/
+        link: https://zhenhuang.site
       - icon: fontawesome/brands/github
         link: https://github.com/ZhenHuangLab
       - icon: fontawesome/brands/bilibili
         link: https://space.bilibili.com/37168500
       - icon: fontawesome/brands/x-twitter
         link: https://twitter.com/ZhenVictorHuang
-      - icon: fontawesome/brands/facebook
-        link: https://www.facebook.com/profile.php?id=100095427284684
+      # - icon: fontawesome/brands/facebook
+      #   link: https://www.facebook.com/profile.php?id=100095427284684
 
   alternate:
     - name: English
