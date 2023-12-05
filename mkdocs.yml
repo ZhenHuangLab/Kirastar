@@ -5,7 +5,7 @@ theme:
   name: material
   custom_dir: overrides
   language: zh
-  favicon: fontawesome/solid/star-half-stroke
+  favicon: assets/icons/favicon.svg
   icon:
     logo: material/telescope
     repo: fontawesome/brands/git-alt
@@ -13,15 +13,16 @@ theme:
     view: material/eye
   palette:
       # Palette toggle for automatic mode
-    - primary: blue
     - media: "(prefers-color-scheme)"
+      primary: blue
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
+      primary: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
