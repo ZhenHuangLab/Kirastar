@@ -5,10 +5,11 @@ theme:
   name: material
   custom_dir: overrides
   language: zh
+  favicon: material/telescope
   icon:
     logo: material/telescope
     repo: fontawesome/brands/git-alt
-    edit: material/pencil 
+    edit: material/pencil-circle 
     view: material/eye
   palette:
       # Palette toggle for automatic mode
