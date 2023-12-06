@@ -12,7 +12,7 @@ comments: true
 
 在本书中涉及的一些作者自制的图表，或者是作者自己的摄影作品，未经授权禁止随意转载，也不能用于商业用途。
 
-本书采用Github Pages + MkDocs-material主题进行构建，内容主要使用Markdown语言进行编写。
+本书采用 `Github Pages + MkDocs-material` 主题进行构建，内容主要使用 `Markdown` 语言（并加上一些 `html` ）进行编写。
 
 ## 一起贡献吧！
 
