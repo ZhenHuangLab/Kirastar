@@ -100,6 +100,8 @@ plugins:
   - search
   - git-revision-date-localized:
       type: date
+      enable_creation_date: true
+      timezone: Asia/Shanghai
   # - git-committers:
   #     repository: ZhenHuangLab/Kirastar
   #     branch: main
