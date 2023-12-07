@@ -40,20 +40,19 @@ body:not(.heimu_toggle_on) .new:hover .heimu.off {
 /* 使用黑幕 */
 
 /* 图片放大，使用方法：![](png src){: .zoom} */
-.shadow {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+.overlay-img {
+    transition: transform 0.25s;
 }
 
-.zoom {
-    transition: transform ease-in-out 0.5s;
-    cursor: zoom-in;
+.overlay {
+    transition: opacity 0.25s;
 }
 
-.image-zoom-large {
-    transform: scale(1.9);
-    cursor: zoom-out;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    z-index: 100;
-    position: relative;
+.small {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
 }
+
 /* 图片放大 */
