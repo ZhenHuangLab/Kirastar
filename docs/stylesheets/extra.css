@@ -53,6 +53,8 @@ body:not(.heimu_toggle_on) .new:hover .heimu.off {
     width: 60%;
 }
 
+/* 添加图片说明，只要<span class="caption">输入你想加的文字</span>即可 */
+
 .caption {
     font-style: italic;
     font-size: 0.8em;

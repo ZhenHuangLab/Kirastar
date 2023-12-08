@@ -175,7 +175,8 @@ nav:
     - 第七章 导星修正系统:
       - ./notes/hardware/chapter-7/index.md
       - 第一节 导星修正系统及其分类: ./notes/hardware/chapter-7/section-1.md
-      - 第二节 导星修正系统的匹配: ./notes/hardware/chapter-7/section-2.md
+      - 第二节 导星系统的搭配与连接: ./notes/hardware/chapter-7/section-2.md
+      - 第三节 导星系统的影响因素与评价: ./notes/hardware/chapter-7/section-3.md
     - 第八章 控制系统:
       - ./notes/hardware/chapter-8/index.md
       - 第一节 控制系统原理介绍: ./notes/hardware/chapter-8/section-1.md
