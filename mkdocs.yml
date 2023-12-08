@@ -212,3 +212,5 @@ nav:
       - 第三节 高阶图像处理技巧: ./notes/data-processing/chapter-14/section-3.md
   - 附录:
     - ./notes/appendix/index.md
+    - 渣图展示: ./notes/appendix/gallery.md
+    - 后记: ./notes/appendix/afterword.md
