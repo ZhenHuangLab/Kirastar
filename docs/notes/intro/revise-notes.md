@@ -29,4 +29,4 @@ comments: true
 !!! note "注意格式规范"
     在修改时请严格按照 `Markdown` 语法或者 `html` 语法进行修改。
 
-    插入图片请使用： `![](png src){: .zoom}` 。
+    插入图片请使用： `![](png src){: .small}` 。
