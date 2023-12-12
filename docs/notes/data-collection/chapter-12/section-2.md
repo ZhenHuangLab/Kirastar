@@ -4,9 +4,94 @@ comments: true
 
 # 第二节 软件使用教程(以N.I.N.A.为例)
 
+## 1 认识NINA界面
 
+### 1.1 设备界面
 
-## 2 平场的拍摄
+1、相机界面：
+
+![相机界面](../../../assets/images/chapter-12/12-2-12.png){: .small}
+
+2、滤镜轮界面：
+
+![滤镜轮界面](../../../assets/images/chapter-12/12-2-13.png){: .small}
+
+3、电动调焦器界面：
+![电调界面](../../../assets/images/chapter-12/12-2-14.png){: .small}
+
+4、望远镜（赤道仪）界面：
+
+![赤道仪界面](../../../assets/images/chapter-12/12-2-15.png){: .small}
+
+5、导星设置界面：
+
+![导星设置界面](../../../assets/images/chapter-12/12-2-16.png){: .small}
+
+6、圆顶设置界面：
+
+![圆顶设置界面](../../../assets/images/chapter-12/12-2-17.png){: .small}
+
+### 1.2 星图界面
+
+![星图界面](../../../assets/images/chapter-12/12-2-18.png){: .small}
+
+### 1.3 构图助手界面
+
+![构图助手界面](../../../assets/images/chapter-12/12-2-19.png){: .small}
+
+### 1.4 平场助手界面
+
+![平场助手界面](../../../assets/images/chapter-12/12-2-20.png){: .small}
+
+### 1.5 序列器界面
+
+1、序列器主界面：
+
+![序列器主界面](../../../assets/images/chapter-12/12-2-21.png){: .small}
+
+2、简单序列器界面：
+
+![简单序列器界面](../../../assets/images/chapter-12/12-2-22.png){: .small}
+
+3、高级序列器界面：
+
+![高级序列器界面](../../../assets/images/chapter-12/12-2-23.png){: .small}
+
+### 1.6 主控台界面
+
+![主控台界面](../../../assets/images/chapter-12/12-2-24.png){: .small}
+
+![主控台界面](../../../assets/images/chapter-12/12-2-25.png){: .small}
+
+### 1.7 设置界面
+
+1、通用设置界面：
+
+![通用设置界面](../../../assets/images/chapter-12/12-2-26.png){: .small}
+
+2、设备选项设置界面：
+
+![设备选项设置界面](../../../assets/images/chapter-12/12-2-27.png){: .small}
+
+3、对焦选项设置：
+
+![对焦选项设置](../../../assets/images/chapter-12/12-2-28.png){: .small}
+
+4、圆顶选项设置：
+
+![圆顶选项设置](../../../assets/images/chapter-12/12-2-30.png){: .small}
+
+5、主控台选项设置：
+
+![主控台选项](../../../assets/images/chapter-12/12-2-31.png){: .small}
+
+6、插件设置：
+
+![插件的选项和设置](../../../assets/images/chapter-12/12-2-32.png){: .small}
+
+## 2 亮场的拍摄
+
+## 3 平场的拍摄
 
 1、打开制冷，准备拍摄：
 
