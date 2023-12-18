@@ -3204,7 +3204,7 @@ $$
 <p>也可以模拟一下光路，有个更加直观的体会：
 <img alt="牛顿反射式望远镜光路模拟" class="small" src="../../../../assets/images/chapter-1/1-1-6.png" />
 <span class="caption">图7 牛顿反射式望远镜光路模拟</span></p>
-<p>如图7(A)所示，模拟的是牛顿反射式望远镜光路。从无穷远处接收到3组光线，如图7(B)所示，它们之间的夹角是7.5角分，这个就对应了天体的某些细节。如果我们不借助望远镜，用肉眼，相当于只有 <span class="arithmatex">\(\frac{1}{4}\)</span> 个月亮左右的宽度，可能比较难辨别。图7(C)显示的是这3组光线聚焦到像平面（焦平面）上的情况。可以看出，望远镜将这一特征缩小并拉近，呈现在像平面上，如果再加上合适的目镜放大，我们就能够轻易辨别这三组光线。</p>
+<p>如图7(A)所示，模拟的是牛顿反射式望远镜光路。从无穷远处接收到3组光线，如图7(B)所示，它们之间的角距离是7.5角分，这个就对应了天体的某些细节。如果我们不借助望远镜，用肉眼，相当于 <span class="arithmatex">\(\frac{1}{4}\)</span> 个月亮左右的宽度。图7(C)显示的是这3组光线聚焦到像平面（焦平面）上的情况。可以看出，望远镜将这一细节缩小并拉近，呈现在像平面上，如果再加上合适的目镜放大，我们就能够轻易辨别这三组光线。</p>
 <p>这也就是为什么我们 <strong>在天文学中用角距离，在天文摄影中也总是拿角度说事</strong> 。既然都无穷远，默认平行光了，那就考虑这些光线形成的角度了。</p>
 </div>
 <p>那我们了解理想光学系统和薄透镜成像有啥作用呢？虽然这玩意你可能觉得在实际拍摄过程中不会涉及到，对于镜头和望远镜而言肯定也不能按照薄透镜和理想光学系统处理。但是我个人觉得，一方面这可以帮助我们了解各种最最基础的概念，比如焦平面、焦距等，同时也有一个从几何光学角度理解望远镜光路的大概概念，便于引入一些视场角与成像大小之类的概念，不至于一开始看到就会懵，不知道为什么要计算这些。</p>
@@ -3225,11 +3225,80 @@ $$
 </details>
 <p>另一方面，这也为之后提到的几何光学像差、以及望远镜的分辨率做铺垫。</p>
 <h2 id="5">5 视场与成像<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
-<p>所有光学系统都不可能能把物体的所有光都收进来，因为你的望远镜（镜头）大小是有限的，而且你的探测器（包括人眼、感光元件等）的大小也是有限的。因此我们的成像范围也是有限的。
-我们可以先简单聊聊我们的眼睛。我们的眼睛可以等效为一个焦距可变的凸透镜，物方焦距为17mm左右，像方焦距为22.8mm左右。视网膜到光心的距离等于眼睛对无穷远处聚焦时的像方焦距。</p>
+<p>所有光学系统都不可能能把物体的所有光都收进来，因为你的望远镜（镜头）大小是有限的，而且你的探测器（包括人眼、感光元件等）的大小也是有限的。因此我们的成像范围也是有限的。</p>
+<p>我们可以先简单聊聊我们的眼睛。我们的眼睛可以等效为一个焦距可变的凸透镜，物方焦距为17mm左右，像方焦距为22.8mm左右。视网膜到光心的距离等于眼睛对无穷远处聚焦时的像方焦距。</p>
 <p>然后我们看看相机。首先我们了解一下简单的视角与成像大小计算。</p>
 <p><img alt="视角与成像大小计算" class="small" src="../../../../assets/images/chapter-1/1-1-8.png" /></p>
 <p><span class="caption">图9 视角与成像大小计算</span></p>
+<p>关于图9应该已经没有什么疑问了：我们可以把望远镜对天体的成像简化为这样的模型，天体的视直径（肉眼看见天空中天体所成的张角）为 <span class="arithmatex">\(\omega\)</span> ，考虑天体发出的两组张角最大、且对于光轴对称的光线 <span class="arithmatex">\(n_{1}\)</span> 和 <span class="arithmatex">\(n_{2}\)</span> ，这两组光线都穿过光心；当该主镜（望远镜物镜）焦距为 <span class="arithmatex">\(f\)</span> 时，这两组光汇聚在焦平面上，成一个像，直径为 <span class="arithmatex">\(h\)</span> 。那么在焦平面上的半径就为 <span class="arithmatex">\(d\)</span> ，简单根据角度关系可以得到：</p>
+<div class="arithmatex">\[
+d = f \tan \theta
+\]</div>
+<p>其中，<span class="arithmatex">\(\theta\)</span> 称为半视场角，<span class="arithmatex">\(\omega\)</span> 称为视场角。因此可以推出：</p>
+<div class="arithmatex">\[
+\theta = \tan^{-1} \frac{d}{f}
+\]</div>
+<div class="arithmatex">\[
+\omega = 2 \theta = 2 \tan^{-1} \frac{h}{2f}
+\]</div>
+<p>因为 <span class="arithmatex">\(\theta\)</span> 和 <span class="arithmatex">\(\omega\)</span> 都是很小的角度（比如角度小于5度时误差小于0.5%），所以为了简化计算，我们可以将公式简化为：</p>
+<div class="arithmatex">\[
+\theta \approx \frac{d}{f}
+\]</div>
+<div class="arithmatex">\[
+\omega \approx \frac{h}{f}
+\]</div>
+<p>即当焦距为 <span class="arithmatex">\(f\)</span> 时，焦平面上天体的大小：</p>
+<div class="arithmatex">\[
+d \approx f \theta
+\]</div>
+<div class="arithmatex">\[
+h \approx f \omega
+\]</div>
+<div class="admonition warning">
+<p class="admonition-title">计算时 <span class="arithmatex">\(\theta\)</span> 和 <span class="arithmatex">\(\omega\)</span> 为弧度</p>
+<p>由于计算时 <span class="arithmatex">\(\theta\)</span> 和 <span class="arithmatex">\(\omega\)</span> 为弧度，因此在计算时需要将角度转换为弧度( <span class="arithmatex">\(rad\)</span> )。
+转换关系为：
+$$
+2\pi \text{rad} = 360^{\circ}
+$$</p>
+<div class="arithmatex">\[
+1^{\circ} = \frac{\pi}{180} \text{rad} = 0.01745 \text{rad}
+\]</div>
+<div class="arithmatex">\[
+\because 1^{\circ} = 60' = 3600''
+\]</div>
+<div class="arithmatex">\[
+\therefore 1'' = \frac{0.01745 \text{rad}}{3600} \approx 5 \times 10^{-6} \text{rad}
+\]</div>
+</div>
+<p>根据上述关系我们还可以发现，望远镜的视场和物镜的焦距以及感光元件的尺寸有关。比如这时成的像大小 <span class="arithmatex">\(h\)</span> 恰好填满感光元件，也就是说感光元件的大小为 <span class="arithmatex">\(h\)</span> ，那么我们可以发现，理论上，当感光元件尺寸一定时，焦距越大，望远镜对应的视场越小，相应的像的放大倍数也就越大，如图10(A)所示；而在焦距一定时，感光元件的尺寸越大，望远镜对应的视场也越大（当然传感器尺寸也不是越大越好，这就涉及到之后的几何像差），如图10(B)所示。</p>
+<p><img alt="望远镜的视场与物镜的焦距以及感光元件的尺寸有关" class="small" src="../../../../assets/images/chapter-1/1-1-9.png" /></p>
+<p><span class="caption">图10 望远镜的视场与物镜的焦距以及感光元件的尺寸有关</span></p>
+<details class="question" open="open">
+<summary>例题2</summary>
+<p>已知仙女座星系(M31)的视直径约为 <span class="arithmatex">\(3^{\circ}\)</span> ，请问使用焦距为 <span class="arithmatex">\(700mm\)</span> 的望远镜拍摄时，焦平面上的星系会是多大？如果使用全画幅相机拍摄，可以装下星系主体吗？</p>
+<details class="note">
+<summary>解答</summary>
+<p>首先将视直径转换为弧度：</p>
+<div class="arithmatex">\[
+\omega = 3^{\circ} \times \frac{\pi}{180} \approx 0.052 \text{rad}
+\]</div>
+<p>然后根据公式：</p>
+<div class="arithmatex">\[
+h \approx f \omega
+\]</div>
+<p>可以得到焦平面上的星系直径大小为：</p>
+<div class="arithmatex">\[
+h \approx 700 \times 0.052 \approx 36.4 \text{mm}
+\]</div>
+<p>使用全画幅相机拍摄时，焦平面的尺寸为 <span class="arithmatex">\(36mm \times 24mm\)</span> ，对角线为 <span class="arithmatex">\(43.3mm\)</span> ，因此全画幅相机接700mm望远镜是完全可以将M31的主体装下的。</p>
+</details>
+</details>
+<details class="question" open="open">
+<summary>例题3</summary>
+<p>已知</p>
+</details>
 <h2 id="6">6 几何光学的局限性<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
 <ul>
 <li>光线仅是几何光学中光的模型，有助于我们的直观理解，但是并不能在物理上解释其速度、能量、波长、频率等；</li>
@@ -3278,7 +3347,7 @@ $$
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 17, 2023</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 18, 2023</span>
   </span>
 
     
