@@ -102,10 +102,18 @@ plugins:
       type: date
       enable_creation_date: true
       timezone: Asia/Shanghai
-  # - git-committers:
-  #     repository: ZhenHuangLab/Kirastar
-  #     branch: main
-  # - git-authors
+  - git-authors:
+        show_contribution: true
+        show_line_count: false
+        show_email_address: true
+        count_empty_lines: false
+        fallback_to_empty: false
+        sort_authors_by: contribution
+        authorship_threshold_percent: 0
+        exclude:
+            - index.md
+        enabled: true
+        strict: true
 
 extra_javascript:
   - javascripts/mathjax.js

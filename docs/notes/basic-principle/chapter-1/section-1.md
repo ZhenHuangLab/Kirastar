@@ -307,7 +307,22 @@ $$
         使用全画幅相机拍摄时，焦平面的尺寸为 $36mm \times 24mm$ ，对角线为 $43.3mm$ ，因此全画幅相机接700mm望远镜是完全可以将M31的主体装下的。
 
 ???+ question "例题3"
-    已知
+    已知木星的视直径约为 $40''$ ，要使其在CMOS上成像直径有 $8mm$ ，需要多长焦距的望远镜进行拍摄？
+    （题目来源：[天体视角与成像大小](http://lifeng.lamost.org/kepu/basic/html/basic3.htm)）
+    ??? note "解答"
+        将视直径转换为弧度：
+
+        $$
+        \omega = 40'' \times \frac{\pi}{180} \approx 2 \times 10^{-4} \text{rad}
+        $$
+
+        根据公式计算焦距：
+
+        $$
+        f = \frac{h}{\omega} = \frac{8mm}{2 \times 10^{-4} \text{rad}} \approx 4 \times 10^{4} mm = 40m
+        $$
+
+        因此可以看出，由于木星的视直径很小，所以需要很长焦距的望远镜才能拍到足够大的木星像。
 
 ## 6 几何光学的局限性
 

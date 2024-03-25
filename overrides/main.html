@@ -4,3 +4,15 @@
   <!-- Add announcement here, including arbitrary HTML -->
   该网站大量内容尚未实装，仍在<b>锐意</b>制作中，敬请期待！
 {% endblock %}
+
+{% block content %}
+  {{ super() }}
+
+  {% if git_page_authors %}
+    <div class="md-source-date">
+      <small>
+          Authors: {{ git_page_authors | default('enable mkdocs-git-authors-plugin') }}
+      </small>
+    </div>
+  {% endif %}
+{% endblock %}
