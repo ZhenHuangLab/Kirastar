@@ -6,6 +6,8 @@ on:
 
 env:
   TZ: Asia/Shanghai
+  global:
+    - MKDOCS_GIT_COMMITTERS_APIKEY=${{ secrets.MKDOCS_GIT_COMMITTERS_APIKEY }}
 
 permissions:
   contents: write
