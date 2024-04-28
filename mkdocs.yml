@@ -3,8 +3,8 @@ site_url: https://kirastar.zhenhuang.site/
 repo_url: https://github.com/ZhenHuangLab/Kirastar
 repo_name: ZhenHuangLab/Kirastar
 edit_uri: edit/main/docs/
-site_description: 一个自制的天文摄影系列笔记网站
-copyright: Copyright &copy; 2023 <a href="https://github.com/ZhenHuangLab" target="_blank" rel="noopener">Zhen Huang</a>
+site_description: 一个自制的天文摄影系列笔记及教程网站，力求科学系统地介绍天文摄影及深空观测摄影的理论基础、硬件基础、数据收集、数据处理等方面的知识。
+copyright: Copyright &copy; 2024 <a href="https://github.com/ZhenHuangLab" target="_blank" rel="noopener">Zhen Huang</a>
 
 theme:
   name: material
@@ -61,6 +61,16 @@ extra:
         link: https://www.facebook.com/profile.php?id=100095427284684
 
   generator: true
+  # consent:
+  #   title: Cookie consent
+  #   description: >- 
+  #     We use cookies to recognize your repeated visits and preferences, as well
+  #     as to measure the effectiveness of our documentation and whether users
+  #     find what they're searching for. With your consent, you're helping us to
+  #     make our documentation better.
+  #   actions:
+  #     - accept
+  #     - manage
 
 markdown_extensions:
   # Python Markdown
