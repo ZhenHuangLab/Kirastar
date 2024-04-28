@@ -1,5 +1,14 @@
 {% extends "base.html" %}
 
+{% block site_meta %}
+  <!-- General and Social Media meta tags -->
+  {{ super() }}
+  <meta name="test" content="This is a test meta tag">
+  <meta property="og:image" content='https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png'>
+  <meta name="twitter:image" content='https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png'>
+  <meta itemprop="image" content='https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png'>
+{% endblock %}
+
 {% block announce %}
   <!-- Add announcement here, including arbitrary HTML -->
   该网站大量内容尚未实装，仍在<b>锐意</b>制作中，敬请期待！
