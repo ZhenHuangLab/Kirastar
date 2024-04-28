@@ -46,6 +46,7 @@ theme:
     - search.share
     - toc.follow
     - content.action.edit
+    - content.tooltips
     - announce.dismiss
 extra:
   social:
@@ -74,7 +75,7 @@ extra:
 
   status:
     new: 最近发布
-    
+
 
 markdown_extensions:
   # Python Markdown
