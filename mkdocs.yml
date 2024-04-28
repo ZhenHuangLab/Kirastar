@@ -134,8 +134,8 @@ plugins:
   - git-committers:
       repository: ZhenHuangLab/Kirastar
       branch: main
-      # token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
-      token: ${MKDOCS_GIT_COMMITTERS_APIKEY}
+      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+      # token: ${MKDOCS_GIT_COMMITTERS_APIKEY}
 
 extra_javascript:
   - javascripts/mathjax.js
