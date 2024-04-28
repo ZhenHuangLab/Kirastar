@@ -19,3 +19,5 @@ comments: true
 由于本人水平有限、入坑深空的时间没有很久，作为学生时间有限，再加上天文摄影（业余天文）的整个知识体系相当繁杂，本书中难免会出现一些不完善的或者是错误的地方。因此，如果您有更好的建议，或者也想将自己的一些笔记/心得体会分享，欢迎您通过Github的`Pull Request`功能来为本书做出贡献！
 
 如果有任何疑问，可以随时通过邮箱[hzvictor@zju.edu.cn](mailto: hzvictor@zju.edu.cn)联系我；也欢迎直接在相应页面的下方进行评论！
+
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5dxeeuukdso&amp;m=1&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
