@@ -72,6 +72,10 @@ extra:
   #     - accept
       # - manage
 
+  status:
+    new: 最近发布
+    
+
 markdown_extensions:
   # Python Markdown
   - abbr

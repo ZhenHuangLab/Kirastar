@@ -1,15 +1,8 @@
 {% extends "base.html" %}
 
-{% block htmltitle %}
-  <title>Kirastar - 科学天文摄影笔记</title>
-{% endblock %}
-
 {% block site_meta %}
   <!-- General and Social Media meta tags -->
   {{ super() }}
-  {% if config.site_description %}
-    <meta name="description" content="{{ config.site_description }}">
-  {% endif %}
   <meta name="test" content="This is a test meta tag">
   <meta property="og:image" content='https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png'>
   <meta name="twitter:image" content='https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png'>
