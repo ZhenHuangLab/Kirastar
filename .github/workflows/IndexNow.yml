@@ -20,5 +20,5 @@ jobs:
           endpoint: "www.bing.com"
           since: 1
           since-unit: "month"
-          key: "7dd61d4e58ef4543a1ac3fa068e96efc"
-          key-location: "https://kirastar.zhenhuang.site/7dd61d4e58ef4543a1ac3fa068e96efc.txt"
+          key: "d86a8cc8bd824c5bb49ffcb0950759f0"
+          key-location: "https://kirastar.zhenhuang.site/d86a8cc8bd824c5bb49ffcb0950759f0.txt"
