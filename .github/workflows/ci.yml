@@ -41,7 +41,7 @@ jobs:
         run: |
           rm -rf ./site
           mkdir ./site
-          echo "d86a8cc8bd824c5bb49ffcb0950759f0" > ./site/d86a8cc8bd824c5bb49ffcb0950759f0.txt
+          echo "bf9201aa478742bea555c925e8a16a75" > ./site/bf9201aa478742bea555c925e8a16a75.txt
       - run: pip install mkdocs-material 
       - run: pip install mkdocs-git-revision-date-localized-plugin
       # - run: pip3 install mkdocs-git-authors-plugin
