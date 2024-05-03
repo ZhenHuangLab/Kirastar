@@ -44,5 +44,6 @@ jobs:
       - run: pip install mkdocs-git-committers-plugin-2
       - name: Setup IndexNow
         run: |
+          mkdir ./site
           echo ${{ secrets.INDEXNOW_KEY }} > ./site/${{ secrets.INDEXNOW_KEY }}.txt
       - run: mkdocs gh-deploy --force
