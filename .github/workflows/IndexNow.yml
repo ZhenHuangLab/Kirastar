@@ -20,5 +20,5 @@ jobs:
           endpoint: "www.bing.com"
           since: 1
           since-unit: "month"
-          key: ${{ secrets.INDEXNOW_KEY }}
-          key-location: ${{ secrets.INDEXNOW_KEY_LOCATION }}
+          key: "2fc39ce9650c4e80a8d3d7b1eff2d614"
+          key-location: "https://kirastar.zhenhuang.site/2fc39ce9650c4e80a8d3d7b1eff2d614.txt"
