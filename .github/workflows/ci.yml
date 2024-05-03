@@ -41,7 +41,7 @@ jobs:
         run: |
           rm -rf ./site
           mkdir ./site
-          echo "bf9201aa478742bea555c925e8a16a75" > ./site/bf9201aa478742bea555c925e8a16a75.txt
+          echo ${{ secrets.INDEXNOW_KEY }} > ./site/${{ secrets.INDEXNOW_KEY }}.txt
       - run: pip install mkdocs-material 
       - run: pip install mkdocs-git-revision-date-localized-plugin
       # - run: pip3 install mkdocs-git-authors-plugin
