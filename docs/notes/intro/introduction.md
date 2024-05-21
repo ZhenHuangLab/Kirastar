@@ -63,30 +63,27 @@ comments: true
 
 直到2021年10月，我基本都是以了解学习各种天文基础知识为主，比如学一些“太阳系天体有哪些”这种。之前的拍摄也仅限于星野摄影并且还很入门。
 
-![我的第一张星野摄影照片-摄于天荒坪](../../assets/images/intro/longtimeago.png){: .small}
-
+![我的第一张星野摄影照片-摄于天荒坪](https://lfs.zhenhuang.site/images/longtimeago-2024-05-21-10-37-12.png){: .small}
 <span class="caption">图1 我的第一张星野摄影照片-摄于天荒坪</span>
-
 
 但是，2021年10月我和天协的几个伙伴去了一次牵牛岗。那次我看到有很多人在路边架着望远镜，我好奇过去看了看，被他们实时拍摄的M31震撼到了，满脑子都是“すごい！すごい！（太厉害了）”，我心想，我也要拍这个！ ~~我也要成为深空摄影高手！~~
 
-![银河下的自拍](../../assets/images/intro/selfie-under-milkyway.jpg){: .small}
-
+![银河下的自拍](https://lfs.zhenhuang.site/images/selfie-under-milkyway-2024-05-21-10-38-37.jpg){: .small}
 <span class="caption">图2 那次去牵牛岗的自拍</span>
 
 然后我就正式入坑了深空摄影。我先从行星摄影开始，自己花钱买了个行星相机（ZWO ASI485MC），拍了月面、土星、木星、天王星等，然后试着拍了猎户座大星云M42（当然是短曝光叠加，随便试了试）。
 
-![土星](../../assets/images/intro/Saturn.png){: .small}
+![土星](https://lfs.zhenhuang.site/images/Saturn-2024-05-21-10-41-03.png){: .small}
 
 <span class="caption">图3 土星</span>
 
-![M42](../../assets/images/intro/M42(pb2).jpg){: .small}
+![M42](https://lfs.zhenhuang.site/images/M42(pb2)-2024-05-21-10-41-39.jpg){: .small}
 
 <span class="caption">图4 我的第一张M42</span>
 
 因为学校有个小圆顶，跟着大佬们，我逐渐开始熟悉起深空摄影，并越来越上头<span class="heimu" title="你知道的太多了">，甚至直接影响了我当时的科研方向</span>。特别是在2022年，我花了很多时间自己组装设备拍摄或是操控小圆顶拍摄，拍了一些[渣图](../appendix/gallery.md)，在这期间边摸索、边零零散散学到了特别多东西，但是并没有一个比较细节的、比较系统的教程。其实在那时，我就已经有了整理一下自己脑子里零散知识的想法了，但是一直被各种事情搁置，只是写了一两篇零散的文章。
 
-![IC1848](../../assets/images/intro/IC1848.jpg){: .small}
+![IC1848](https://lfs.zhenhuang.site/images/IC1848-2024-05-21-10-42-33.jpg){: .small}
 
 <span class="caption">图5 IC1848 龙头上的小恶魔 摄于2022年12月</span>
 
@@ -102,7 +99,7 @@ comments: true
     天文摄影对我而言，就是“听见星星的声音”、“给宇宙上色”，キラキラ（kirakira）的星空每次都能让我ドキドキ（dokidoki）(｡･ω･｡)，故取名kirastar（闪亮的星星）。
 
     <span class="heimu" title="你知道的太多了">著名cdd</span>戸山香澄曾说：
-    ![ksm我喜欢你](../../assets/images/intro/krkrdkdk.jpg)
+    ![krkrdkdk](https://lfs.zhenhuang.site/images/krkrdkdk-2024-05-21-10-43-57.jpg)
 
 
 ## 3 对待天文摄影的态度以及对待本书的态度
@@ -112,7 +109,7 @@ comments: true
 关于这一点，我其实也不想多提，每个人看待天文摄影（深空摄影）的视角不同，对待它的态度也就不尽相同，没有优劣好坏之分。但是我还是想引用一下汞佬在他的教程中提到的大部分人所认同的态度和价值观，也作为我所认同的、这本书的价值观：
 
 !!! quote "深空摄影的正确态度"
-    ![我所认同的价值观](../../assets/images/intro/zhihu.png){: .small}
+    ![我所认同的价值观](https://lfs.zhenhuang.site/images/zhihu-2024-05-21-10-43-13.png){: .small}
 
     <span class="caption">图6 对待天文摄影（深空摄影）的态度[^1]</span>
 
