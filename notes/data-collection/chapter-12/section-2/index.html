@@ -3110,7 +3110,8 @@
 <p>6、圆顶设置界面：</p>
 <p><img alt="圆顶设置界面" class="small" src="https://lfs.zhenhuang.site/images/12-2-17-2024-05-21-11-01-02.png" /></p>
 <h3 id="12">1.2 星图界面<a class="headerlink" href="#12" title="Permanent link">&para;</a></h3>
-<p><img alt="星图界面" class="small" src="https://lfs.zhenhuang.site/images/12-2-18-2024-05-21-11-01-22.png" /></p>
+<p><img alt="星图界面" class="small" src="https://lfs.zhenhuang.site/images/12-2-18-2024-05-21-11-01-22.png" />
+<img alt="星图界面2" class="small" src="https://lfs.zhenhuang.site/images/20240521170311-2024-05-21-17-03-12.png" /></p>
 <h3 id="13">1.3 构图助手界面<a class="headerlink" href="#13" title="Permanent link">&para;</a></h3>
 <p><img alt="构图助手界面" class="small" src="https://lfs.zhenhuang.site/images/12-2-19-2024-05-21-11-01-43.png" /></p>
 <h3 id="14">1.4 平场助手界面<a class="headerlink" href="#14" title="Permanent link">&para;</a></h3>
@@ -3139,6 +3140,86 @@
 <p>6、插件设置：</p>
 <p><img alt="插件的选项和设置" class="small" src="https://lfs.zhenhuang.site/images/12-2-32-2024-05-21-11-09-34.png" /></p>
 <h2 id="2">2 亮场的拍摄<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<p><strong>1、设备连接。</strong> 首先确定连接好设备，依次检查相机、滤镜轮、电调、旋转器（如果有）、赤道仪（NINA中文版翻译为「望远镜」）、导星、圆顶（东四顶楼那个圆顶是需要检查的）等等是否连接好。</p>
+<ul>
+<li>有任何设备连不上，检查对应的驱动，点击齿轮形状的「设置」按钮进行设置。通常会弹出对应厂商设备的驱动界面。找不到问题，尝试重启。</li>
+<li>导星连接时通常使用PHD2软件。后续导星相关的设置可直接在PHD2中设置。</li>
+</ul>
+<p><strong>2、相机制冷。</strong> 连接好设备后，点击相机-制冷-开启制冷开启相机制冷，待芯片温度和相机功率逐渐趋于稳定。在等待的时间可以进行对极轴操作。</p>
+<p><img alt="温度控制" class="small" src="https://lfs.zhenhuang.site/images/20240523165254-2024-05-23-16-52-55.png" /></p>
+<p><strong>3、极轴。</strong> 如果是固定台，通常不需要每次都对极轴，因为已经对好了，比如东四那个圆顶。如果是自己出摊：</p>
+<ul>
+<li>可使用NINA的三点对极轴「Three Point Polar Alignment」</li>
+<li>可使用ZWO盒子、starmaster、Kstar等现成的软件</li>
+<li>可以使用极轴镜，比如艾顿极轴镜</li>
+</ul>
+<p><strong>4、调好平衡对完极轴后，开启赤道仪跟踪。</strong></p>
+<ul>
+<li>如果使用固定台，之前应该已经在零位处于停放状态，需要「解除停放」，在「设备-望远镜-手动控制-解除停放」。然后点击设置「跟踪速率」，选择「恒星速」。</li>
+<li>如果出摊，对完极轴后望远镜应该回到零位，此时点击设置「跟踪速率」为「恒星速」即可。</li>
+</ul>
+<p><strong>5、测试跟踪并校准导星</strong></p>
+<ul>
+<li>GOTO天赤道附近20度左右的区域（DEC赤纬在-20至20度），这个区域星星在天球上移动的线速度较大，导星校准的效果较好。</li>
+<li>在PHD2中进行导星校准，开始导星</li>
+<li>导星开始后一方面看导星数据是否稳定，另一方面可以在主控台拍一张30s的照片测试一下，看看星点是否出现脱线。</li>
+</ul>
+<p><strong>6、进行精细对焦。</strong> 一般使用电动调焦器更加精准。（这步也可以在第4、5步进行）</p>
+<p><strong>7、星点解析</strong></p>
+<ul>
+<li>拍摄一张照片，10s或者平常拍单张的时间，得到一张星点符合条件的照片</li>
+<li>点击主控台界面的「星点解析」<img src="https://lfs.zhenhuang.site/images/20240523165356-2024-05-23-16-53-57.png" width=5%></img>工具，对该照片上的所有星点进行解析定位。</li>
+<li>如果解析失败，可能是导星脱线导致星点变形、对焦不准导致星点过大、曝光时间不足导致信噪比不够。</li>
+</ul>
+<p><strong>8、GOTO想拍摄的区域</strong></p>
+<ul>
+<li>成功解析后，赤道仪能够获得目前全天星空的实际坐标，能够直接做到GOTO精确定位。</li>
+<li>在「构图助手」中，载入目标：<ul>
+<li>图片来源选择「本地星图」，圆顶已经下载了离线星图</li>
+<li>输入名称搜索，能够自动载入赤经赤纬坐标并在右侧图中显示出星图</li>
+<li>在「相机参数」中设置好CMOS/CCD参数以及望远镜焦距</li>
+<li>目标一栏的「水平张数」、「垂直张数」用于多图拼接的，一般不用。</li>
+<li>「旋转角度」调整后可在右侧旋转相机视场，一般不进行设置，除非使用了电动旋转器。</li>
+<li>确认参数无误后可以使用「指向并居中」GOTO至坐标，也可以「添加到序列」将该目标加入序列中。</li>
+</ul>
+</li>
+</ul>
+<p><img alt="GOTO目标" class="small" src="https://lfs.zhenhuang.site/images/20240523165852-2024-05-23-16-58-53.png" /></p>
+<p><strong>9、设置序列并启动序列</strong></p>
+<ul>
+<li>有关于简单序列器和高级序列器的界面和相应功能已经在上一节中介绍了，可以根据实际情况进行设置。</li>
+<li>一般需要设置的主要是：<ul>
+<li>目标组起始动作：即开始这一组时会执行的动作。一般都是全开。</li>
+<li>目标组结束动作：结束这一组时执行的动作。一般也是全开。</li>
+<li>选项：如果已经在上一步指向居中了，这一个目标的这个选项就不用再开着了，但是其他目标的还要开着，不然他就指向不了了。（当然让他再指向居中一次也没啥问题，就是有点浪费时间）。自动打开导星同理。自动对焦选项有一些「每隔若干时间」或者「温度变化多少」时重新对焦的选项，如果昼夜温差大，或者对于星点质量要求高，建议开着。开着也就意味着用一部分曝光时间换取星点质量的提升。</li>
+<li>设置单张时间、拍摄类型（这里是Light亮场）、滤镜（彩色相机就全L就好）、像素合并、启用抖动、每拍多少张抖动一次。增益和相机直接用相机的设置就好。</li>
+<li>所有目标序列设置好后，点击启动即可进行自动拍摄。</li>
+</ul>
+</li>
+</ul>
+<p><strong>10、拍摄过程中可以关注的地方</strong></p>
+<p><img alt="主控台" class="small" src="https://lfs.zhenhuang.site/images/20240523170020-2024-05-23-17-00-22.png" /></p>
+<ul>
+<li>关注 <strong>相机曝光状态</strong> 。这一栏会显示曝光进度、图像正在保存、正在检测星点这三个状态。</li>
+<li>关注 <strong>导星状态</strong> 。</li>
+<li><strong>关注最近一张的预览图</strong>。图中的白框内的区域用于统计星点半宽（HFR）。可以随时放大查看一下星点的质量，例如星点是否圆润等等。点击「有九个格子形状」的按钮可以查看图像边缘星点，判断边缘处星点的质量、是否存在明显像差等。</li>
+</ul>
+<p><img alt="关注最近一张的预览图-1" class="small" src="https://lfs.zhenhuang.site/images/20240523170050-2024-05-23-17-00-52.png" />
+<img alt="关注最近一张的预览图-2" class="small" src="https://lfs.zhenhuang.site/images/20240523170101-2024-05-23-17-01-03.png" /></p>
+<ul>
+<li><strong>关注星点HFR历史</strong> 。理想状态下，随着深夜的到来和光污染的减少，或者随着目标天体临近中天，星点数应该稳步提升，HFR也稳步下降。当观星条件差、或者对焦差时，星点数少且HFR高。星点HFR历史有助于我们判断在拍摄过程中拍摄质量是否出现下滑或者出现一些极端条件。</li>
+</ul>
+<p><center><img src="https://lfs.zhenhuang.site/images/20240523170125-2024-05-23-17-01-27.png" width=40%></img></center></p>
+<ul>
+<li>关注中天翻转。中天翻转是拍摄过程中比较容易寄的地方。中天翻转前后二十分钟左右我们要密切关注赤道仪的状态。当中天翻转开始时，应当会出现如下这样的界面：</li>
+</ul>
+<p><img alt="中天翻转启动" class="small" src="https://lfs.zhenhuang.site/images/20240523170228-2024-05-23-17-02-30.png" /></p>
+<p>赤道仪会首先停止自动导星（但此时相机可能不会停止拍摄），等到目标天体过中天一段时间后（这段时间可以在设置里面进行设置），赤道仪会进行中天翻转，翻转成功后重新进行自动对焦</p>
+<p><img alt="重新自动对焦" class="small" src="https://lfs.zhenhuang.site/images/20240523170254-2024-05-23-17-02-55.png" /></p>
+<p>自动对焦成功后，会重新指向并居中目标天体。</p>
+<p><img alt="重新指向并居中目标天体" class="small" src="https://lfs.zhenhuang.site/images/20240523170309-2024-05-23-17-03-10.png" /></p>
+<p>而后恢复导星，继续进行拍摄。</p>
+<p>如果中天翻转出问题，可以先停止拍摄，等到天体过中天一段时间后，手动指向并居中目标，然后继续进行序列拍摄。</p>
 <h2 id="3">3 平场的拍摄<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
 <p>1、打开制冷，准备拍摄：</p>
 <p><img alt="打开制冷准备拍摄" class="small" src="https://lfs.zhenhuang.site/images/12-2-1-2024-05-21-11-10-06.png" /></p>
@@ -3211,7 +3292,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 21, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 23, 2024</span>
   </span>
 
     
