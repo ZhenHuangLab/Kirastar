@@ -7,31 +7,32 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="一个自制的天文摄影系列笔记及教程网站，力求科学系统地介绍天文摄影及深空观测摄影的理论基础、硬件基础、数据收集、数据处理等方面的知识。" name="description"/>
-<link href="https://kirastar.zhenhuang.site/" rel="canonical"/>
-<link href="intro/introduction/" rel="next"/>
-<link href="assets/icons/favicon.svg" rel="icon"/>
+<link href="https://kirastar.zhenhuang.site/hardware/chapter-7/section-1/" rel="canonical"/>
+<link href="../" rel="prev"/>
+<link href="../section-2/" rel="next"/>
+<link href="../../../assets/icons/favicon.svg" rel="icon"/>
 <meta content="mkdocs-1.6.0, mkdocs-material-9.5.24" name="generator"/>
 <meta content="This is a test meta tag" name="test"/>
-<meta content="https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png" property="og:image"/>
+<meta content="https://lfs.zhenhuang.site/images/7-1-mufu-2024-05-21-10-55-30.png" property="og:image"/>
 <meta content="https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png" name="twitter:image"/>
 <meta content="https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png" itemprop="image"/>
 <link href="../docs/assets/icons/favicon.svg" rel="apple-touch-icon"/>
-<title>首页 - Kirastar - 科学天文摄影笔记</title>
-<link href="assets/stylesheets/main.6543a935.min.css" rel="stylesheet"/>
-<link href="assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<title>第一节 导星修正系统及其分类 - Kirastar - 科学天文摄影笔记</title>
+<link href="../../../assets/stylesheets/main.6543a935.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" rel="stylesheet"/>
-<link href="stylesheets/extra.css" rel="stylesheet"/>
-<script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<meta content="首页" name="title"/><meta content="website" property="og:type"/><meta content="https://kirastar.zhenhuang.site/" property="og:url"/><meta content="首页" property="og:title"/><meta content="一个自制的天文摄影系列笔记及教程网站，力求科学系统地介绍天文摄影及深空观测摄影的理论基础、硬件基础、数据收集、数据处理等方面的知识。" property="og:description"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://kirastar.zhenhuang.site/" property="twitter:url"/><meta content="首页" property="twitter:title"/><meta content="一个自制的天文摄影系列笔记及教程网站，力求科学系统地介绍天文摄影及深空观测摄影的理论基础、硬件基础、数据收集、数据处理等方面的知识。" property="twitter:description"/><meta content="https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png" property="twitter:image"/></head>
+<link href="../../../stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<meta content="第一节 导星修正系统及其分类" name="title"/><meta content="website" property="og:type"/><meta content="https://kirastar.zhenhuang.site/hardware/chapter-7/section-1" property="og:url"/><meta content="第一节 导星修正系统及其分类" property="og:title"/><meta content="" property="og:description"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://kirastar.zhenhuang.site/hardware/chapter-7/section-1" property="twitter:url"/><meta content="第一节 导星修正系统及其分类" property="twitter:title"/><meta content="" property="twitter:description"/><meta content="https://lfs.zhenhuang.site/images/7-1-mufu-2024-05-21-10-55-30.png" property="twitter:image"/></head>
 <body data-md-color-accent="indigo" data-md-color-primary="blue" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#kirastar-">
+<a class="md-skip" href="#_1">
           跳转至
         </a>
 </div>
@@ -50,7 +51,7 @@
 </div>
 <header class="md-header" data-md-component="header">
 <nav aria-label="页眉" class="md-header__inner md-grid">
-<a aria-label="Kirastar - 科学天文摄影笔记" class="md-header__button md-logo" data-md-component="logo" href="." title="Kirastar - 科学天文摄影笔记">
+<a aria-label="Kirastar - 科学天文摄影笔记" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Kirastar - 科学天文摄影笔记">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m21.9 8.9-1.7 1-4-6.9 1.7-1 4 6.9m-12.1-1 3 5.2 6.1-3.5-3-5.2-6.1 3.5m1.6 4.8-2-3.5-4.3 2.5 2 3.5 4.3-2.5m-9.3 1.9 1 1.7 2.6-1.5-1-1.7-2.6 1.5m10-.6-.3-.4-4.3 2.5.3.4c.2.3.5.6.8.8L7 22h2l1.4-4.3h.1L12 22h2l-1.9-5.6c.5-.7.5-1.6 0-2.4Z"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
@@ -66,7 +67,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              首页
+              第一节 导星修正系统及其分类
             
           </span>
 </div>
@@ -133,8 +134,8 @@
 <nav aria-label="标签" class="md-tabs" data-md-component="tabs">
 <div class="md-grid">
 <ul class="md-tabs__list">
-<li class="md-tabs__item md-tabs__item--active">
-<a class="md-tabs__link" href=".">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../..">
           
   
     
@@ -144,7 +145,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="basic-principle/">
+<a class="md-tabs__link" href="../../../basic-principle/">
           
   
     
@@ -153,8 +154,8 @@
 
         </a>
 </li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="hardware/">
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../../">
           
   
     
@@ -164,7 +165,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="data-collection/">
+<a class="md-tabs__link" href="../../../data-collection/">
           
   
     
@@ -174,7 +175,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="data-processing/">
+<a class="md-tabs__link" href="../../../data-processing/">
           
   
     
@@ -184,7 +185,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="appendix/">
+<a class="md-tabs__link" href="../../../appendix/">
           
   
     
@@ -203,7 +204,7 @@
 <div class="md-sidebar__inner">
 <nav aria-label="导航栏" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="Kirastar - 科学天文摄影笔记" class="md-nav__button md-logo" data-md-component="logo" href="." title="Kirastar - 科学天文摄影笔记">
+<a aria-label="Kirastar - 科学天文摄影笔记" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Kirastar - 科学天文摄影笔记">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m21.9 8.9-1.7 1-4-6.9 1.7-1 4 6.9m-12.1-1 3 5.2 6.1-3.5-3-5.2-6.1 3.5m1.6 4.8-2-3.5-4.3 2.5 2 3.5 4.3-2.5m-9.3 1.9 1 1.7 2.6-1.5-1-1.7-2.6 1.5m10-.6-.3-.4-4.3 2.5.3.4c.2.3.5.6.8.8L7 22h2l1.4-4.3h.1L12 22h2l-1.9-5.6c.5-.7.5-1.6 0-2.4Z"></path></svg>
 </a>
     Kirastar - 科学天文摄影笔记
@@ -219,40 +220,40 @@
 </a>
 </div>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link md-nav__link--active" href=".">
+<a class="md-nav__link" href="../../..">
 <span class="md-ellipsis">
     主页
   </span>
 </a>
-<label class="md-nav__link md-nav__link--active" for="__nav_1" id="__nav_1_label" tabindex="">
+<label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
 <span class="md-nav__icon md-icon"></span>
 </label>
 </div>
-<nav aria-expanded="true" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
+<nav aria-expanded="false" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_1">
 <span class="md-nav__icon md-icon"></span>
             主页
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="intro/introduction/">
+<a class="md-nav__link" href="../../../intro/introduction/">
 <span class="md-ellipsis">
     序言
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="intro/revise-notes/">
+<a class="md-nav__link" href="../../../intro/revise-notes/">
 <span class="md-ellipsis">
     修订及贡献说明
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="intro/contents/">
+<a class="md-nav__link" href="../../../intro/contents/">
 <span class="md-ellipsis">
     目录
   </span>
@@ -264,7 +265,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="basic-principle/">
+<a class="md-nav__link" href="../../../basic-principle/">
 <span class="md-ellipsis">
     理论基础
   </span>
@@ -282,7 +283,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_2_2" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="basic-principle/chapter-1/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-1/">
 <span class="md-ellipsis">
     第一章 基础光学知识
   </span>
@@ -298,35 +299,35 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-1/section-1/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-1/section-1/">
 <span class="md-ellipsis">
     第一节 几何光学基础
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-1/section-2/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-1/section-2/">
 <span class="md-ellipsis">
     第二节 几何光学像差
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-1/section-3/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-1/section-3/">
 <span class="md-ellipsis">
     第三节 波动光学与成像原理
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-1/section-4/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-1/section-4/">
 <span class="md-ellipsis">
     第四节 光的颜色与光谱
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-1/section-5/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-1/section-5/">
 <span class="md-ellipsis">
     第五节 口径、焦距与焦比
   </span>
@@ -338,7 +339,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_2_3" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="basic-principle/chapter-2/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-2/">
 <span class="md-ellipsis">
     第二章 基础天文学知识
   </span>
@@ -354,35 +355,35 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-2/section-1/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-2/section-1/">
 <span class="md-ellipsis">
     第一节 天文学基础概念
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-2/section-2/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-2/section-2/">
 <span class="md-ellipsis">
     第二节 各类天体介绍
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-2/section-3/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-2/section-3/">
 <span class="md-ellipsis">
     第三节 重要天象介绍
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-2/section-4/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-2/section-4/">
 <span class="md-ellipsis">
     第四节 天空与天气
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-2/section-5/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-2/section-5/">
 <span class="md-ellipsis">
     第五节 天文观测工具
   </span>
@@ -394,7 +395,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_2_4" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="basic-principle/chapter-3/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-3/">
 <span class="md-ellipsis">
     第三章 数字图像基础
   </span>
@@ -410,28 +411,28 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-3/section-1/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-3/section-1/">
 <span class="md-ellipsis">
     第一节 图像与图像处理基础
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-3/section-2/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-3/section-2/">
 <span class="md-ellipsis">
     第二节 感光元件及重要参数
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-3/section-3/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-3/section-3/">
 <span class="md-ellipsis">
     第三节 信号、噪音与信噪比
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-3/section-4/">
+<a class="md-nav__link" href="../../../basic-principle/chapter-3/section-4/">
 <span class="md-ellipsis">
     第四节 深空图像校准基础
   </span>
@@ -443,19 +444,19 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="hardware/">
+<a class="md-nav__link" href="../../">
 <span class="md-ellipsis">
     硬件基础
   </span>
 </a>
-<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
 <span class="md-nav__icon md-icon"></span>
 </label>
 </div>
-<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<nav aria-expanded="true" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_3">
 <span class="md-nav__icon md-icon"></span>
             硬件基础
@@ -464,7 +465,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_3_2" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="hardware/chapter-4/">
+<a class="md-nav__link" href="../../chapter-4/">
 <span class="md-ellipsis">
     第四章 主光学系统
   </span>
@@ -480,28 +481,28 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-4/section-1/">
+<a class="md-nav__link" href="../../chapter-4/section-1/">
 <span class="md-ellipsis">
     第一节 主光学系统及其组成
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-4/section-2/">
+<a class="md-nav__link" href="../../chapter-4/section-2/">
 <span class="md-ellipsis">
     第二节 主光学系统的分类及相关参数介绍
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-4/section-3/">
+<a class="md-nav__link" href="../../chapter-4/section-3/">
 <span class="md-ellipsis">
     第三节 主光学系统的配件
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-4/section-4/">
+<a class="md-nav__link" href="../../chapter-4/section-4/">
 <span class="md-ellipsis">
     第四节 滤镜
   </span>
@@ -513,7 +514,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_3_3" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="hardware/chapter-5/">
+<a class="md-nav__link" href="../../chapter-5/">
 <span class="md-ellipsis">
     第五章 跟踪系统
   </span>
@@ -529,28 +530,28 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-5/section-1/">
+<a class="md-nav__link" href="../../chapter-5/section-1/">
 <span class="md-ellipsis">
     第一节 跟踪系统及其分类
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-5/section-2/">
+<a class="md-nav__link" href="../../chapter-5/section-2/">
 <span class="md-ellipsis">
     第二节 赤道仪基本结构
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-5/section-3/">
+<a class="md-nav__link" href="../../chapter-5/section-3/">
 <span class="md-ellipsis">
     第三节 赤道仪相关参数介绍
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-5/section-4/">
+<a class="md-nav__link" href="../../chapter-5/section-4/">
 <span class="md-ellipsis">
     第四节 支架
   </span>
@@ -562,7 +563,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_3_4" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="hardware/chapter-6/">
+<a class="md-nav__link" href="../../chapter-6/">
 <span class="md-ellipsis">
     第六章 相机
   </span>
@@ -578,21 +579,21 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-6/section-1/">
+<a class="md-nav__link" href="../../chapter-6/section-1/">
 <span class="md-ellipsis">
     第一节 相机基本结构及分类
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-6/section-2/">
+<a class="md-nav__link" href="../../chapter-6/section-2/">
 <span class="md-ellipsis">
     第二节 相机相关参数性能
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-6/section-3/">
+<a class="md-nav__link" href="../../chapter-6/section-3/">
 <span class="md-ellipsis">
     第三节 相机与主光学系统的匹配
   </span>
@@ -601,10 +602,10 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_3_5" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_3_5" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="hardware/chapter-7/">
+<a class="md-nav__link" href="../">
 <span class="md-ellipsis">
     第七章 导星修正系统
   </span>
@@ -613,28 +614,89 @@
 <span class="md-nav__icon md-icon"></span>
 </label>
 </div>
-<nav aria-expanded="false" aria-labelledby="__nav_3_5_label" class="md-nav" data-md-level="2">
+<nav aria-expanded="true" aria-labelledby="__nav_3_5_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_3_5">
 <span class="md-nav__icon md-icon"></span>
             第七章 导星修正系统
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-7/section-1/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    第一节 导星修正系统及其分类
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
 <span class="md-ellipsis">
     第一节 导星修正系统及其分类
   </span>
 </a>
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1">
+<span class="md-ellipsis">
+      1 导星的作用及意义
+    </span>
+</a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-7/section-2/">
+<a class="md-nav__link" href="#2">
+<span class="md-ellipsis">
+      2 导星的分类
+    </span>
+</a>
+<nav aria-label="2 导星的分类" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#21">
+<span class="md-ellipsis">
+      2.1 导星镜系统
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#22">
+<span class="md-ellipsis">
+      2.2 离轴导星系统
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#23">
+<span class="md-ellipsis">
+      2.3 同轴导星系统
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+<span class="md-ellipsis">
+      参考资料
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../section-2/">
 <span class="md-ellipsis">
     第二节 导星系统的搭配与连接
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-7/section-3/">
+<a class="md-nav__link" href="../section-3/">
 <span class="md-ellipsis">
     第三节 导星系统的影响因素与评价
   </span>
@@ -646,7 +708,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_3_6" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="hardware/chapter-8/">
+<a class="md-nav__link" href="../../chapter-8/">
 <span class="md-ellipsis">
     第八章 控制系统
   </span>
@@ -662,21 +724,21 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-8/section-1/">
+<a class="md-nav__link" href="../../chapter-8/section-1/">
 <span class="md-ellipsis">
     第一节 控制系统原理介绍
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-8/section-2/">
+<a class="md-nav__link" href="../../chapter-8/section-2/">
 <span class="md-ellipsis">
     第二节 控制系统的供电
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-8/section-3/">
+<a class="md-nav__link" href="../../chapter-8/section-3/">
 <span class="md-ellipsis">
     第三节 理线的艺术
   </span>
@@ -691,7 +753,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-collection/">
+<a class="md-nav__link" href="../../../data-collection/">
 <span class="md-ellipsis">
     数据收集
   </span>
@@ -709,7 +771,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_4_2" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-collection/chapter-9/">
+<a class="md-nav__link" href="../../../data-collection/chapter-9/">
 <span class="md-ellipsis">
     第九章 出摊的规划
   </span>
@@ -725,14 +787,14 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-9/section-1/">
+<a class="md-nav__link" href="../../../data-collection/chapter-9/section-1/">
 <span class="md-ellipsis">
     第一节 出摊时间的考虑事项
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-9/section-2/">
+<a class="md-nav__link" href="../../../data-collection/chapter-9/section-2/">
 <span class="md-ellipsis">
     第二节 出摊地点的考虑事项
   </span>
@@ -744,7 +806,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_4_3" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-collection/chapter-10/">
+<a class="md-nav__link" href="../../../data-collection/chapter-10/">
 <span class="md-ellipsis">
     第十章 出摊前准备
   </span>
@@ -760,14 +822,14 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-10/section-1/">
+<a class="md-nav__link" href="../../../data-collection/chapter-10/section-1/">
 <span class="md-ellipsis">
     第一节 设备器材的准备
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-10/section-2/">
+<a class="md-nav__link" href="../../../data-collection/chapter-10/section-2/">
 <span class="md-ellipsis">
     第二节 其他个人物品的准备
   </span>
@@ -779,7 +841,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_4_4" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-collection/chapter-11/">
+<a class="md-nav__link" href="../../../data-collection/chapter-11/">
 <span class="md-ellipsis">
     第十一章 开拍前器材的组装与调试
   </span>
@@ -795,14 +857,14 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-11/section-1/">
+<a class="md-nav__link" href="../../../data-collection/chapter-11/section-1/">
 <span class="md-ellipsis">
     第一节 设备的组装
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-11/section-2/">
+<a class="md-nav__link" href="../../../data-collection/chapter-11/section-2/">
 <span class="md-ellipsis">
     第二节 设备的调试
   </span>
@@ -814,7 +876,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_4_5" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-collection/chapter-12/">
+<a class="md-nav__link" href="../../../data-collection/chapter-12/">
 <span class="md-ellipsis">
     第十二章 拍摄软件的使用
   </span>
@@ -830,14 +892,14 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-12/section-1/">
+<a class="md-nav__link" href="../../../data-collection/chapter-12/section-1/">
 <span class="md-ellipsis">
     第一节 拍摄软件的选择
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-12/section-2/">
+<a class="md-nav__link" href="../../../data-collection/chapter-12/section-2/">
 <span class="md-ellipsis">
     第二节 软件使用教程(以N.I.N.A.为例)
   </span>
@@ -852,7 +914,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-processing/">
+<a class="md-nav__link" href="../../../data-processing/">
 <span class="md-ellipsis">
     数据处理
   </span>
@@ -870,7 +932,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_5_2" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-processing/chapter-13/">
+<a class="md-nav__link" href="../../../data-processing/chapter-13/">
 <span class="md-ellipsis">
     第十三章 数据处理的基本思路
   </span>
@@ -886,14 +948,14 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-processing/chapter-13/section-1/">
+<a class="md-nav__link" href="../../../data-processing/chapter-13/section-1/">
 <span class="md-ellipsis">
     第一节 深空后期的思想方法
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-processing/chapter-13/section-2/">
+<a class="md-nav__link" href="../../../data-processing/chapter-13/section-2/">
 <span class="md-ellipsis">
     第二节 深空后期的基本流程
   </span>
@@ -905,7 +967,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_5_3" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-processing/chapter-14/">
+<a class="md-nav__link" href="../../../data-processing/chapter-14/">
 <span class="md-ellipsis">
     第十四章 后期处理的具体技术(以Pixinsight为例)
   </span>
@@ -921,21 +983,21 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-processing/chapter-14/section-1/">
+<a class="md-nav__link" href="../../../data-processing/chapter-14/section-1/">
 <span class="md-ellipsis">
     第一节 图像预处理
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-processing/chapter-14/section-2/">
+<a class="md-nav__link" href="../../../data-processing/chapter-14/section-2/">
 <span class="md-ellipsis">
     第二节 图像处理的一般技术方法
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-processing/chapter-14/section-3/">
+<a class="md-nav__link" href="../../../data-processing/chapter-14/section-3/">
 <span class="md-ellipsis">
     第三节 高阶图像处理技巧
   </span>
@@ -950,7 +1012,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="appendix/">
+<a class="md-nav__link" href="../../../appendix/">
 <span class="md-ellipsis">
     附录
   </span>
@@ -966,14 +1028,14 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="appendix/gallery/">
+<a class="md-nav__link" href="../../../appendix/gallery/">
 <span class="md-ellipsis">
     渣图展示
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="appendix/afterword/">
+<a class="md-nav__link" href="../../../appendix/afterword/">
 <span class="md-ellipsis">
     后记
   </span>
@@ -997,16 +1059,48 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_1">
+<a class="md-nav__link" href="#1">
 <span class="md-ellipsis">
-      发行说明
+      1 导星的作用及意义
     </span>
 </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="#2">
+<span class="md-ellipsis">
+      2 导星的分类
+    </span>
+</a>
+<nav aria-label="2 导星的分类" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#21">
+<span class="md-ellipsis">
+      2.1 导星镜系统
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#22">
+<span class="md-ellipsis">
+      2.2 离轴导星系统
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#23">
+<span class="md-ellipsis">
+      2.3 同轴导星系统
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#_2">
 <span class="md-ellipsis">
-      一起贡献吧！
+      参考资料
     </span>
 </a>
 </li>
@@ -1017,34 +1111,155 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/ZhenHuangLab/Kirastar/edit/main/docs/index.md" title="编辑此页">
+<a class="md-content__button md-icon" href="https://github.com/ZhenHuangLab/Kirastar/edit/main/docs/hardware/chapter-7/section-1.md" title="编辑此页">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2m3.1 5.07c.14 0 .28.05.4.16l1.27 1.27c.23.22.23.57 0 .78l-1 1-2.05-2.05 1-1c.1-.11.24-.16.38-.16m-1.97 1.74 2.06 2.06-6.06 6.06H7.07v-2.06l6.06-6.06Z"></path></svg>
 </a>
-<h1 id="kirastar-">KIRASTAR - 科学天文摄影笔记<a class="headerlink" href="#kirastar-" title="Permanent link">¶</a></h1>
-<p>这是一本关于天文摄影的笔记，主要是系统性地记录我在学习天文摄影过程中的一些心得以及体会，方便对这方面感兴趣的天文爱好者进行参考及查阅；同时，也是我送给浙大天协的一份礼物，感谢四年的本科时光有你们的陪伴。如果没有浙大天协的伙伴们，就没有现在的我。</p>
-<h2 id="_1">发行说明<a class="headerlink" href="#_1" title="Permanent link">¶</a></h2>
-<div class="admonition warning">
-<p class="admonition-title">目前该网站仍然没有稳定的发行版本</p>
-<p>该网站仍然处于制作的初级阶段，大量内容尚未实装，体系不完备、且内容可能会随时变化。因此，目前不建议您将本书作为正式的参考资料。</p>
+<h1 id="_1">第一节 导星修正系统及其分类<a class="headerlink" href="#_1" title="Permanent link">¶</a></h1>
+<div class="admonition abstract">
+<p class="admonition-title">摘要</p>
+<p>简要介绍什么是导星、为什么要导星，以及导星的分类。重点比较导星镜系统和离轴导星系统的优缺点。</p>
 </div>
-<p>在本书中涉及的一些作者自制的图表，或者是作者自己的摄影作品，未经授权禁止随意转载，也不能用于商业用途。</p>
-<p>本书在 <code>MkDocs-material</code> 主题的基础上，利用 <code>Github Pages</code> 进行构建，内容主要使用 <code>Markdown</code> 语言（并加上一些 <code>html</code> ）进行编写。</p>
-<h2 id="_2">一起贡献吧！<a class="headerlink" href="#_2" title="Permanent link">¶</a></h2>
-<p>由于本人水平有限、入坑深空的时间没有很久，作为学生时间有限，再加上天文摄影（业余天文）的整个知识体系相当繁杂，本书中难免会出现一些不完善的或者是错误的地方。因此，如果您有更好的建议，或者也想将自己的一些笔记/心得体会分享，欢迎您通过Github的<code>Pull Request</code>功能来为本书做出贡献！</p>
-<p>如果有任何疑问，可以随时通过邮箱<a href="mailto: hzvictor@zju.edu.cn">hzvictor@zju.edu.cn</a>联系我；也欢迎直接在相应页面的下方进行评论！</p>
-<script async="async" src="//rf.revolvermaps.com/0/0/8.js?i=5dxeeuukdso&amp;m=1&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" type="text/javascript"></script>
+<h2 id="1">1 导星的作用及意义<a class="headerlink" href="#1" title="Permanent link">¶</a></h2>
+<p>光学望远镜的基本要求是，要 <strong>具有极高的指向和跟踪精度，特别是在长时间曝光的情况下</strong> 。如果不使用导星，望远镜的跟踪系统最多也就能实现编码器分辨率所决定的指向和跟踪精度。这其实仍然属于开环系统，而开环系统能够实现的精度是非常有限的。因此，我们可以利用视场中的星点作为参考，实现控制环的闭合。</p>
+<div class="admonition note">
+<p class="admonition-title">基本概念</p>
+<ul>
+<li>开环系统：系统输出量对系统输入量没有影响。</li>
+<li>闭环系统：通过传感器对输出量测量值的反馈来影响输入量。</li>
+<li>指向精度：是指望远镜从其他位置指向特定天体的准确程度。比如，为了测试指向精度，可以选择若干个待测试的亮星，使用控制系统控制望远镜Goto（指向）这些亮星，计算望远镜实际的指向位置与亮星在天球上的实际位置之间的偏差。</li>
+<li>指向误差：望远镜指示位置和天体实际位置的误差。产生指向误差的原因包括大气折射、望远镜制造和装配的误差、望远镜结构的重力变形、望远镜因为温度变化或者温度梯度引起的误差等等。大部分均有重复性的特点，可以利用误差修正模型来校正。当然，也有很多随机因素，比如空程误差以及一些其他的齿隙结构中的迟滞效应。但是，至少这些具体规律是可以明确的，最多是个函数优化问题。</li>
+<li>跟踪精度：是指望远镜在一定时间范围内持续跟踪天体的准确程度。比如，为了测试跟踪精度，可以先将恒星放在望远镜视场中心，在不开启导星的情况下，记录一定时间段内恒星移动的偏差，从而计算1s内亮星移动的角距离。</li>
+<li>跟踪误差：在一定范围内偏离目标星的残余指向误差。</li>
+</ul>
+</div>
+<p>这时，我们所利用的视场中的星点就是引导星。 <strong>有引导星的跟踪称为导星。</strong> 在导星时，能够自动保持引导星位置不变，从而实现望远镜的视场运动和目标天体的运动完全同步。这样，我们就能够实现精确的指向以及长时间跟踪曝光，同时保证星点的圆润。如果我没记错的话，国内有大佬做到了一小时单张曝光，且星点大小控制在2角秒以下。</p>
+<p><img alt="转载自牧夫论坛" class="small" src="https://lfs.zhenhuang.site/images/7-1-mufu-2024-05-21-10-55-30.png"/></p>
+<p><span class="caption">图1 有大佬总结的导星的作用，我觉得讲得很好，转载自牧夫论坛 <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></span></p>
+<div class="admonition info">
+<p class="admonition-title">关于伺服控制</p>
+<p>即使编码器能够利用闭环控制修正一定误差，但是这个闭环信息并不是来自星光本身，所以仍然是个开环系统。</p>
+</div>
+<h2 id="2">2 导星的分类<a class="headerlink" href="#2" title="Permanent link">¶</a></h2>
+<p>早期的导星是手动导星。观测者通过和主望远镜（照相望远镜）平行的目视望远镜（也称导星镜），目视观测星点变化的同时，手动控制跟踪系统微调望远镜位置。</p>
+<p>笔者没有经历过这样的时代，但是想想就很痛苦。想象一下，你必须在寒风中一动不动，眼睛一直盯着导星镜，用手不断微调。现在我们认真对个极轴就这么痛苦了，结果还要手动导星！有一说一，这还不是关键。一方面，你无法保证导星镜和主镜共轴，如果光轴偏差过大会带来很大的指向误差；另一方面，手动的精度肯定非常有限。</p>
+<p>在介绍我们熟知的借助感光元件如CMOS之类的导星系统之前，其实还有很多别的光电导星装置：早期的四棱体反射镜式连续导星(continuous balance with pyramid reflector)、半圆片光通量调制导星装置、微秒级的剪切干涉波阵面斜率仪（用于哈勃望远镜）<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>。具体的原理在这里就不展开了，在《天文望远镜原理与设计》一书中有详细的介绍，下图也来自于这本书：</p>
+<p><img alt="哈勃望远镜上的精确制导传感器" class="small" src="https://lfs.zhenhuang.site/images/7-1-1-2024-05-21-10-56-04.jpg"/></p>
+<p><span class="caption">图2 哈勃望远镜上的精确制导传感器</span></p>
+<p>对于我们业余爱好者，导星系统一般可以分为三类：</p>
+<ul>
+<li><strong>导星镜系统</strong></li>
+<li><strong>离轴导星系统</strong></li>
+<li>同轴导星系统（我没见过）</li>
+</ul>
+<p>下面我们主要介绍导星镜系统和离轴导星系统。</p>
+<h3 id="21">2.1 导星镜系统<a class="headerlink" href="#21" title="Permanent link">¶</a></h3>
+<p>导星镜系统的原理其实很简单，和目视导星差不多，就是把人眼换成了CMOS/CCD（当然，焦距也比目视导星用的更短），通过主望远镜以外的另一个光学系统进行成像，实时观察星点的位置偏移量并反馈给控制系统进行补偿。组成也比较简单，通常由一个导星镜和一个导星相机构成。其中：</p>
+<ul>
+<li>导星镜一般个头小，重量轻，焦距短（200-400mm居多），且焦比不能太慢（F/7以上就很麻烦）；</li>
+<li>导星相机一般选择高灵敏度、量子效率高、低读出噪声的CMOS。</li>
+</ul>
+<p><img alt="导星镜系统" class="small" src="https://lfs.zhenhuang.site/images/7-1-2-2024-05-21-10-56-28.png"/></p>
+<p><span class="caption">图3 导星镜系统示意图极简版</span></p>
+<p>以下是对导星镜以及导星相机要求的解释：</p>
+<ul>
+<li>
+<p>导星镜：</p>
+<ul>
+<li>个头小：导星镜个头太大不利于设备的抗风；</li>
+<li>重量轻：首先，如果导星镜直接安装在主镜上，重量过重容易导致主镜变形；第二，如果不是远程台而是打野，导星镜重量过重不方便携带；第三，即使安装在云台上，重量过重也不利于整体的平衡和配重。</li>
+<li>焦比快：导星镜需要在短时间内得到足够的光通量，因此焦比要快，效率要高。F/6至F/4是比较常见的。</li>
+<li>焦距短：使用导星镜进行导星时，习惯上会使用较短的焦距。首先，较短的焦距前三个条件容易满足；其次，短焦时视场范围大，可选择的引导星多，不容易出现找不着星点的情况。但是也要考虑与主光学系统的匹配。按照经验值，焦距一般不能低于主镜的 <span class="arithmatex">\(\frac{1}{4}\)</span>  至  <span class="arithmatex">\(\frac{1}{3}\)</span> 。</li>
+</ul>
+</li>
+<li>
+<p>导星相机：</p>
+<ul>
+<li>高量子效率和低读出噪声：容易理解，这样的导星相机能够在短时间内获得高信噪比的导星图像，提高导星的稳定性和准确程度。</li>
+<li>高灵敏度：这里特指导星相机在红外波段的灵敏程度。在红外波段，星点受到视宁度的影响更小，这样大气抖动对于导星的影响就会更小。鸭哥曾经也做过一个实验，使用在红外波段的灵敏度高的CMOS进行红外导星或许有助于提高导星的精度<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>。</li>
+</ul>
+</li>
+</ul>
+<p>因此导星镜和导星相机的要求其实不是很高，导星镜甚至用普消就可以，导星相机也没有必要用很高的帧率，USB2.0也够用。</p>
+<p>关于设备推荐：<span class="heimu" title="澄清一下">我没有接广告！</span></p>
+<ul>
+<li>导星镜：平民级的可以用cyck52-220ED，还有一些什么星缘的、裕众的都可以用。如果远程台或者预算充足，可以用一些裕众/锐星的ED或者APO进行导星，比如什么70apo之类的。总之要求不是很高，只要满足上面的条件即可。</li>
+<li>导星相机：ZWO、QHY等都有专门的导星相机（ZWO把它归为mini版），比如290M、220MM。当然，用行星相机或者冷冻相机也是可以的，只要接口对了就行。一般导星相机选择黑白的比较好。重点是满足上面的要求。</li>
+</ul>
+<p>一般而言，导星镜都是使用手动对焦，在导星前手动微调对焦即可。如果追求高精度，那么可以使用电动调焦器，实现远程控制以及自动对焦。</p>
+<p>因此，导星镜系统的优点还是比较多的，可以简单归纳如下：</p>
+<ul>
+<li>设备成本低，对于设备的要求不是很高，适用范围广；</li>
+<li>装配和调试简单：作为独立于主成像系统的导星镜系统，不需要对主成像系统有额外要求。比如，如果相机使用的是日常摄影常用的单反或者微单来接驳望远镜，由于法兰距的适配问题并不方便使用其他的导星系统，这时导星镜是一个很不错的选择。在打野时，手动对导星镜进行快速对焦也非常方便。</li>
+<li>能找到的引导星多，不会出现找不到引导星导致导星失败的情况。因为一般而言，导星镜的焦距都会比主镜更短，视场一般更大；还可以使用焦比更快的导星镜提高效率，获得信噪比非常不错的导星图像，进而提高导星系统的稳定性和准确度。</li>
+</ul>
+<p>当然，导星镜系统也存在一些问题和不足。首先，导星镜的焦距很可能和主镜不一致，这样得到的导星图像和主镜拍摄的图像的视场、星点情况等都不一致，精度的上限可能不是很高。防结露的时候还要另外给导星镜加上除雾带。最关键的一点是，导星镜系统容易引起 <strong>非同步形变</strong> 的问题。</p>
+<p><img alt="主镜和导星镜产生了非同步的形变" class="small" src="https://lfs.zhenhuang.site/images/7-1-3-2024-05-21-10-56-57.png"/></p>
+<p><span class="caption">图4 主镜和导星镜产生了非同步的形变</span></p>
+<p>任何物体在受力后都会产生一定的形变，望远镜这类非理想刚体也不例外。导星镜和主镜的重量和结构都不完全一致，不同的位置和指向姿态下，两者的镜筒、抱箍、调焦座等结构产生的形变和形变方向都不完全一致（特别是某些镜子存在调焦座刚性不足的情况）。因此，导星镜和主镜的变形量和方向变化随时间不是同步的；随着拍摄的进行，很可能出现无法修正的非同步形变，这在长时间曝光情况下很容易出现“你导你的，我拍我的”的情况，使导星精度下降。</p>
+<h3 id="22">2.2 离轴导星系统<a class="headerlink" href="#22" title="Permanent link">¶</a></h3>
+<p>如何解决上述导星镜系统存在的问题？我们能想到的最简单的方法就是，假如我可以和主镜共用一个像场，“你用主镜拍摄，我也用主镜导星”，即使主镜存在形变那也是同步的，那不就不存在非同步形变的问题了？</p>
+<p>具体做法是，在相机的感光元件以及镜筒之间，插入一个小棱镜，这个棱镜能够将主镜光路的一部分引到主光学系统之外，供导星相机成像。当然，为了不遮挡主相机进行成像，一般都是将靠近像场边缘、与主光轴有一定距离的部分拿过来给导星相机，所以叫做 <strong>离轴导星系统或者偏轴导星系统</strong> (off-axis guiding, OAG)。</p>
+<p><img alt="离轴导星系统示意图" class="small" src="https://lfs.zhenhuang.site/images/7-1-4-2024-05-21-10-57-20.png"/></p>
+<p><span class="caption">图5 离轴导星系统极简示意图，红色填充的为OAG本体。</span></p>
+<ul>
+<li>OAG：一般没有特殊要求，重点关注螺纹接口以及后截距的适配。棱镜尺寸一般有 <span class="arithmatex">\(8mm*8mm\)</span> 、<span class="arithmatex">\(10mm*10mm\)</span> 、<span class="arithmatex">\(12mm*12mm\)</span> ，显然尺寸越大通光口径越大、导星能获得的视场越大，导星的效果应该会更好，但是也要考虑主镜成像圈大小以及遮挡。螺纹接口有M54、M48等，需要关注滤镜轮的接口，如果不适配需要加入转接环；厚度一般为16.5mm，也有17.5mm的，具体厂商具体分析，注意满足主光学系统的后截距要求。另外，图5中的黄色箭头的长度也应该相同，否则OAG不能合焦。</li>
+<li>导星相机：要求与导星镜系统中的导星相机类似。一般用于OAG的导星相机都是“mini版”的，就是体积比普通款行星相机小一些的，这样体积小、重量轻、并且也便于CMOS与棱镜之间距离的调节（普通款一般需要延长筒）。当然，行星相机或者冷冻相机也是可以用的。</li>
+</ul>
+<p>具体的安装过程以及结构细节可以参考各厂商给出的说明书或者介绍网站，这里贴一个ZWO的：<a href="http://zwoasi.com/product-detail/zwo-oag">ZWO OAG偏轴导星器</a></p>
+<details class="question">
+<summary>OAG位置应该安装在滤镜前还是滤镜后？</summary>
+<p>一般而言，OAG最好安装在滤镜前。试想一下，在进行窄带摄影的时候，如果将OAG装在滤镜后，那么进入OAG的光会更少，很容易找不到引导星。</p>
+</details>
+<p>因此，使用OAG的优点就很显然了：</p>
+<ul>
+<li>不存在非同步形变的问题；</li>
+<li>与主镜焦距相同，共用一个视场，理论上精度上限比导星镜系统更高；</li>
+<li>很适合长焦望远镜，比如3000mm以上的望远镜，这时用导星镜不太现实；</li>
+<li>更轻便，不需要安装导星镜；</li>
+<li>拍摄时如果要应对结露，不需要再给导星镜加个除雾带，总之设备安装也更简洁。</li>
+</ul>
+<p>离轴导星系统已经被很多大型望远镜所使用。但是，OAG也是存在一些问题的：</p>
+<ul>
+<li>最大的问题是相对于导星镜系统，OAG找到引导星的难度更高。棱镜通光口径小，视场小，在长焦时星点数可能不够，要在短时间内得到信噪比足够的导星图像比导星镜系统难很多，很容易找不到引导星；</li>
+<li>OAG取自主镜像场边缘的星点，这些星点由于像差之类的可能变形，这会对导星造成不利影响；</li>
+<li>OAG对于主光学系统的成像圈有大小要求。一些小口径折射望远镜或者小型牛顿反射式望远镜，成像圈比较小，根本没法用OAG，不然棱镜会挡住主相机成像。</li>
+<li>安装OAG会增加一定厚度，对于某些系统可能没法满足合适的后截距，因此没有空间再放入一个OAG；</li>
+<li>OAG对调焦座的刚性提出了更高要求；</li>
+<li>成本相对于导星镜系统而言会更高。</li>
+</ul>
+<h3 id="23">2.3 同轴导星系统<a class="headerlink" href="#23" title="Permanent link">¶</a></h3>
+<p>同轴导星系统(on-axis guiding)用得不多，我主要是在王为豪的《星野摄影（第三版）》上了解到的。大概的意思是，通过一个分光镜，让约7000Å以下的可见光进入主相机，7000Å以上的近红外光进入导星相机，这样主相机和导星相机都能使用主镜光轴上的星像，共用同一视野而互不干扰，不用担心引导星不够的情况，还能使用红外导星。至于为何同轴导星系统用得不多，估计一方面是需要一个能够适配主光学系统的分光镜，另一方面由于导星相机只接受近红外光，相对而言进光量变少，对导星相机的红外灵敏度、像素大小以及读出噪声有比较高的要求，可能导致较低的导星修正频率，这时如果赤道仪稳定性不够，那么导星的精度就很难保证<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>。</p>
+<p>总之，导星系统的选择还是需要依具体情况而定，并且也需要实践来检验。 <strong>对于一般的要求不那么高的深空摄影，使用导星镜系统就可以了；如果想要进一步提高精度、或者大佬您用的是两三千毫米焦距以上的望远镜、再或者是一些刚性不足的望远镜，那么加钱上一个不错的OAG也是OK的</strong> 。</p>
+<h2 id="_2">参考资料<a class="headerlink" href="#_2" title="Permanent link">¶</a></h2>
+<div class="footnote">
+<hr/>
+<ol>
+<li id="fn:1">
+<p><a href="https://bbs.imufu.cn/thread-797192-1-1.html">【天文观测】【深空前期8】天爱者永恒的话题之四：导星</a> <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p>《天文望远镜原理和设计》程景全 南京大学出版社 <a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://mp.weixin.qq.com/s/H2lK6-tn8YKj0nzEejBx8w">红外导星解君愁——ASI462MM新用法 by 鸭哥</a> <a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">↩</a></p>
+</li>
+<li id="fn:4">
+<p>《星野摄影（第三版）》 王为豪 <a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">↩</a></p>
+</li>
+</ol>
+</div>
 <aside class="md-source-file">
 <span class="md-source-file__fact">
 <span class="md-icon" title="最后更新">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 28, 2024</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 24, 2024</span>
 </span>
 <span class="md-source-file__fact">
 <span class="md-icon" title="创建日期">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 4, 2023</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 6, 2023</span>
 </span>
 <span class="md-source-file__fact">
 <span class="md-icon" title="贡献者">
@@ -1108,13 +1323,26 @@
 </main>
 <footer class="md-footer">
 <nav aria-label="页脚" class="md-footer__inner md-grid">
-<a aria-label="下一页: 序言" class="md-footer__link md-footer__link--next" href="intro/introduction/">
+<a aria-label="上一页: 第七章 导星修正系统" class="md-footer__link md-footer__link--prev" href="../">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                上一页
+              </span>
+<div class="md-ellipsis">
+                第七章 导星修正系统
+              </div>
+</div>
+</a>
+<a aria-label="下一页: 第二节 导星系统的搭配与连接" class="md-footer__link md-footer__link--next" href="../section-2/">
 <div class="md-footer__title">
 <span class="md-footer__direction">
                 下一页
               </span>
 <div class="md-ellipsis">
-                序言
+                第二节 导星系统的搭配与连接
               </div>
 </div>
 <div class="md-footer__button md-icon">
@@ -1168,11 +1396,11 @@
 <div class="md-dialog__inner md-typeset"></div>
 </div>
 <div class="md-progress" data-md-component="progress" role="progressbar"></div>
-<script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tabs", "navigation.tracking", "navigation.path", "navigation.top", "navigation.indexes", "navigation.footer", "search.suggest", "search.highlight", "search.share", "toc.follow", "content.action.edit", "content.tooltips", "content.footnote.tooltips", "announce.dismiss"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
-<script src="assets/javascripts/bundle.081f42fc.min.js"></script>
-<script src="javascripts/mathjax.js"></script>
-<script src="javascripts/katex.js"></script>
-<script src="javascripts/extra.js"></script>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tabs", "navigation.tracking", "navigation.path", "navigation.top", "navigation.indexes", "navigation.footer", "search.suggest", "search.highlight", "search.share", "toc.follow", "content.action.edit", "content.tooltips", "content.footnote.tooltips", "announce.dismiss"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+<script src="../../../assets/javascripts/bundle.081f42fc.min.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="../../../javascripts/katex.js"></script>
+<script src="../../../javascripts/extra.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>

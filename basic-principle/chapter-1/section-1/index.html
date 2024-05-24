@@ -7,31 +7,32 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="一个自制的天文摄影系列笔记及教程网站，力求科学系统地介绍天文摄影及深空观测摄影的理论基础、硬件基础、数据收集、数据处理等方面的知识。" name="description"/>
-<link href="https://kirastar.zhenhuang.site/" rel="canonical"/>
-<link href="intro/introduction/" rel="next"/>
-<link href="assets/icons/favicon.svg" rel="icon"/>
+<link href="https://kirastar.zhenhuang.site/basic-principle/chapter-1/section-1/" rel="canonical"/>
+<link href="../" rel="prev"/>
+<link href="../section-2/" rel="next"/>
+<link href="../../../assets/icons/favicon.svg" rel="icon"/>
 <meta content="mkdocs-1.6.0, mkdocs-material-9.5.24" name="generator"/>
 <meta content="This is a test meta tag" name="test"/>
-<meta content="https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png" property="og:image"/>
+<meta content="https://lfs.zhenhuang.site/images/1-1-0-2024-05-21-10-50-09.png" property="og:image"/>
 <meta content="https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png" name="twitter:image"/>
 <meta content="https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png" itemprop="image"/>
 <link href="../docs/assets/icons/favicon.svg" rel="apple-touch-icon"/>
-<title>首页 - Kirastar - 科学天文摄影笔记</title>
-<link href="assets/stylesheets/main.6543a935.min.css" rel="stylesheet"/>
-<link href="assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<title>第一节 几何光学基础 - Kirastar - 科学天文摄影笔记</title>
+<link href="../../../assets/stylesheets/main.6543a935.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" rel="stylesheet"/>
-<link href="stylesheets/extra.css" rel="stylesheet"/>
-<script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<meta content="首页" name="title"/><meta content="website" property="og:type"/><meta content="https://kirastar.zhenhuang.site/" property="og:url"/><meta content="首页" property="og:title"/><meta content="一个自制的天文摄影系列笔记及教程网站，力求科学系统地介绍天文摄影及深空观测摄影的理论基础、硬件基础、数据收集、数据处理等方面的知识。" property="og:description"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://kirastar.zhenhuang.site/" property="twitter:url"/><meta content="首页" property="twitter:title"/><meta content="一个自制的天文摄影系列笔记及教程网站，力求科学系统地介绍天文摄影及深空观测摄影的理论基础、硬件基础、数据收集、数据处理等方面的知识。" property="twitter:description"/><meta content="https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png" property="twitter:image"/></head>
+<link href="../../../stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<meta content="第一节 几何光学基础" name="title"/><meta content="website" property="og:type"/><meta content="https://kirastar.zhenhuang.site/basic-principle/chapter-1/section-1" property="og:url"/><meta content="第一节 几何光学基础" property="og:title"/><meta content="" property="og:description"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://kirastar.zhenhuang.site/basic-principle/chapter-1/section-1" property="twitter:url"/><meta content="第一节 几何光学基础" property="twitter:title"/><meta content="" property="twitter:description"/><meta content="https://lfs.zhenhuang.site/images/1-1-0-2024-05-21-10-50-09.png" property="twitter:image"/></head>
 <body data-md-color-accent="indigo" data-md-color-primary="blue" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#kirastar-">
+<a class="md-skip" href="#_1">
           跳转至
         </a>
 </div>
@@ -50,7 +51,7 @@
 </div>
 <header class="md-header" data-md-component="header">
 <nav aria-label="页眉" class="md-header__inner md-grid">
-<a aria-label="Kirastar - 科学天文摄影笔记" class="md-header__button md-logo" data-md-component="logo" href="." title="Kirastar - 科学天文摄影笔记">
+<a aria-label="Kirastar - 科学天文摄影笔记" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Kirastar - 科学天文摄影笔记">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m21.9 8.9-1.7 1-4-6.9 1.7-1 4 6.9m-12.1-1 3 5.2 6.1-3.5-3-5.2-6.1 3.5m1.6 4.8-2-3.5-4.3 2.5 2 3.5 4.3-2.5m-9.3 1.9 1 1.7 2.6-1.5-1-1.7-2.6 1.5m10-.6-.3-.4-4.3 2.5.3.4c.2.3.5.6.8.8L7 22h2l1.4-4.3h.1L12 22h2l-1.9-5.6c.5-.7.5-1.6 0-2.4Z"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
@@ -66,7 +67,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              首页
+              第一节 几何光学基础
             
           </span>
 </div>
@@ -133,8 +134,8 @@
 <nav aria-label="标签" class="md-tabs" data-md-component="tabs">
 <div class="md-grid">
 <ul class="md-tabs__list">
-<li class="md-tabs__item md-tabs__item--active">
-<a class="md-tabs__link" href=".">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../..">
           
   
     
@@ -143,8 +144,8 @@
 
         </a>
 </li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="basic-principle/">
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../../">
           
   
     
@@ -154,7 +155,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="hardware/">
+<a class="md-tabs__link" href="../../../hardware/">
           
   
     
@@ -164,7 +165,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="data-collection/">
+<a class="md-tabs__link" href="../../../data-collection/">
           
   
     
@@ -174,7 +175,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="data-processing/">
+<a class="md-tabs__link" href="../../../data-processing/">
           
   
     
@@ -184,7 +185,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="appendix/">
+<a class="md-tabs__link" href="../../../appendix/">
           
   
     
@@ -203,7 +204,7 @@
 <div class="md-sidebar__inner">
 <nav aria-label="导航栏" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="Kirastar - 科学天文摄影笔记" class="md-nav__button md-logo" data-md-component="logo" href="." title="Kirastar - 科学天文摄影笔记">
+<a aria-label="Kirastar - 科学天文摄影笔记" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Kirastar - 科学天文摄影笔记">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m21.9 8.9-1.7 1-4-6.9 1.7-1 4 6.9m-12.1-1 3 5.2 6.1-3.5-3-5.2-6.1 3.5m1.6 4.8-2-3.5-4.3 2.5 2 3.5 4.3-2.5m-9.3 1.9 1 1.7 2.6-1.5-1-1.7-2.6 1.5m10-.6-.3-.4-4.3 2.5.3.4c.2.3.5.6.8.8L7 22h2l1.4-4.3h.1L12 22h2l-1.9-5.6c.5-.7.5-1.6 0-2.4Z"></path></svg>
 </a>
     Kirastar - 科学天文摄影笔记
@@ -219,40 +220,40 @@
 </a>
 </div>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link md-nav__link--active" href=".">
+<a class="md-nav__link" href="../../..">
 <span class="md-ellipsis">
     主页
   </span>
 </a>
-<label class="md-nav__link md-nav__link--active" for="__nav_1" id="__nav_1_label" tabindex="">
+<label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
 <span class="md-nav__icon md-icon"></span>
 </label>
 </div>
-<nav aria-expanded="true" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
+<nav aria-expanded="false" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_1">
 <span class="md-nav__icon md-icon"></span>
             主页
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="intro/introduction/">
+<a class="md-nav__link" href="../../../intro/introduction/">
 <span class="md-ellipsis">
     序言
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="intro/revise-notes/">
+<a class="md-nav__link" href="../../../intro/revise-notes/">
 <span class="md-ellipsis">
     修订及贡献说明
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="intro/contents/">
+<a class="md-nav__link" href="../../../intro/contents/">
 <span class="md-ellipsis">
     目录
   </span>
@@ -261,28 +262,28 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="basic-principle/">
+<a class="md-nav__link" href="../../">
 <span class="md-ellipsis">
     理论基础
   </span>
 </a>
-<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
 <span class="md-nav__icon md-icon"></span>
 </label>
 </div>
-<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_2">
 <span class="md-nav__icon md-icon"></span>
             理论基础
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_2_2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2_2" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="basic-principle/chapter-1/">
+<a class="md-nav__link" href="../">
 <span class="md-ellipsis">
     第一章 基础光学知识
   </span>
@@ -291,42 +292,124 @@
 <span class="md-nav__icon md-icon"></span>
 </label>
 </div>
-<nav aria-expanded="false" aria-labelledby="__nav_2_2_label" class="md-nav" data-md-level="2">
+<nav aria-expanded="true" aria-labelledby="__nav_2_2_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_2_2">
 <span class="md-nav__icon md-icon"></span>
             第一章 基础光学知识
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-1/section-1/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    第一节 几何光学基础
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
 <span class="md-ellipsis">
     第一节 几何光学基础
   </span>
 </a>
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1">
+<span class="md-ellipsis">
+      1 费马原理
+    </span>
+</a>
+<nav aria-label="1 费马原理" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#11">
+<span class="md-ellipsis">
+      1.1 折射率和光程
+    </span>
+</a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-1/section-2/">
+<a class="md-nav__link" href="#12">
+<span class="md-ellipsis">
+      1.2 费马原理
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2">
+<span class="md-ellipsis">
+      2 光学系统与成像概念
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#3">
+<span class="md-ellipsis">
+      3 理想光学系统
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#4">
+<span class="md-ellipsis">
+      4 几何光学与望远镜原理
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#5">
+<span class="md-ellipsis">
+      5 视场与成像
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#6">
+<span class="md-ellipsis">
+      6 几何光学的局限性
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+<span class="md-ellipsis">
+      参考资料
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../section-2/">
 <span class="md-ellipsis">
     第二节 几何光学像差
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-1/section-3/">
+<a class="md-nav__link" href="../section-3/">
 <span class="md-ellipsis">
     第三节 波动光学与成像原理
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-1/section-4/">
+<a class="md-nav__link" href="../section-4/">
 <span class="md-ellipsis">
     第四节 光的颜色与光谱
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-1/section-5/">
+<a class="md-nav__link" href="../section-5/">
 <span class="md-ellipsis">
     第五节 口径、焦距与焦比
   </span>
@@ -338,7 +421,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_2_3" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="basic-principle/chapter-2/">
+<a class="md-nav__link" href="../../chapter-2/">
 <span class="md-ellipsis">
     第二章 基础天文学知识
   </span>
@@ -354,35 +437,35 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-2/section-1/">
+<a class="md-nav__link" href="../../chapter-2/section-1/">
 <span class="md-ellipsis">
     第一节 天文学基础概念
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-2/section-2/">
+<a class="md-nav__link" href="../../chapter-2/section-2/">
 <span class="md-ellipsis">
     第二节 各类天体介绍
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-2/section-3/">
+<a class="md-nav__link" href="../../chapter-2/section-3/">
 <span class="md-ellipsis">
     第三节 重要天象介绍
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-2/section-4/">
+<a class="md-nav__link" href="../../chapter-2/section-4/">
 <span class="md-ellipsis">
     第四节 天空与天气
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-2/section-5/">
+<a class="md-nav__link" href="../../chapter-2/section-5/">
 <span class="md-ellipsis">
     第五节 天文观测工具
   </span>
@@ -394,7 +477,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_2_4" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="basic-principle/chapter-3/">
+<a class="md-nav__link" href="../../chapter-3/">
 <span class="md-ellipsis">
     第三章 数字图像基础
   </span>
@@ -410,28 +493,28 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-3/section-1/">
+<a class="md-nav__link" href="../../chapter-3/section-1/">
 <span class="md-ellipsis">
     第一节 图像与图像处理基础
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-3/section-2/">
+<a class="md-nav__link" href="../../chapter-3/section-2/">
 <span class="md-ellipsis">
     第二节 感光元件及重要参数
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-3/section-3/">
+<a class="md-nav__link" href="../../chapter-3/section-3/">
 <span class="md-ellipsis">
     第三节 信号、噪音与信噪比
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="basic-principle/chapter-3/section-4/">
+<a class="md-nav__link" href="../../chapter-3/section-4/">
 <span class="md-ellipsis">
     第四节 深空图像校准基础
   </span>
@@ -446,7 +529,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="hardware/">
+<a class="md-nav__link" href="../../../hardware/">
 <span class="md-ellipsis">
     硬件基础
   </span>
@@ -464,7 +547,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_3_2" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="hardware/chapter-4/">
+<a class="md-nav__link" href="../../../hardware/chapter-4/">
 <span class="md-ellipsis">
     第四章 主光学系统
   </span>
@@ -480,28 +563,28 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-4/section-1/">
+<a class="md-nav__link" href="../../../hardware/chapter-4/section-1/">
 <span class="md-ellipsis">
     第一节 主光学系统及其组成
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-4/section-2/">
+<a class="md-nav__link" href="../../../hardware/chapter-4/section-2/">
 <span class="md-ellipsis">
     第二节 主光学系统的分类及相关参数介绍
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-4/section-3/">
+<a class="md-nav__link" href="../../../hardware/chapter-4/section-3/">
 <span class="md-ellipsis">
     第三节 主光学系统的配件
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-4/section-4/">
+<a class="md-nav__link" href="../../../hardware/chapter-4/section-4/">
 <span class="md-ellipsis">
     第四节 滤镜
   </span>
@@ -513,7 +596,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_3_3" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="hardware/chapter-5/">
+<a class="md-nav__link" href="../../../hardware/chapter-5/">
 <span class="md-ellipsis">
     第五章 跟踪系统
   </span>
@@ -529,28 +612,28 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-5/section-1/">
+<a class="md-nav__link" href="../../../hardware/chapter-5/section-1/">
 <span class="md-ellipsis">
     第一节 跟踪系统及其分类
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-5/section-2/">
+<a class="md-nav__link" href="../../../hardware/chapter-5/section-2/">
 <span class="md-ellipsis">
     第二节 赤道仪基本结构
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-5/section-3/">
+<a class="md-nav__link" href="../../../hardware/chapter-5/section-3/">
 <span class="md-ellipsis">
     第三节 赤道仪相关参数介绍
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-5/section-4/">
+<a class="md-nav__link" href="../../../hardware/chapter-5/section-4/">
 <span class="md-ellipsis">
     第四节 支架
   </span>
@@ -562,7 +645,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_3_4" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="hardware/chapter-6/">
+<a class="md-nav__link" href="../../../hardware/chapter-6/">
 <span class="md-ellipsis">
     第六章 相机
   </span>
@@ -578,21 +661,21 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-6/section-1/">
+<a class="md-nav__link" href="../../../hardware/chapter-6/section-1/">
 <span class="md-ellipsis">
     第一节 相机基本结构及分类
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-6/section-2/">
+<a class="md-nav__link" href="../../../hardware/chapter-6/section-2/">
 <span class="md-ellipsis">
     第二节 相机相关参数性能
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-6/section-3/">
+<a class="md-nav__link" href="../../../hardware/chapter-6/section-3/">
 <span class="md-ellipsis">
     第三节 相机与主光学系统的匹配
   </span>
@@ -604,7 +687,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_3_5" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="hardware/chapter-7/">
+<a class="md-nav__link" href="../../../hardware/chapter-7/">
 <span class="md-ellipsis">
     第七章 导星修正系统
   </span>
@@ -620,21 +703,21 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-7/section-1/">
+<a class="md-nav__link" href="../../../hardware/chapter-7/section-1/">
 <span class="md-ellipsis">
     第一节 导星修正系统及其分类
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-7/section-2/">
+<a class="md-nav__link" href="../../../hardware/chapter-7/section-2/">
 <span class="md-ellipsis">
     第二节 导星系统的搭配与连接
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-7/section-3/">
+<a class="md-nav__link" href="../../../hardware/chapter-7/section-3/">
 <span class="md-ellipsis">
     第三节 导星系统的影响因素与评价
   </span>
@@ -646,7 +729,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_3_6" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="hardware/chapter-8/">
+<a class="md-nav__link" href="../../../hardware/chapter-8/">
 <span class="md-ellipsis">
     第八章 控制系统
   </span>
@@ -662,21 +745,21 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-8/section-1/">
+<a class="md-nav__link" href="../../../hardware/chapter-8/section-1/">
 <span class="md-ellipsis">
     第一节 控制系统原理介绍
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-8/section-2/">
+<a class="md-nav__link" href="../../../hardware/chapter-8/section-2/">
 <span class="md-ellipsis">
     第二节 控制系统的供电
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="hardware/chapter-8/section-3/">
+<a class="md-nav__link" href="../../../hardware/chapter-8/section-3/">
 <span class="md-ellipsis">
     第三节 理线的艺术
   </span>
@@ -691,7 +774,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-collection/">
+<a class="md-nav__link" href="../../../data-collection/">
 <span class="md-ellipsis">
     数据收集
   </span>
@@ -709,7 +792,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_4_2" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-collection/chapter-9/">
+<a class="md-nav__link" href="../../../data-collection/chapter-9/">
 <span class="md-ellipsis">
     第九章 出摊的规划
   </span>
@@ -725,14 +808,14 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-9/section-1/">
+<a class="md-nav__link" href="../../../data-collection/chapter-9/section-1/">
 <span class="md-ellipsis">
     第一节 出摊时间的考虑事项
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-9/section-2/">
+<a class="md-nav__link" href="../../../data-collection/chapter-9/section-2/">
 <span class="md-ellipsis">
     第二节 出摊地点的考虑事项
   </span>
@@ -744,7 +827,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_4_3" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-collection/chapter-10/">
+<a class="md-nav__link" href="../../../data-collection/chapter-10/">
 <span class="md-ellipsis">
     第十章 出摊前准备
   </span>
@@ -760,14 +843,14 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-10/section-1/">
+<a class="md-nav__link" href="../../../data-collection/chapter-10/section-1/">
 <span class="md-ellipsis">
     第一节 设备器材的准备
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-10/section-2/">
+<a class="md-nav__link" href="../../../data-collection/chapter-10/section-2/">
 <span class="md-ellipsis">
     第二节 其他个人物品的准备
   </span>
@@ -779,7 +862,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_4_4" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-collection/chapter-11/">
+<a class="md-nav__link" href="../../../data-collection/chapter-11/">
 <span class="md-ellipsis">
     第十一章 开拍前器材的组装与调试
   </span>
@@ -795,14 +878,14 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-11/section-1/">
+<a class="md-nav__link" href="../../../data-collection/chapter-11/section-1/">
 <span class="md-ellipsis">
     第一节 设备的组装
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-11/section-2/">
+<a class="md-nav__link" href="../../../data-collection/chapter-11/section-2/">
 <span class="md-ellipsis">
     第二节 设备的调试
   </span>
@@ -814,7 +897,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_4_5" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-collection/chapter-12/">
+<a class="md-nav__link" href="../../../data-collection/chapter-12/">
 <span class="md-ellipsis">
     第十二章 拍摄软件的使用
   </span>
@@ -830,14 +913,14 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-12/section-1/">
+<a class="md-nav__link" href="../../../data-collection/chapter-12/section-1/">
 <span class="md-ellipsis">
     第一节 拍摄软件的选择
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-collection/chapter-12/section-2/">
+<a class="md-nav__link" href="../../../data-collection/chapter-12/section-2/">
 <span class="md-ellipsis">
     第二节 软件使用教程(以N.I.N.A.为例)
   </span>
@@ -852,7 +935,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-processing/">
+<a class="md-nav__link" href="../../../data-processing/">
 <span class="md-ellipsis">
     数据处理
   </span>
@@ -870,7 +953,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_5_2" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-processing/chapter-13/">
+<a class="md-nav__link" href="../../../data-processing/chapter-13/">
 <span class="md-ellipsis">
     第十三章 数据处理的基本思路
   </span>
@@ -886,14 +969,14 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-processing/chapter-13/section-1/">
+<a class="md-nav__link" href="../../../data-processing/chapter-13/section-1/">
 <span class="md-ellipsis">
     第一节 深空后期的思想方法
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-processing/chapter-13/section-2/">
+<a class="md-nav__link" href="../../../data-processing/chapter-13/section-2/">
 <span class="md-ellipsis">
     第二节 深空后期的基本流程
   </span>
@@ -905,7 +988,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_5_3" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="data-processing/chapter-14/">
+<a class="md-nav__link" href="../../../data-processing/chapter-14/">
 <span class="md-ellipsis">
     第十四章 后期处理的具体技术(以Pixinsight为例)
   </span>
@@ -921,21 +1004,21 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-processing/chapter-14/section-1/">
+<a class="md-nav__link" href="../../../data-processing/chapter-14/section-1/">
 <span class="md-ellipsis">
     第一节 图像预处理
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-processing/chapter-14/section-2/">
+<a class="md-nav__link" href="../../../data-processing/chapter-14/section-2/">
 <span class="md-ellipsis">
     第二节 图像处理的一般技术方法
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="data-processing/chapter-14/section-3/">
+<a class="md-nav__link" href="../../../data-processing/chapter-14/section-3/">
 <span class="md-ellipsis">
     第三节 高阶图像处理技巧
   </span>
@@ -950,7 +1033,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="appendix/">
+<a class="md-nav__link" href="../../../appendix/">
 <span class="md-ellipsis">
     附录
   </span>
@@ -966,14 +1049,14 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="appendix/gallery/">
+<a class="md-nav__link" href="../../../appendix/gallery/">
 <span class="md-ellipsis">
     渣图展示
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="appendix/afterword/">
+<a class="md-nav__link" href="../../../appendix/afterword/">
 <span class="md-ellipsis">
     后记
   </span>
@@ -997,16 +1080,69 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#_1">
+<a class="md-nav__link" href="#1">
 <span class="md-ellipsis">
-      发行说明
+      1 费马原理
+    </span>
+</a>
+<nav aria-label="1 费马原理" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#11">
+<span class="md-ellipsis">
+      1.1 折射率和光程
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#12">
+<span class="md-ellipsis">
+      1.2 费马原理
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2">
+<span class="md-ellipsis">
+      2 光学系统与成像概念
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#3">
+<span class="md-ellipsis">
+      3 理想光学系统
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#4">
+<span class="md-ellipsis">
+      4 几何光学与望远镜原理
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#5">
+<span class="md-ellipsis">
+      5 视场与成像
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#6">
+<span class="md-ellipsis">
+      6 几何光学的局限性
     </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#_2">
 <span class="md-ellipsis">
-      一起贡献吧！
+      参考资料
     </span>
 </a>
 </li>
@@ -1017,34 +1153,295 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/ZhenHuangLab/Kirastar/edit/main/docs/index.md" title="编辑此页">
+<a class="md-content__button md-icon" href="https://github.com/ZhenHuangLab/Kirastar/edit/main/docs/basic-principle/chapter-1/section-1.md" title="编辑此页">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2m3.1 5.07c.14 0 .28.05.4.16l1.27 1.27c.23.22.23.57 0 .78l-1 1-2.05-2.05 1-1c.1-.11.24-.16.38-.16m-1.97 1.74 2.06 2.06-6.06 6.06H7.07v-2.06l6.06-6.06Z"></path></svg>
 </a>
-<h1 id="kirastar-">KIRASTAR - 科学天文摄影笔记<a class="headerlink" href="#kirastar-" title="Permanent link">¶</a></h1>
-<p>这是一本关于天文摄影的笔记，主要是系统性地记录我在学习天文摄影过程中的一些心得以及体会，方便对这方面感兴趣的天文爱好者进行参考及查阅；同时，也是我送给浙大天协的一份礼物，感谢四年的本科时光有你们的陪伴。如果没有浙大天协的伙伴们，就没有现在的我。</p>
-<h2 id="_1">发行说明<a class="headerlink" href="#_1" title="Permanent link">¶</a></h2>
-<div class="admonition warning">
-<p class="admonition-title">目前该网站仍然没有稳定的发行版本</p>
-<p>该网站仍然处于制作的初级阶段，大量内容尚未实装，体系不完备、且内容可能会随时变化。因此，目前不建议您将本书作为正式的参考资料。</p>
+<h1 id="_1">第一节 几何光学基础<a class="headerlink" href="#_1" title="Permanent link">¶</a></h1>
+<p>谈及光，大家脑袋里第一个想到的可能就是一些箭头和直线，看着亮着的电脑屏幕，啊，这就是光线射进了我的眼睛。如果说是在天文摄影里边，那就是光线进入了我的望远镜，再经过折射、反射之类的，最后射到光电传感器上，啊，这就是我拿到的图像。</p>
+<p>这就是所谓的几何光学，它将 <strong>光近似为所谓光线(Ray of light)</strong> ，来研究光在透明介质中的传播规律以及成像规律。我们最熟悉不过的就是几何光学的三大定律：</p>
+<ul>
+<li>光的直线传播定律：光在均匀介质中沿直线传播；</li>
+<li>光的反射与折射定律：光在两种介质的界面改变传播方向的规律；</li>
+<li>光的独立传播规律：光线在不同方向相交，不影响每一光线的传播。</li>
+</ul>
+<p>这些定律的具体内容就不再阐述了，是初中物理的内容。有一点需要提及的是费马原理，因为它是描述光线传播规律的基本原理，以此为基础可以导出上述的基本定律。</p>
+<h2 id="1">1 费马原理<a class="headerlink" href="#1" title="Permanent link">¶</a></h2>
+<h3 id="11">1.1 折射率和光程<a class="headerlink" href="#11" title="Permanent link">¶</a></h3>
+<p>在了解费马原理之前，首先需要复习一下折射率和光程的概念。</p>
+<p><strong>折射率</strong> (Refractive index, Index of refraction)：</p>
+<ul>
+<li>
+<p>绝对折射率：光在真空中的传播速度与光在该种介质中的传播速度之比。显然，根据此定义，真空中的折射率为1。公式表示为：</p>
+<div class="arithmatex">\[  n = \frac{c}{v} \]</div>
+<p>其中，<span class="arithmatex">\(c\)</span>为真空中的光速，<span class="arithmatex">\(v\)</span>为介质中的光速。</p>
+</li>
+<li>
+<p>相对折射率：两种介质之间的折射率之比。</p>
+<div class="arithmatex">\[  n_{12} = \frac{n_2}{n_1} \]</div>
+<p>其中，<span class="arithmatex">\(n_1\)</span>为第一种介质的折射率，<span class="arithmatex">\(n_2\)</span>为第二种介质的折射率。</p>
+</li>
+</ul>
+<p><strong>光程</strong> (Optical path)：光在介质中传播的距离与介质折射率的乘积。如果均匀介质的折射率为 <span class="arithmatex">\(n\)</span> ，光在介质中的传播距离为 <span class="arithmatex">\(s\)</span> ，则光程为 <span class="arithmatex">\(ns\)</span> 。不难推出，光程其实与相同时间内光线在真空中传播的距离相等。所以，光程和光的传播时间在物理上是等效的，可以说是光传播所需时间的另一种表达。</p>
+<p>光程在很多外国教材上会表示为 <span class="arithmatex">\(OPL\)</span> ，可用公式表示为：</p>
+<div class="arithmatex">\[ OPL = \int_{P}^{Q} n(s)ds = \int_{P}^{Q} \frac{c}{v} ds = c \Delta t\]</div>
+<h3 id="12">1.2 费马原理<a class="headerlink" href="#12" title="Permanent link">¶</a></h3>
+<p>那么费马原理是啥呢？</p>
+<p>有很多光学书上将费马原理表述为“在从空间中一点到另一点的所有可能路径中，光传播的实际路径是需时最短的路径“。当然这个表述并不是很严谨。更确切地说，费马原理应该是指 <strong>两点间光的实际路径，是光程平稳（取极值）的路径</strong> 。所谓光程平稳路径，就是如果我们稍稍给路径一个极小的扰动，光程的一阶导数为0。关于如何解释费马原理，需要用到量子光学的知识，大概是说光实际的传播路径对应光子几率波叠加干涉的最大方向，在这里就不详细展开了。</p>
+<div class="arithmatex">\[ \delta \int_{P}^{Q} n(s)ds = 0 \]</div>
+<p>看到这里你可能会想，“啊？为什么突然提费马原理？这玩意和我们天文摄影有啥关系？”。费马原理可以看作是光传播规律的一个基本原理，你可以用它推导之前提及的几何光学三大定律、推导会聚透镜的光路和基本形状、推导反射式望远镜镜面设计基础——圆锥曲线光学特性等。因此，了解这个概念，有助于加深对几何光学和光学系统比较本质的光学特性的理解。</p>
+<details class="note" open="open">
+<summary>利用费马原理推导会聚透镜的光路和基本形状</summary>
+<p><img alt="利用费马原理推导会聚透镜的光路和基本形状" class="small" src="https://lfs.zhenhuang.site/images/1-1-0-2024-05-21-10-50-09.png"/>
+<span class="caption">图1 利用费马原理推导会聚透镜的光路和基本形状</span></p>
+<p>如图1，假设我们放置一个光学元件，能使得所有从 <span class="arithmatex">\(P\)</span> 点发出的光线都可以汇聚到 <span class="arithmatex">\(P'\)</span> 点。由费马原理可知，光总是沿着平稳路径传播。也就是说，从 <span class="arithmatex">\(P\)</span> 到 <span class="arithmatex">\(P'\)</span> 点的所有路径都是平稳路径；因此，光沿这些路径传播的光程是相同的。但是很显然，如果我们什么都不加的话， <span class="arithmatex">\(PQP'\)</span> 的几何距离明显比 <span class="arithmatex">\(PP'\)</span> 长。所以，我们可以在 <span class="arithmatex">\(PP'\)</span> 路径上增加一定厚度的透明介质，比如玻璃，使得红色线段处光程增加，来“补偿”一定的光程；并且越靠近透镜中心，需要“补偿”的光程越多；这样就可以使 <span class="arithmatex">\(PP'\)</span> 的光程与 <span class="arithmatex">\(PQP'\)</span> 相等。于是我们就得到了这样一个中间厚两边薄的会聚透镜以及其光路。</p>
+</details>
+<h2 id="2">2 光学系统与成像概念<a class="headerlink" href="#2" title="Permanent link">¶</a></h2>
+<p>通过几何光学的基本定律来理解成像与光学系统是比较轻松的，因为我们很容易想象其光路图。比如说我们在初中就学习到的不用镜头就用小孔就能成像的小孔成像。因此，我们可以从简单的几何光学出发，了解一些光学系统及成像的基本概念。</p>
+<ul>
+<li>光学系统是指由一系列透镜、反射镜等光学元件以一定排列方式组合而成的系统，其主要目的为成像；比如天文望远镜就是典型的光学系统。</li>
+<li>成像可以理解成，对于接收到的光信息进行一次变换，得到像的过程。</li>
+</ul>
+<p>为了之后讨论方便，复习一些其他的基本概念包括：</p>
+<ul>
+<li>点光源：当发光体的尺寸与发光距离相比可以忽略不计时，可以将该物体看成理想化的点光源；</li>
+<li>实物点与实像点：实际光线经过的物点为实物点，实际光线经过的像点为实像点；</li>
+<li>虚物点与虚像点：实际光线的反向延长线经过的物点称为虚物点；实际光线的反向延长线经过的像点称为虚像点；</li>
+<li>实像与虚像：实像点的集合就是实像，虚像点的集合就是虚像。实像由于是实际真有光线经过，所以可以用人眼观测，接收屏、感光元件等接收；但是虚像仅仅是因为光的直线传播导致的人眼错觉，并没有实际光线经过，所以只能用人眼观测到；</li>
+<li>物点所在的空间称为物空间（或者物方），像点所在的空间称为像空间（或者像方）；</li>
+<li>光束：在空间中具有一定关系的光线的集合；</li>
+<li>同心光束(concentric beam)：或者称为单心光束(homocentric beam)，指光线本身或者其延长线交于一点；</li>
+<li>光轴：通过光学系统各表面曲率中心的直线。</li>
+</ul>
+<p><img alt="成像与光学系统概念" class="small" src="https://lfs.zhenhuang.site/images/1-1-1-2024-05-21-10-50-43.png"/>
+<span class="caption">图2 成像与光学系统概念图示</span></p>
+<h2 id="3">3 理想光学系统<a class="headerlink" href="#3" title="Permanent link">¶</a></h2>
+<p>我们印象里最多的恐怕就是如图2 <span class="arithmatex">\((c)\)</span> 所示的光学系统：对于点光源 <span class="arithmatex">\(P\)</span> 发出的光线，经过光学系统后所有的出射光线都会交于 <span class="arithmatex">\(P'\)</span> 点；我们只需要该点发出的两条特定光线，就可以确定对应像点的位置。这个其实就是 <strong>理想光学系统</strong> 。虽然这个系统实际上并不存在，但是因为这个系统计算比较简单，光线追迹的复杂程度低，因此我们可以在这个系统下再深入了解一些概念。</p>
+<p><img alt="理想光学系统的物象关系" class="small" src="https://lfs.zhenhuang.site/images/1-1-2-2024-05-21-10-51-04.png"/>
+<span class="caption">图3 理想光学系统的物象关系</span></p>
+<ul>
+<li><span class="arithmatex">\(S_{1}\)</span> 和 <span class="arithmatex">\(S_{i}\)</span> ：分别表示理想光学系统的第1个和第 <span class="arithmatex">\(i\)</span> 个面（最后一个表面）</li>
+<li><span class="arithmatex">\(K\)</span> ：物方主点；</li>
+<li><span class="arithmatex">\(K'\)</span> ：像方主点；</li>
+<li><span class="arithmatex">\(MN\)</span> ：物方主平面；</li>
+<li><span class="arithmatex">\(M'N'\)</span> ：像方主平面；</li>
+<li><span class="arithmatex">\(F\)</span> ：称为前焦点、物方焦点或者第一焦点，是平行光从右向左穿过光学系统产生的焦点；</li>
+<li><span class="arithmatex">\(F'\)</span> ：称为后焦点、像方焦点或者第二焦点，是平行光从左向右穿过光学系统产生的焦点。过 <span class="arithmatex">\(F'\)</span> 作垂直于光轴的平面，该平面为像方焦平面。</li>
+<li><span class="arithmatex">\(f\)</span> ：物方焦距，即物方主点到物方焦点的距离；</li>
+<li><span class="arithmatex">\(f'\)</span> ：像方焦距，即像方主点到像方焦点的距离。如果光学系统物空间和像空间的介质折射率相同，则 <span class="arithmatex">\(f = f'\)</span> 。如果这一光学系统处于空气中，则此时的像方焦距又称为有效焦距(Effective Focal Length)。</li>
+<li><span class="arithmatex">\(f_{b}\)</span> ：光学系统的后焦距(Back Focal Length)，光学系统中最后一个表面到像方焦点的距离。</li>
+<li><span class="arithmatex">\(f_{\text{f}}\)</span> ：光学系统的前焦距(Front Focal Length)，光学系统中第一个表面到物方焦点的距离。</li>
+<li><span class="arithmatex">\(l\)</span> 和 <span class="arithmatex">\(l'\)</span> ：分别表示物距（物方主平面到物面的距离）和像距（像方主平面到像面的距离）；</li>
+<li><span class="arithmatex">\(h\)</span> 和 <span class="arithmatex">\(h'\)</span> ：分别表示物高和像高；</li>
+</ul>
+<p>另外还有节点和节平面，如图4所示，节点 <span class="arithmatex">\(EE'\)</span> 是位于光轴上的一对共轭点，过节点作垂直于光轴的平面即得到节平面 <span class="arithmatex">\(AB\)</span> 和 <span class="arithmatex">\(A'B'\)</span> ，通过物方节点 <span class="arithmatex">\(E\)</span> 的入射光线经过光学系统后，出射光线必定经过像方节点 <span class="arithmatex">\(E'\)</span> ，且方向不变；当光学系统处于同一介质时，节点 <span class="arithmatex">\(EE'\)</span> 和主点 <span class="arithmatex">\(KK'\)</span> 重合。 <span class="arithmatex">\(O\)</span> 为光学系统的光心。</p>
+<p><img alt="节点与节平面" class="small" src="https://lfs.zhenhuang.site/images/1-1-4-2024-05-21-10-51-27.png"/></p>
+<p><span class="caption">图4 节点与节平面</span></p>
+<p>因此，主点、焦点、节点，以及主平面、焦平面建构了理想光学系统的基本模型，主点、焦点和节点就是理想光学系统的基点，主平面和焦平面是理想光学系统的基面。 <strong>基点和基面的位置就决定了理想光学系统的成像性质。</strong> 利用这些性质，我们可以得到一系列物像关系式，比如我们熟悉的高斯公式。</p>
+<details class="note">
+<summary>理想光学系统（高斯光学）的条件与一些计算结论</summary>
+<p>理想光学系统还有几个名称：近轴光学(Paraxial Optics)、傍轴光学、高斯光学(Gaussian Optics)、一阶光学(First-Order Optics)、初级光学。理想光学系统非常重要的一个前提假设就是小角度近似，即用入射角和折射角的正弦值用其角度值近似：
+$$
+\sin \theta \approx \theta
+$$
+$$
+\cos \theta \approx 1
+$$
+$$
+\tan \theta \approx \theta
+$$
+可以这样近似的原因是，如果我们对这三个三角函数进行泰勒展开：</p>
+<div class="arithmatex">\[
+\sin \theta = \theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \cdots
+\]</div>
+<div class="arithmatex">\[
+\cos \theta = 1 - \frac{\theta^2}{2!} + \frac{\theta^4}{4!} - \cdots
+\]</div>
+<div class="arithmatex">\[
+\tan \theta = \theta + \frac{\theta^3}{3} + \frac{2\theta^5}{15} + \cdots
+\]</div>
+<p>当 <span class="arithmatex">\(\theta\)</span> 很小时，我们只取一阶项，去除高阶项，于是就得到了之前的近似关系，这也就是为什么叫一阶光学。这种条件只有我们光线无限接近光轴时才能生效，所以又叫做近轴光学。此时折射定律变为：
+$$
+n_1 \theta_1 = n_2 \theta_2
+$$
+因此在这种近似条件下，入射角与折射角之间呈线性关系。</p>
+<p>如果说整个光学系统所有区域都满足这个关系，那么这个光学系统就是理想光学系统。</p>
+<p>至于说为什么理想光学系统做这样的近似就可以满足“物空间的同心光束通过光学系统后在像空间仍然是同心光束”，原因是经过简单推导可以发现，如果不采取这样的近似，当入射光线的角度不同时，对应出射光线与光轴的交角是不同的，即得不到完善像点。具体数学证明可见：<a href="https://blog.csdn.net/zhenpixiaoyang/article/details/127315455">通俗易懂理解几何光学（二）共轴球面系统与理想光学系统</a></p>
+<p>在理想光学系统条件下的结论有：</p>
+<ul>
+<li>牛顿公式： $ xx' = ff' $</li>
+<li>高斯公式： $ \frac{f}{l} + \frac{f'}{l'} = 1 $</li>
+<li>垂轴放大率：又称为横向放大率，是光学系统中像高和物高之比。当物空间和像空间折射率相同时，垂轴放大率<span class="arithmatex">\(\beta = \frac{l'}{l}\)</span> 。因此垂轴放大率仅随物体位置变化而变化。</li>
+<li>纵向放大率：又称轴向放大率，是物体沿光轴方向的放大率。当物空间和像空间折射率相同时，纵向放大率<span class="arithmatex">\(\alpha = \beta^{2}\)</span> 。因此纵向放大率也仅随物体位置变化而变化。</li>
+</ul>
+<p>详细的推导过程不再这里展开，因为这不是几何光学课本。</p>
+</details>
+<p>因此，当我们忽略透镜的厚度时，可以认为物方主平面和像方主平面重合、物方主点和像方主点重合且在透镜表面上，这就是所谓的薄透镜。薄透镜大概可以理解为：由于透镜厚度超级小，在两次折射的时间间隔可以忽略，所以我们可以把两次折射看成一次折射，那就得到了如下图5所示的模型：</p>
+<p><img alt="薄透镜近似" class="small" src="https://lfs.zhenhuang.site/images/1-1-3-2024-05-21-10-52-03.png"/></p>
+<p><span class="caption">图5 薄透镜近似</span></p>
+<p>所以我们之前熟悉的图2 <span class="arithmatex">\((c)\)</span> 所示的光学系统，其实就是在薄透镜近似下的理想光学系统。也就是说，这里其实包含了两次近似：一次是近轴近似，另一次是薄透镜近似。</p>
+<h2 id="4">4 几何光学与望远镜原理<a class="headerlink" href="#4" title="Permanent link">¶</a></h2>
+<p>回到深空摄影的话题上。由于天体与我们的距离十分远，因此 <strong>天体入射光线都可以看作是平行光</strong> ，此时<span class="arithmatex">\(l \rightarrow \infty\)</span> ，因此 <span class="arithmatex">\(f' = l'\)</span> ，这些平行光最后汇聚到像方焦平面上一点：</p>
+<p><img alt="无穷远处物体发出的平行光最后汇聚到像方焦平面上" class="small" src="https://lfs.zhenhuang.site/images/1-1-5-2024-05-21-10-52-27.png"/></p>
+<p><span class="caption">图6 无穷远处物体发出的平行光最后汇聚到像方焦平面上</span></p>
+<div class="admonition info">
+<p class="admonition-title">望远镜的能“望远”的原理到底是什么？成像到底成在焦平面上还是像平面上？</p>
+<p>许多人到这里，反过来细究望远镜的成像原理，反而会觉得困惑：</p>
+<ul>
+<li>星光到达望远镜前可以看作平行光，这个我理解，但是既然是平行光，那不是只能聚焦在一个点上吗？为什么能形成整个像呢？</li>
+<li>我接天文相机对焦后，我通过望远镜成的像是在焦平面还是像平面？我的感光元件所在的平面到底是焦平面还是像平面？</li>
+</ul>
+<p>其实有这些问题很正常，这也说明你认真阅读了之前的内容，有了点自己的思考。</p>
+<p>首先解决成像到底是在焦平面还是像平面的问题。像平面之所以为像平面，就是因为它是成的像所在的平面，所以很显然成像肯定是在像平面。但是为什么天文都说焦平面呢？因为无穷远条件下，像平面和焦平面是几乎重合的。至于为什么重合，用前面提到的薄透镜模型就可以解释了（至于像差的问题后面再说）。所以，当我们在讨论深空摄影时，既可以说成像成在焦平面，也可以说像平面。自然，对于感光元件的位置也是同理，对焦要对准必然是要在焦平面/像平面所在的位置。举一个很简单的例子，你在拍M81和M82同框的时候，不可能M81的焦对准了，M82就糊了（在焦外）吧？（要是可以做到，那你的望远镜也挺牛逼的）</p>
+<p>问出第一个问题，说明对于理想光学系统的理解挺好的，但是没有迁移到望远镜的基本原理上。很显然，图2 <span class="arithmatex">\((c)\)</span> 和图5都不可能是望远镜实际的成像过程。望远镜之所以能“望远”，就是因为能“放大”，让我们能看清其中的细节。那“放大”的是什么呢？放大的是 <strong>视角</strong> 。</p>
+<p>比如你用肉眼看木星，你只能看到一个很亮的亮点，因为距离很远，木星的各种细节对应的张角太小了，即使它实际的体积再大，用肉眼也分辨不出来。因此我们借助望远镜，把这些细节对应的很小的张角放大，使其在像空间具有很大的张角，这样我们就能够分辨其中的细节，而不是仅仅看到一个亮点。</p>
+<p>有人会觉得，望远镜怎么可能是放大呢，难道你观测的时候CMOS还要准备几个满月那么大的面积吗？你说得对，望远镜确实是在近处成一个缩小的实像，相当于把缩小版的天体“拉”到了我们的焦平面上，然后再通过目镜放大观察，或者直接接着感光元件记录图像。</p>
+<p>也可以模拟一下光路，有个更加直观的体会：
+<img alt="牛顿反射式望远镜光路模拟" class="small" src="https://lfs.zhenhuang.site/images/1-1-6-2024-05-21-10-53-03.png"/>
+<span class="caption">图7 牛顿反射式望远镜光路模拟</span></p>
+<p>如图7(A)所示，模拟的是牛顿反射式望远镜光路。从无穷远处接收到3组光线，如图7(B)所示，它们之间的角距离是7.5角分，这个就对应了天体的某些细节。如果我们不借助望远镜，用肉眼，相当于 <span class="arithmatex">\(\frac{1}{4}\)</span> 个月亮左右的宽度。图7(C)显示的是这3组光线聚焦到像平面（焦平面）上的情况。可以看出，望远镜将这一细节缩小并拉近，呈现在像平面上，如果再加上合适的目镜放大，我们就能够轻易辨别这三组光线。</p>
+<p>这也就是为什么我们 <strong>在天文学中用角距离，在天文摄影中也总是拿角度说事</strong> 。既然都无穷远，默认平行光了，那就考虑这些光线形成的角度了。</p>
 </div>
-<p>在本书中涉及的一些作者自制的图表，或者是作者自己的摄影作品，未经授权禁止随意转载，也不能用于商业用途。</p>
-<p>本书在 <code>MkDocs-material</code> 主题的基础上，利用 <code>Github Pages</code> 进行构建，内容主要使用 <code>Markdown</code> 语言（并加上一些 <code>html</code> ）进行编写。</p>
-<h2 id="_2">一起贡献吧！<a class="headerlink" href="#_2" title="Permanent link">¶</a></h2>
-<p>由于本人水平有限、入坑深空的时间没有很久，作为学生时间有限，再加上天文摄影（业余天文）的整个知识体系相当繁杂，本书中难免会出现一些不完善的或者是错误的地方。因此，如果您有更好的建议，或者也想将自己的一些笔记/心得体会分享，欢迎您通过Github的<code>Pull Request</code>功能来为本书做出贡献！</p>
-<p>如果有任何疑问，可以随时通过邮箱<a href="mailto: hzvictor@zju.edu.cn">hzvictor@zju.edu.cn</a>联系我；也欢迎直接在相应页面的下方进行评论！</p>
-<script async="async" src="//rf.revolvermaps.com/0/0/8.js?i=5dxeeuukdso&amp;m=1&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" type="text/javascript"></script>
+<p>那我们了解理想光学系统和薄透镜成像有啥作用呢？虽然这玩意你可能觉得在实际拍摄过程中不会涉及到，对于镜头和望远镜而言肯定也不能按照薄透镜和理想光学系统处理。但是我个人觉得，一方面这可以帮助我们了解各种最最基础的概念，比如焦平面、焦距等，同时也有一个从几何光学角度理解望远镜光路的大概概念，便于引入一些视场角与成像大小之类的概念，不至于一开始看到就会懵，不知道为什么要计算这些。</p>
+<details class="question" open="open">
+<summary>例题1</summary>
+<p>拍摄者已经使用一个焦距为100mm的照相机镜头对远处的景物调好了焦面，现在需要对镜头前2m处的人拍照，问在焦面不改变的条件下，镜头应当移动多少？</p>
+<p>（题目来源：<a href="http://staff.ustc.edu.cn/~chunhua/1-03.pdf">1-03 薄透镜成像 理想光具组 - 中科大基础物理甲光学课件</a>）</p>
+<details class="note">
+<summary>解答</summary>
+<p>远处的景物可认为是无穷远处的物，因此成像于焦平面。对于镜头来说，不能简单的按照薄透镜处理，但是按照共轴球面光具组的原理，高斯公式同样适用，只是其标定的原点由光心变为了主点。假设对镜头前2m的人拍照时，镜头需向物方移动 <span class="arithmatex">\(x’\)</span> 才能在原焦面上成像。由高斯公式可以得到：
+$$
+\frac{1}{f'+x'} + \frac{1}{s} = \frac{1}{f'}
+$$
+其中，<span class="arithmatex">\(s\)</span> 为物距，<span class="arithmatex">\(f'\)</span> 为像方焦距。因为 <span class="arithmatex">\(s = 2000mm, f'=100mm\)</span>，解得 <span class="arithmatex">\(x' = 5.26mm\)</span> 。
+<img alt="例题1解" class="small" src="https://lfs.zhenhuang.site/images/1-1-7-2024-05-21-10-53-42.png"/>
+<span class="caption">图8 例题1解</span></p>
+</details>
+</details>
+<p>另一方面，这也为之后提到的几何光学像差、以及望远镜的分辨率做铺垫。</p>
+<h2 id="5">5 视场与成像<a class="headerlink" href="#5" title="Permanent link">¶</a></h2>
+<p>所有光学系统都不可能能把物体的所有光都收进来，因为你的望远镜（镜头）大小是有限的，而且你的探测器（包括人眼、感光元件等）的大小也是有限的。因此我们的成像范围也是有限的。</p>
+<p>我们可以先简单聊聊我们的眼睛。我们的眼睛可以等效为一个焦距可变的凸透镜，物方焦距为17mm左右，像方焦距为22.8mm左右。视网膜到光心的距离等于眼睛对无穷远处聚焦时的像方焦距。</p>
+<p>然后我们看看相机。首先我们了解一下简单的视角与成像大小计算。</p>
+<p><img alt="视角与成像大小计算" class="small" src="https://lfs.zhenhuang.site/images/1-1-8-2024-05-21-10-54-02.png"/></p>
+<p><span class="caption">图9 视角与成像大小计算</span></p>
+<p>关于图9应该已经没有什么疑问了：我们可以把望远镜对天体的成像简化为这样的模型，天体的视直径（肉眼看见天空中天体所成的张角）为 <span class="arithmatex">\(\omega\)</span> ，考虑天体发出的两组张角最大、且对于光轴对称的光线 <span class="arithmatex">\(n_{1}\)</span> 和 <span class="arithmatex">\(n_{2}\)</span> ，这两组光线都穿过光心；当该主镜（望远镜物镜）焦距为 <span class="arithmatex">\(f\)</span> 时，这两组光汇聚在焦平面上，成一个像，直径为 <span class="arithmatex">\(h\)</span> 。那么在焦平面上的半径就为 <span class="arithmatex">\(d\)</span> ，简单根据角度关系可以得到：</p>
+<div class="arithmatex">\[
+d = f \tan \theta
+\]</div>
+<p>其中，<span class="arithmatex">\(\theta\)</span> 称为半视场角，<span class="arithmatex">\(\omega\)</span> 称为视场角。因此可以推出：</p>
+<div class="arithmatex">\[
+\theta = \tan^{-1} \frac{d}{f}
+\]</div>
+<div class="arithmatex">\[
+\omega = 2 \theta = 2 \tan^{-1} \frac{h}{2f}
+\]</div>
+<p>因为 <span class="arithmatex">\(\theta\)</span> 和 <span class="arithmatex">\(\omega\)</span> 都是很小的角度（比如角度小于5度时误差小于0.5%），所以为了简化计算，我们可以将公式简化为：</p>
+<div class="arithmatex">\[
+\theta \approx \frac{d}{f}
+\]</div>
+<div class="arithmatex">\[
+\omega \approx \frac{h}{f}
+\]</div>
+<p>即当焦距为 <span class="arithmatex">\(f\)</span> 时，焦平面上天体的大小：</p>
+<div class="arithmatex">\[
+d \approx f \theta
+\]</div>
+<div class="arithmatex">\[
+h \approx f \omega
+\]</div>
+<div class="admonition warning">
+<p class="admonition-title">计算时 <span class="arithmatex">\(\theta\)</span> 和 <span class="arithmatex">\(\omega\)</span> 为弧度</p>
+<p>由于计算时 <span class="arithmatex">\(\theta\)</span> 和 <span class="arithmatex">\(\omega\)</span> 为弧度，因此在计算时需要将角度转换为弧度( <span class="arithmatex">\(rad\)</span> )。
+转换关系为：
+$$
+2\pi \text{rad} = 360^{\circ}
+$$</p>
+<div class="arithmatex">\[
+1^{\circ} = \frac{\pi}{180} \text{rad} = 0.01745 \text{rad}
+\]</div>
+<div class="arithmatex">\[
+\because 1^{\circ} = 60' = 3600''
+\]</div>
+<div class="arithmatex">\[
+\therefore 1'' = \frac{0.01745 \text{rad}}{3600} \approx 5 \times 10^{-6} \text{rad}
+\]</div>
+</div>
+<p>根据上述关系我们还可以发现，望远镜的视场和物镜的焦距以及感光元件的尺寸有关。比如这时成的像大小 <span class="arithmatex">\(h\)</span> 恰好填满感光元件，也就是说感光元件的大小为 <span class="arithmatex">\(h\)</span> ，那么我们可以发现，理论上，当感光元件尺寸一定时，焦距越大，望远镜对应的视场越小，相应的像的放大倍数也就越大，如图10(A)所示；而在焦距一定时，感光元件的尺寸越大，望远镜对应的视场也越大（当然传感器尺寸也不是越大越好，这就涉及到之后的几何像差），如图10(B)所示。</p>
+<p><img alt="望远镜的视场与物镜的焦距以及感光元件的尺寸有关" class="small" src="https://lfs.zhenhuang.site/images/1-1-9-2024-05-21-10-54-27.png"/></p>
+<p><span class="caption">图10 望远镜的视场与物镜的焦距以及感光元件的尺寸有关</span></p>
+<details class="question" open="open">
+<summary>例题2</summary>
+<p>已知仙女座星系(M31)的视直径约为 <span class="arithmatex">\(3^{\circ}\)</span> ，请问使用焦距为 <span class="arithmatex">\(700mm\)</span> 的望远镜拍摄时，焦平面上的星系会是多大？如果使用全画幅相机拍摄，可以装下星系主体吗？</p>
+<details class="note">
+<summary>解答</summary>
+<p>首先将视直径转换为弧度：</p>
+<div class="arithmatex">\[
+\omega = 3^{\circ} \times \frac{\pi}{180} \approx 0.052 \text{rad}
+\]</div>
+<p>然后根据公式：</p>
+<div class="arithmatex">\[
+h \approx f \omega
+\]</div>
+<p>可以得到焦平面上的星系直径大小为：</p>
+<div class="arithmatex">\[
+h \approx 700 \times 0.052 \approx 36.4 \text{mm}
+\]</div>
+<p>使用全画幅相机拍摄时，焦平面的尺寸为 <span class="arithmatex">\(36mm \times 24mm\)</span> ，对角线为 <span class="arithmatex">\(43.3mm\)</span> ，因此全画幅相机接700mm望远镜是完全可以将M31的主体装下的。</p>
+</details>
+</details>
+<details class="question" open="open">
+<summary>例题3</summary>
+<p>已知木星的视直径约为 <span class="arithmatex">\(40''\)</span> ，要使其在CMOS上成像直径有 <span class="arithmatex">\(8mm\)</span> ，需要多长焦距的望远镜进行拍摄？
+（题目来源：<a href="http://lifeng.lamost.org/kepu/basic/html/basic3.htm">天体视角与成像大小</a>）</p>
+<details class="note">
+<summary>解答</summary>
+<p>将视直径转换为弧度：</p>
+<div class="arithmatex">\[
+\omega = 40'' \times \frac{\pi}{180} \approx 2 \times 10^{-4} \text{rad}
+\]</div>
+<p>根据公式计算焦距：</p>
+<div class="arithmatex">\[
+f = \frac{h}{\omega} = \frac{8mm}{2 \times 10^{-4} \text{rad}} \approx 4 \times 10^{4} mm = 40m
+\]</div>
+<p>因此可以看出，由于木星的视直径很小，所以需要很长焦距的望远镜才能拍到足够大的木星像。</p>
+</details>
+</details>
+<h2 id="6">6 几何光学的局限性<a class="headerlink" href="#6" title="Permanent link">¶</a></h2>
+<ul>
+<li>光线仅是几何光学中光的模型，有助于我们的直观理解，但是并不能在物理上解释其速度、能量、波长、频率等；</li>
+<li>几何光学仅涉及几何特性，不涉及光的物理本质，其定律都是实验定律；</li>
+<li>对于几何尺寸远大于工作波长的研究对象，几何光学的近似是够用的，可以用于大致确定光学系统的成像位置、成像大小、成像质量等；但是，如果想进一步了解光学系统的成像本质，或者涉及一些天文望远镜成像分辨率的计算，那么几何光学是不够的。</li>
+</ul>
+<h2 id="_2">参考资料<a class="headerlink" href="#_2" title="Permanent link">¶</a></h2>
+<div class="footnote">
+<hr/>
+<ol>
+<li id="fn:1">
+<p><a href="https://zhuanlan.zhihu.com/p/107739173">浅谈几何光学1-费马原理</a> <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://zhuanlan.zhihu.com/p/538249981">【4】几何光学讲义：理想成像条件、近轴光学、近轴光学追迹</a> <a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://blog.csdn.net/zhenpixiaoyang/article/details/127315455">通俗易懂理解几何光学（二）共轴球面系统与理想光学系统</a> <a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">↩</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://zhuanlan.zhihu.com/p/354346141">光学原理回顾：透镜与成像</a> <a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">↩</a></p>
+</li>
+</ol>
+</div>
 <aside class="md-source-file">
 <span class="md-source-file__fact">
 <span class="md-icon" title="最后更新">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 28, 2024</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 24, 2024</span>
 </span>
 <span class="md-source-file__fact">
 <span class="md-icon" title="创建日期">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 4, 2023</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 6, 2023</span>
 </span>
 <span class="md-source-file__fact">
 <span class="md-icon" title="贡献者">
@@ -1108,13 +1505,26 @@
 </main>
 <footer class="md-footer">
 <nav aria-label="页脚" class="md-footer__inner md-grid">
-<a aria-label="下一页: 序言" class="md-footer__link md-footer__link--next" href="intro/introduction/">
+<a aria-label="上一页: 第一章 基础光学知识" class="md-footer__link md-footer__link--prev" href="../">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                上一页
+              </span>
+<div class="md-ellipsis">
+                第一章 基础光学知识
+              </div>
+</div>
+</a>
+<a aria-label="下一页: 第二节 几何光学像差" class="md-footer__link md-footer__link--next" href="../section-2/">
 <div class="md-footer__title">
 <span class="md-footer__direction">
                 下一页
               </span>
 <div class="md-ellipsis">
-                序言
+                第二节 几何光学像差
               </div>
 </div>
 <div class="md-footer__button md-icon">
@@ -1168,11 +1578,11 @@
 <div class="md-dialog__inner md-typeset"></div>
 </div>
 <div class="md-progress" data-md-component="progress" role="progressbar"></div>
-<script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tabs", "navigation.tracking", "navigation.path", "navigation.top", "navigation.indexes", "navigation.footer", "search.suggest", "search.highlight", "search.share", "toc.follow", "content.action.edit", "content.tooltips", "content.footnote.tooltips", "announce.dismiss"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
-<script src="assets/javascripts/bundle.081f42fc.min.js"></script>
-<script src="javascripts/mathjax.js"></script>
-<script src="javascripts/katex.js"></script>
-<script src="javascripts/extra.js"></script>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tabs", "navigation.tracking", "navigation.path", "navigation.top", "navigation.indexes", "navigation.footer", "search.suggest", "search.highlight", "search.share", "toc.follow", "content.action.edit", "content.tooltips", "content.footnote.tooltips", "announce.dismiss"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+<script src="../../../assets/javascripts/bundle.081f42fc.min.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="../../../javascripts/katex.js"></script>
+<script src="../../../javascripts/extra.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
