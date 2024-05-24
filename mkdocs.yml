@@ -148,6 +148,10 @@ plugins:
       add_share_buttons: False
       add_dates: False
       add_authors: False
+  - glightbox:
+      auto_caption: true
+      skip_classes:
+        - skip_img
 
 extra_javascript:
   - javascripts/mathjax.js
