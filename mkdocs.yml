@@ -57,10 +57,12 @@ extra:
         link: https://github.com/ZhenHuangLab
       - icon: fontawesome/brands/bilibili
         link: https://space.bilibili.com/37168500
+      - icon: fontawesome/brands/zhihu
+        link: https://www.zhihu.com/people/zhen-victor-huang
       - icon: fontawesome/brands/x-twitter
         link: https://twitter.com/ZhenVictorHuang
-      - icon: fontawesome/brands/facebook
-        link: https://www.facebook.com/profile.php?id=100095427284684
+      # - icon: fontawesome/brands/facebook
+      #   link: https://www.facebook.com/profile.php?id=100095427284684
 
   generator: true
   # consent:
