@@ -138,6 +138,16 @@ plugins:
       branch: main
       token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
       # token: ${MKDOCS_GIT_COMMITTERS_APIKEY}
+  - ultralytics:
+      verbose: True
+      enabled: True
+      default_image: "https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png"
+      add_desc: False
+      add_image: True
+      add_keywords: True
+      add_share_buttons: False
+      add_dates: False
+      add_authors: False
 
 extra_javascript:
   - javascripts/mathjax.js
