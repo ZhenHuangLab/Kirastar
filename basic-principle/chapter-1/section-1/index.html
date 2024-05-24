@@ -26,7 +26,16 @@
 <link href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" rel="stylesheet"/>
 <link href="../../../stylesheets/extra.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<meta content="第一节 几何光学基础" name="title"/><meta content="website" property="og:type"/><meta content="https://kirastar.zhenhuang.site/basic-principle/chapter-1/section-1" property="og:url"/><meta content="第一节 几何光学基础" property="og:title"/><meta content="" property="og:description"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://kirastar.zhenhuang.site/basic-principle/chapter-1/section-1" property="twitter:url"/><meta content="第一节 几何光学基础" property="twitter:title"/><meta content="" property="twitter:description"/><meta content="https://lfs.zhenhuang.site/images/1-1-0-2024-05-21-10-50-09.png" property="twitter:image"/></head>
+<meta content="第一节 几何光学基础" name="title"/><meta content="website" property="og:type"/><meta content="https://kirastar.zhenhuang.site/basic-principle/chapter-1/section-1" property="og:url"/><meta content="第一节 几何光学基础" property="og:title"/><meta content="" property="og:description"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://kirastar.zhenhuang.site/basic-principle/chapter-1/section-1" property="twitter:url"/><meta content="第一节 几何光学基础" property="twitter:title"/><meta content="" property="twitter:description"/><meta content="https://lfs.zhenhuang.site/images/1-1-0-2024-05-21-10-50-09.png" property="twitter:image"/> <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
 <body data-md-color-accent="indigo" data-md-color-primary="blue" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
@@ -1191,7 +1200,7 @@
 <p>看到这里你可能会想，“啊？为什么突然提费马原理？这玩意和我们天文摄影有啥关系？”。费马原理可以看作是光传播规律的一个基本原理，你可以用它推导之前提及的几何光学三大定律、推导会聚透镜的光路和基本形状、推导反射式望远镜镜面设计基础——圆锥曲线光学特性等。因此，了解这个概念，有助于加深对几何光学和光学系统比较本质的光学特性的理解。</p>
 <details class="note" open="open">
 <summary>利用费马原理推导会聚透镜的光路和基本形状</summary>
-<p><img alt="利用费马原理推导会聚透镜的光路和基本形状" class="small" src="https://lfs.zhenhuang.site/images/1-1-0-2024-05-21-10-50-09.png"/>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="图1 利用费马原理推导会聚透镜的光路和基本形状" data-type="image" data-width="auto" href="https://lfs.zhenhuang.site/images/1-1-0-2024-05-21-10-50-09.png"><img alt="图1 利用费马原理推导会聚透镜的光路和基本形状" src="https://lfs.zhenhuang.site/images/1-1-0-2024-05-21-10-50-09.png"/></a>
 <span class="caption">图1 利用费马原理推导会聚透镜的光路和基本形状</span></p>
 <p>如图1，假设我们放置一个光学元件，能使得所有从 <span class="arithmatex">\(P\)</span> 点发出的光线都可以汇聚到 <span class="arithmatex">\(P'\)</span> 点。由费马原理可知，光总是沿着平稳路径传播。也就是说，从 <span class="arithmatex">\(P\)</span> 到 <span class="arithmatex">\(P'\)</span> 点的所有路径都是平稳路径；因此，光沿这些路径传播的光程是相同的。但是很显然，如果我们什么都不加的话， <span class="arithmatex">\(PQP'\)</span> 的几何距离明显比 <span class="arithmatex">\(PP'\)</span> 长。所以，我们可以在 <span class="arithmatex">\(PP'\)</span> 路径上增加一定厚度的透明介质，比如玻璃，使得红色线段处光程增加，来“补偿”一定的光程；并且越靠近透镜中心，需要“补偿”的光程越多；这样就可以使 <span class="arithmatex">\(PP'\)</span> 的光程与 <span class="arithmatex">\(PQP'\)</span> 相等。于是我们就得到了这样一个中间厚两边薄的会聚透镜以及其光路。</p>
 </details>
@@ -1212,11 +1221,11 @@
 <li>同心光束(concentric beam)：或者称为单心光束(homocentric beam)，指光线本身或者其延长线交于一点；</li>
 <li>光轴：通过光学系统各表面曲率中心的直线。</li>
 </ul>
-<p><img alt="成像与光学系统概念" class="small" src="https://lfs.zhenhuang.site/images/1-1-1-2024-05-21-10-50-43.png"/>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="图2 成像与光学系统概念" data-type="image" data-width="auto" href="https://lfs.zhenhuang.site/images/1-1-1-2024-05-21-10-50-43.png"><img alt="图2 成像与光学系统概念" src="https://lfs.zhenhuang.site/images/1-1-1-2024-05-21-10-50-43.png"/></a>
 <span class="caption">图2 成像与光学系统概念图示</span></p>
 <h2 id="3">3 理想光学系统<a class="headerlink" href="#3" title="Permanent link">¶</a></h2>
 <p>我们印象里最多的恐怕就是如图2 <span class="arithmatex">\((c)\)</span> 所示的光学系统：对于点光源 <span class="arithmatex">\(P\)</span> 发出的光线，经过光学系统后所有的出射光线都会交于 <span class="arithmatex">\(P'\)</span> 点；我们只需要该点发出的两条特定光线，就可以确定对应像点的位置。这个其实就是 <strong>理想光学系统</strong> 。虽然这个系统实际上并不存在，但是因为这个系统计算比较简单，光线追迹的复杂程度低，因此我们可以在这个系统下再深入了解一些概念。</p>
-<p><img alt="理想光学系统的物象关系" class="small" src="https://lfs.zhenhuang.site/images/1-1-2-2024-05-21-10-51-04.png"/>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="图3 理想光学系统的物象关系" data-type="image" data-width="auto" href="https://lfs.zhenhuang.site/images/1-1-2-2024-05-21-10-51-04.png"><img alt="图3 理想光学系统的物象关系" src="https://lfs.zhenhuang.site/images/1-1-2-2024-05-21-10-51-04.png"/></a>
 <span class="caption">图3 理想光学系统的物象关系</span></p>
 <ul>
 <li><span class="arithmatex">\(S_{1}\)</span> 和 <span class="arithmatex">\(S_{i}\)</span> ：分别表示理想光学系统的第1个和第 <span class="arithmatex">\(i\)</span> 个面（最后一个表面）</li>
@@ -1234,7 +1243,7 @@
 <li><span class="arithmatex">\(h\)</span> 和 <span class="arithmatex">\(h'\)</span> ：分别表示物高和像高；</li>
 </ul>
 <p>另外还有节点和节平面，如图4所示，节点 <span class="arithmatex">\(EE'\)</span> 是位于光轴上的一对共轭点，过节点作垂直于光轴的平面即得到节平面 <span class="arithmatex">\(AB\)</span> 和 <span class="arithmatex">\(A'B'\)</span> ，通过物方节点 <span class="arithmatex">\(E\)</span> 的入射光线经过光学系统后，出射光线必定经过像方节点 <span class="arithmatex">\(E'\)</span> ，且方向不变；当光学系统处于同一介质时，节点 <span class="arithmatex">\(EE'\)</span> 和主点 <span class="arithmatex">\(KK'\)</span> 重合。 <span class="arithmatex">\(O\)</span> 为光学系统的光心。</p>
-<p><img alt="节点与节平面" class="small" src="https://lfs.zhenhuang.site/images/1-1-4-2024-05-21-10-51-27.png"/></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="图4 节点与节平面" data-type="image" data-width="auto" href="https://lfs.zhenhuang.site/images/1-1-4-2024-05-21-10-51-27.png"><img alt="图4 节点与节平面" src="https://lfs.zhenhuang.site/images/1-1-4-2024-05-21-10-51-27.png"/></a></p>
 <p><span class="caption">图4 节点与节平面</span></p>
 <p>因此，主点、焦点、节点，以及主平面、焦平面建构了理想光学系统的基本模型，主点、焦点和节点就是理想光学系统的基点，主平面和焦平面是理想光学系统的基面。 <strong>基点和基面的位置就决定了理想光学系统的成像性质。</strong> 利用这些性质，我们可以得到一系列物像关系式，比如我们熟悉的高斯公式。</p>
 <details class="note">
@@ -1276,12 +1285,12 @@ $$
 <p>详细的推导过程不再这里展开，因为这不是几何光学课本。</p>
 </details>
 <p>因此，当我们忽略透镜的厚度时，可以认为物方主平面和像方主平面重合、物方主点和像方主点重合且在透镜表面上，这就是所谓的薄透镜。薄透镜大概可以理解为：由于透镜厚度超级小，在两次折射的时间间隔可以忽略，所以我们可以把两次折射看成一次折射，那就得到了如下图5所示的模型：</p>
-<p><img alt="薄透镜近似" class="small" src="https://lfs.zhenhuang.site/images/1-1-3-2024-05-21-10-52-03.png"/></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="图5 薄透镜近似" data-type="image" data-width="auto" href="https://lfs.zhenhuang.site/images/1-1-3-2024-05-21-10-52-03.png"><img alt="图5 薄透镜近似" src="https://lfs.zhenhuang.site/images/1-1-3-2024-05-21-10-52-03.png"/></a></p>
 <p><span class="caption">图5 薄透镜近似</span></p>
 <p>所以我们之前熟悉的图2 <span class="arithmatex">\((c)\)</span> 所示的光学系统，其实就是在薄透镜近似下的理想光学系统。也就是说，这里其实包含了两次近似：一次是近轴近似，另一次是薄透镜近似。</p>
 <h2 id="4">4 几何光学与望远镜原理<a class="headerlink" href="#4" title="Permanent link">¶</a></h2>
 <p>回到深空摄影的话题上。由于天体与我们的距离十分远，因此 <strong>天体入射光线都可以看作是平行光</strong> ，此时<span class="arithmatex">\(l \rightarrow \infty\)</span> ，因此 <span class="arithmatex">\(f' = l'\)</span> ，这些平行光最后汇聚到像方焦平面上一点：</p>
-<p><img alt="无穷远处物体发出的平行光最后汇聚到像方焦平面上" class="small" src="https://lfs.zhenhuang.site/images/1-1-5-2024-05-21-10-52-27.png"/></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="图6 无穷远处物体发出的平行光最后汇聚到像方焦平面上" data-type="image" data-width="auto" href="https://lfs.zhenhuang.site/images/1-1-5-2024-05-21-10-52-27.png"><img alt="图6 无穷远处物体发出的平行光最后汇聚到像方焦平面上" src="https://lfs.zhenhuang.site/images/1-1-5-2024-05-21-10-52-27.png"/></a></p>
 <p><span class="caption">图6 无穷远处物体发出的平行光最后汇聚到像方焦平面上</span></p>
 <div class="admonition info">
 <p class="admonition-title">望远镜的能“望远”的原理到底是什么？成像到底成在焦平面上还是像平面上？</p>
@@ -1296,7 +1305,7 @@ $$
 <p>比如你用肉眼看木星，你只能看到一个很亮的亮点，因为距离很远，木星的各种细节对应的张角太小了，即使它实际的体积再大，用肉眼也分辨不出来。因此我们借助望远镜，把这些细节对应的很小的张角放大，使其在像空间具有很大的张角，这样我们就能够分辨其中的细节，而不是仅仅看到一个亮点。</p>
 <p>有人会觉得，望远镜怎么可能是放大呢，难道你观测的时候CMOS还要准备几个满月那么大的面积吗？你说得对，望远镜确实是在近处成一个缩小的实像，相当于把缩小版的天体“拉”到了我们的焦平面上，然后再通过目镜放大观察，或者直接接着感光元件记录图像。</p>
 <p>也可以模拟一下光路，有个更加直观的体会：
-<img alt="牛顿反射式望远镜光路模拟" class="small" src="https://lfs.zhenhuang.site/images/1-1-6-2024-05-21-10-53-03.png"/>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="图7 牛顿反射式望远镜光路模拟" data-type="image" data-width="auto" href="https://lfs.zhenhuang.site/images/1-1-6-2024-05-21-10-53-03.png"><img alt="图7 牛顿反射式望远镜光路模拟" src="https://lfs.zhenhuang.site/images/1-1-6-2024-05-21-10-53-03.png"/></a>
 <span class="caption">图7 牛顿反射式望远镜光路模拟</span></p>
 <p>如图7(A)所示，模拟的是牛顿反射式望远镜光路。从无穷远处接收到3组光线，如图7(B)所示，它们之间的角距离是7.5角分，这个就对应了天体的某些细节。如果我们不借助望远镜，用肉眼，相当于 <span class="arithmatex">\(\frac{1}{4}\)</span> 个月亮左右的宽度。图7(C)显示的是这3组光线聚焦到像平面（焦平面）上的情况。可以看出，望远镜将这一细节缩小并拉近，呈现在像平面上，如果再加上合适的目镜放大，我们就能够轻易辨别这三组光线。</p>
 <p>这也就是为什么我们 <strong>在天文学中用角距离，在天文摄影中也总是拿角度说事</strong> 。既然都无穷远，默认平行光了，那就考虑这些光线形成的角度了。</p>
@@ -1313,7 +1322,7 @@ $$
 \frac{1}{f'+x'} + \frac{1}{s} = \frac{1}{f'}
 $$
 其中，<span class="arithmatex">\(s\)</span> 为物距，<span class="arithmatex">\(f'\)</span> 为像方焦距。因为 <span class="arithmatex">\(s = 2000mm, f'=100mm\)</span>，解得 <span class="arithmatex">\(x' = 5.26mm\)</span> 。
-<img alt="例题1解" class="small" src="https://lfs.zhenhuang.site/images/1-1-7-2024-05-21-10-53-42.png"/>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="图8 例题1解" data-type="image" data-width="auto" href="https://lfs.zhenhuang.site/images/1-1-7-2024-05-21-10-53-42.png"><img alt="图8 例题1解" src="https://lfs.zhenhuang.site/images/1-1-7-2024-05-21-10-53-42.png"/></a>
 <span class="caption">图8 例题1解</span></p>
 </details>
 </details>
@@ -1322,7 +1331,7 @@ $$
 <p>所有光学系统都不可能能把物体的所有光都收进来，因为你的望远镜（镜头）大小是有限的，而且你的探测器（包括人眼、感光元件等）的大小也是有限的。因此我们的成像范围也是有限的。</p>
 <p>我们可以先简单聊聊我们的眼睛。我们的眼睛可以等效为一个焦距可变的凸透镜，物方焦距为17mm左右，像方焦距为22.8mm左右。视网膜到光心的距离等于眼睛对无穷远处聚焦时的像方焦距。</p>
 <p>然后我们看看相机。首先我们了解一下简单的视角与成像大小计算。</p>
-<p><img alt="视角与成像大小计算" class="small" src="https://lfs.zhenhuang.site/images/1-1-8-2024-05-21-10-54-02.png"/></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="图9 视角与成像大小计算" data-type="image" data-width="auto" href="https://lfs.zhenhuang.site/images/1-1-8-2024-05-21-10-54-02.png"><img alt="图9 视角与成像大小计算" src="https://lfs.zhenhuang.site/images/1-1-8-2024-05-21-10-54-02.png"/></a></p>
 <p><span class="caption">图9 视角与成像大小计算</span></p>
 <p>关于图9应该已经没有什么疑问了：我们可以把望远镜对天体的成像简化为这样的模型，天体的视直径（肉眼看见天空中天体所成的张角）为 <span class="arithmatex">\(\omega\)</span> ，考虑天体发出的两组张角最大、且对于光轴对称的光线 <span class="arithmatex">\(n_{1}\)</span> 和 <span class="arithmatex">\(n_{2}\)</span> ，这两组光线都穿过光心；当该主镜（望远镜物镜）焦距为 <span class="arithmatex">\(f\)</span> 时，这两组光汇聚在焦平面上，成一个像，直径为 <span class="arithmatex">\(h\)</span> 。那么在焦平面上的半径就为 <span class="arithmatex">\(d\)</span> ，简单根据角度关系可以得到：</p>
 <div class="arithmatex">\[
@@ -1367,7 +1376,7 @@ $$</p>
 \]</div>
 </div>
 <p>根据上述关系我们还可以发现，望远镜的视场和物镜的焦距以及感光元件的尺寸有关。比如这时成的像大小 <span class="arithmatex">\(h\)</span> 恰好填满感光元件，也就是说感光元件的大小为 <span class="arithmatex">\(h\)</span> ，那么我们可以发现，理论上，当感光元件尺寸一定时，焦距越大，望远镜对应的视场越小，相应的像的放大倍数也就越大，如图10(A)所示；而在焦距一定时，感光元件的尺寸越大，望远镜对应的视场也越大（当然传感器尺寸也不是越大越好，这就涉及到之后的几何像差），如图10(B)所示。</p>
-<p><img alt="望远镜的视场与物镜的焦距以及感光元件的尺寸有关" class="small" src="https://lfs.zhenhuang.site/images/1-1-9-2024-05-21-10-54-27.png"/></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="图10 望远镜的视场与物镜的焦距以及感光元件的尺寸有关" data-type="image" data-width="auto" href="https://lfs.zhenhuang.site/images/1-1-9-2024-05-21-10-54-27.png"><img alt="图10 望远镜的视场与物镜的焦距以及感光元件的尺寸有关" src="https://lfs.zhenhuang.site/images/1-1-9-2024-05-21-10-54-27.png"/></a></p>
 <p><span class="caption">图10 望远镜的视场与物镜的焦距以及感光元件的尺寸有关</span></p>
 <details class="question" open="open">
 <summary>例题2</summary>
@@ -1587,5 +1596,7 @@ f = \frac{h}{\omega} = \frac{8mm}{2 \times 10^{-4} \text{rad}} \approx 4 \times 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"></script>
-</body>
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

@@ -26,7 +26,16 @@
 <link href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" rel="stylesheet"/>
 <link href="../../stylesheets/extra.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<meta content="修订及贡献说明" name="title"/><meta content="website" property="og:type"/><meta content="https://kirastar.zhenhuang.site/intro/revise-notes" property="og:url"/><meta content="修订及贡献说明" property="og:title"/><meta content="" property="og:description"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://kirastar.zhenhuang.site/intro/revise-notes" property="twitter:url"/><meta content="修订及贡献说明" property="twitter:title"/><meta content="" property="twitter:description"/><meta content="https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png" property="twitter:image"/></head>
+<meta content="修订及贡献说明" name="title"/><meta content="website" property="og:type"/><meta content="https://kirastar.zhenhuang.site/intro/revise-notes" property="og:url"/><meta content="修订及贡献说明" property="og:title"/><meta content="" property="og:description"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://kirastar.zhenhuang.site/intro/revise-notes" property="twitter:url"/><meta content="修订及贡献说明" property="twitter:title"/><meta content="" property="twitter:description"/><meta content="https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png" property="twitter:image"/> <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
 <body data-md-color-accent="indigo" data-md-color-primary="blue" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
@@ -1080,14 +1089,13 @@
 <p>由于本人水平有限，并且时间也有限，自己一个人完成这本书的编写和校对不太现实，而且也很容易出现很多错误。因此， <strong>十分欢迎各位大佬在这上面分享自己的经验和心得！</strong></p>
 <ol>
 <li>评论、提出意见建议：可在评论区留言，或者联系作者本人；</li>
-<li>修订文档内容：文档源代码均放在 <code>docs/notes</code> 目录下，可提出issue修改后提交PR；</li>
-<li>添加图片：图片放在 <code>docs/assets/images</code> 目录下，可提出issue修改后提交PR；</li>
+<li>修订文档内容：文档源代码均放在 <code>docs/</code> 目录下，可提出issue修改后提交PR；</li>
+<li>添加图片：图片放在 <code>docs/assets/images/</code> 目录下（也可以放在图床），可提出issue修改后提交PR；</li>
 <li>增添或修改板块：整本笔记的结构在<code>mkdocs.yml</code>中，如果有大佬想要添加板块，欢迎与作者联系后提交PR。</li>
 </ol>
 <div class="admonition note">
 <p class="admonition-title">注意格式规范</p>
 <p>在修改时请严格按照 <code>Markdown</code> 语法或者 <code>html</code> 语法进行修改。</p>
-<p>插入图片请使用： <code>![](png src){: .small}</code> 。</p>
 </div>
 <aside class="md-source-file">
 <span class="md-source-file__fact">
@@ -1246,5 +1254,7 @@
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"></script>
-</body>
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
