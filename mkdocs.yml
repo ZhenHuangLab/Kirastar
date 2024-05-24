@@ -170,93 +170,93 @@ extra_css:
 nav:
   - 主页: 
     - index.md
-    - 序言: ./notes/intro/introduction.md
-    - 修订及贡献说明: ./notes/intro/revise-notes.md
-    - 目录: ./notes/intro/contents.md
+    - 序言: ./intro/introduction.md
+    - 修订及贡献说明: ./intro/revise-notes.md
+    - 目录: ./intro/contents.md
   - 理论基础: 
-    - notes/basic-principle/index.md
+    - ./basic-principle/index.md
 
     - 第一章 基础光学知识:
-      - ./notes/basic-principle/chapter-1/index.md
-      - 第一节 几何光学基础: ./notes/basic-principle/chapter-1/section-1.md
-      - 第二节 几何光学像差: ./notes/basic-principle/chapter-1/section-2.md
-      - 第三节 波动光学与成像原理: ./notes/basic-principle/chapter-1/section-3.md
-      - 第四节 光的颜色与光谱: ./notes/basic-principle/chapter-1/section-4.md
-      - 第五节 口径、焦距与焦比: ./notes/basic-principle/chapter-1/section-5.md
+      - ./basic-principle/chapter-1/index.md
+      - 第一节 几何光学基础: ./basic-principle/chapter-1/section-1.md
+      - 第二节 几何光学像差: ./basic-principle/chapter-1/section-2.md
+      - 第三节 波动光学与成像原理: ./basic-principle/chapter-1/section-3.md
+      - 第四节 光的颜色与光谱: ./basic-principle/chapter-1/section-4.md
+      - 第五节 口径、焦距与焦比: ./basic-principle/chapter-1/section-5.md
 
     - 第二章 基础天文学知识: 
-      - ./notes/basic-principle/chapter-2/index.md
-      - 第一节 天文学基础概念: ./notes/basic-principle/chapter-2/section-1.md # 包括天球、天球坐标系、星等
-      - 第二节 各类天体介绍: ./notes/basic-principle/chapter-2/section-2.md
-      - 第三节 重要天象介绍: ./notes/basic-principle/chapter-2/section-3.md
-      - 第四节 天空与天气: ./notes/basic-principle/chapter-2/section-4.md
-      - 第五节 天文观测工具: ./notes/basic-principle/chapter-2/section-5.md
+      - ./basic-principle/chapter-2/index.md
+      - 第一节 天文学基础概念: ./basic-principle/chapter-2/section-1.md # 包括天球、天球坐标系、星等
+      - 第二节 各类天体介绍: ./basic-principle/chapter-2/section-2.md
+      - 第三节 重要天象介绍: ./basic-principle/chapter-2/section-3.md
+      - 第四节 天空与天气: ./basic-principle/chapter-2/section-4.md
+      - 第五节 天文观测工具: ./basic-principle/chapter-2/section-5.md
 
     - 第三章 数字图像基础:
-      - ./notes/basic-principle/chapter-3/index.md
-      - 第一节 图像与图像处理基础: ./notes/basic-principle/chapter-3/section-1.md
-      - 第二节 感光元件及重要参数: ./notes/basic-principle/chapter-3/section-2.md
-      - 第三节 信号、噪音与信噪比: ./notes/basic-principle/chapter-3/section-3.md
-      - 第四节 深空图像校准基础: ./notes/basic-principle/chapter-3/section-4.md
+      - ./basic-principle/chapter-3/index.md
+      - 第一节 图像与图像处理基础: ./basic-principle/chapter-3/section-1.md
+      - 第二节 感光元件及重要参数: ./basic-principle/chapter-3/section-2.md
+      - 第三节 信号、噪音与信噪比: ./basic-principle/chapter-3/section-3.md
+      - 第四节 深空图像校准基础: ./basic-principle/chapter-3/section-4.md
   - 硬件基础:
-    - ./notes/hardware/index.md
+    - ./hardware/index.md
     - 第四章 主光学系统:
-      - ./notes/hardware/chapter-4/index.md
-      - 第一节 主光学系统及其组成: ./notes/hardware/chapter-4/section-1.md
-      - 第二节 主光学系统的分类及相关参数介绍: ./notes/hardware/chapter-4/section-2.md
-      - 第三节 主光学系统的配件: ./notes/hardware/chapter-4/section-3.md # 包括除雾带
-      - 第四节 滤镜: ./notes/hardware/chapter-4/section-4.md
+      - ./hardware/chapter-4/index.md
+      - 第一节 主光学系统及其组成: ./hardware/chapter-4/section-1.md
+      - 第二节 主光学系统的分类及相关参数介绍: ./hardware/chapter-4/section-2.md
+      - 第三节 主光学系统的配件: ./hardware/chapter-4/section-3.md # 包括除雾带
+      - 第四节 滤镜: ./hardware/chapter-4/section-4.md
     - 第五章 跟踪系统: 
-      - ./notes/hardware/chapter-5/index.md
-      - 第一节 跟踪系统及其分类: ./notes/hardware/chapter-5/section-1.md
-      - 第二节 赤道仪基本结构: ./notes/hardware/chapter-5/section-2.md
-      - 第三节 赤道仪相关参数介绍: ./notes/hardware/chapter-5/section-3.md
-      - 第四节 支架: ./notes/hardware/chapter-5/section-4.md
+      - ./hardware/chapter-5/index.md
+      - 第一节 跟踪系统及其分类: ./hardware/chapter-5/section-1.md
+      - 第二节 赤道仪基本结构: ./hardware/chapter-5/section-2.md
+      - 第三节 赤道仪相关参数介绍: ./hardware/chapter-5/section-3.md
+      - 第四节 支架: ./hardware/chapter-5/section-4.md
     - 第六章 相机:
-      - ./notes/hardware/chapter-6/index.md
-      - 第一节 相机基本结构及分类: ./notes/hardware/chapter-6/section-1.md # 按颜色分，按传感器分，按温度分
-      - 第二节 相机相关参数性能: ./notes/hardware/chapter-6/section-2.md
-      - 第三节 相机与主光学系统的匹配: ./notes/hardware/chapter-6/section-3.md
+      - ./hardware/chapter-6/index.md
+      - 第一节 相机基本结构及分类: ./hardware/chapter-6/section-1.md # 按颜色分，按传感器分，按温度分
+      - 第二节 相机相关参数性能: ./hardware/chapter-6/section-2.md
+      - 第三节 相机与主光学系统的匹配: ./hardware/chapter-6/section-3.md
     - 第七章 导星修正系统:
-      - ./notes/hardware/chapter-7/index.md
-      - 第一节 导星修正系统及其分类: ./notes/hardware/chapter-7/section-1.md
-      - 第二节 导星系统的搭配与连接: ./notes/hardware/chapter-7/section-2.md
-      - 第三节 导星系统的影响因素与评价: ./notes/hardware/chapter-7/section-3.md
+      - ./hardware/chapter-7/index.md
+      - 第一节 导星修正系统及其分类: ./hardware/chapter-7/section-1.md
+      - 第二节 导星系统的搭配与连接: ./hardware/chapter-7/section-2.md
+      - 第三节 导星系统的影响因素与评价: ./hardware/chapter-7/section-3.md
     - 第八章 控制系统:
-      - ./notes/hardware/chapter-8/index.md
-      - 第一节 控制系统原理介绍: ./notes/hardware/chapter-8/section-1.md
-      - 第二节 控制系统的供电: ./notes/hardware/chapter-8/section-2.md
-      - 第三节 理线的艺术: ./notes/hardware/chapter-8/section-3.md
+      - ./hardware/chapter-8/index.md
+      - 第一节 控制系统原理介绍: ./hardware/chapter-8/section-1.md
+      - 第二节 控制系统的供电: ./hardware/chapter-8/section-2.md
+      - 第三节 理线的艺术: ./hardware/chapter-8/section-3.md
   - 数据收集:
-    - notes/data-collection/index.md
+    - data-collection/index.md
     - 第九章 出摊的规划:
-      - ./notes/data-collection/chapter-9/index.md
-      - 第一节 出摊时间的考虑事项: ./notes/data-collection/chapter-9/section-1.md
-      - 第二节 出摊地点的考虑事项: ./notes/data-collection/chapter-9/section-2.md
+      - ./data-collection/chapter-9/index.md
+      - 第一节 出摊时间的考虑事项: ./data-collection/chapter-9/section-1.md
+      - 第二节 出摊地点的考虑事项: ./data-collection/chapter-9/section-2.md
     - 第十章 出摊前准备:
-      - ./notes/data-collection/chapter-10/index.md
-      - 第一节 设备器材的准备: ./notes/data-collection/chapter-10/section-1.md
-      - 第二节 其他个人物品的准备: ./notes/data-collection/chapter-10/section-2.md
+      - ./data-collection/chapter-10/index.md
+      - 第一节 设备器材的准备: ./data-collection/chapter-10/section-1.md
+      - 第二节 其他个人物品的准备: ./data-collection/chapter-10/section-2.md
     - 第十一章 开拍前器材的组装与调试:
-      - ./notes/data-collection/chapter-11/index.md
-      - 第一节 设备的组装: ./notes/data-collection/chapter-11/section-1.md
-      - 第二节 设备的调试: ./notes/data-collection/chapter-11/section-2.md # 对极轴等
+      - ./data-collection/chapter-11/index.md
+      - 第一节 设备的组装: ./data-collection/chapter-11/section-1.md
+      - 第二节 设备的调试: ./data-collection/chapter-11/section-2.md # 对极轴等
     - 第十二章 拍摄软件的使用:
-      - ./notes/data-collection/chapter-12/index.md
-      - 第一节 拍摄软件的选择: ./notes/data-collection/chapter-12/section-1.md
-      - 第二节 软件使用教程(以N.I.N.A.为例): ./notes/data-collection/chapter-12/section-2.md
+      - ./data-collection/chapter-12/index.md
+      - 第一节 拍摄软件的选择: ./data-collection/chapter-12/section-1.md
+      - 第二节 软件使用教程(以N.I.N.A.为例): ./data-collection/chapter-12/section-2.md
   - 数据处理:
-    - notes/data-processing/index.md
+    - data-processing/index.md
     - 第十三章 数据处理的基本思路:
-      - ./notes/data-processing/chapter-13/index.md
-      - 第一节 深空后期的思想方法: ./notes/data-processing/chapter-13/section-1.md
-      - 第二节 深空后期的基本流程: ./notes/data-processing/chapter-13/section-2.md
+      - ./data-processing/chapter-13/index.md
+      - 第一节 深空后期的思想方法: ./data-processing/chapter-13/section-1.md
+      - 第二节 深空后期的基本流程: ./data-processing/chapter-13/section-2.md
     - 第十四章 后期处理的具体技术(以Pixinsight为例):
-      - ./notes/data-processing/chapter-14/index.md
-      - 第一节 图像预处理: ./notes/data-processing/chapter-14/section-1.md
-      - 第二节 图像处理的一般技术方法: ./notes/data-processing/chapter-14/section-2.md
-      - 第三节 高阶图像处理技巧: ./notes/data-processing/chapter-14/section-3.md
+      - ./data-processing/chapter-14/index.md
+      - 第一节 图像预处理: ./data-processing/chapter-14/section-1.md
+      - 第二节 图像处理的一般技术方法: ./data-processing/chapter-14/section-2.md
+      - 第三节 高阶图像处理技巧: ./data-processing/chapter-14/section-3.md
   - 附录:
-    - ./notes/appendix/index.md
-    - 渣图展示: ./notes/appendix/gallery.md
-    - 后记: ./notes/appendix/afterword.md
+    - ./appendix/index.md
+    - 渣图展示: ./appendix/gallery.md
+    - 后记: ./appendix/afterword.md
