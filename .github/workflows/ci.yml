@@ -48,4 +48,5 @@ jobs:
       - run: pip install mkdocs-git-committers-plugin-2
       - run: pip install mkdocs-ultralytics-plugin
       - run: pip install mkdocs-glightbox
+      - run: pip install mkdocs-meta-descriptions-plugin
       - run: mkdocs gh-deploy --dirty --force

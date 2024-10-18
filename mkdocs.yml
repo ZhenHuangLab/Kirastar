@@ -138,11 +138,12 @@ plugins:
       branch: main
       token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
       # token: ${MKDOCS_GIT_COMMITTERS_APIKEY}
+  - mkdocstrings
   - ultralytics:
       verbose: True
       enabled: True
-      default_image: "https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46.png"
-      add_desc: False
+      default_image: "https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46-small.png"
+      add_desc: True
       add_image: True
       add_keywords: True
       add_share_buttons: False
@@ -152,6 +153,15 @@ plugins:
       auto_caption: true
       skip_classes:
         - skip_img
+
+  # - meta-descriptions:
+  #     export_csv: false
+  #     quiet: false
+  #     enable_checks: true
+  #     min_length: 50
+  #     max_length: 160
+  #     trim: true
+
 
 extra_javascript:
   - javascripts/mathjax.js
