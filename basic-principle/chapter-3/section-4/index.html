@@ -6,12 +6,12 @@
 <!-- General and Social Media meta tags -->
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="一个自制的天文摄影系列笔记及教程网站，力求科学系统地介绍天文摄影及深空观测摄影的理论基础、硬件基础、数据收集、数据处理等方面的知识。" name="description"/>
+<meta content="对于非常暗弱的天体信号，校准帧是非常必要的，有助于我们从拍摄的原始图像中校准并去除相机、光学系统等的缺陷，从而仅保留天体信号、提升图像质量、增强图像间的一致性。校准帧通常包含偏置场（bias frame）、暗场（dark frame）、平场（flat frame）以及暗平场（dark-flat frame），每一类校准帧都在校准天体图像中起到重要作用。" name="description"/>
 <link href="https://kirastar.zhenhuang.site/basic-principle/chapter-3/section-4/" rel="canonical"/>
 <link href="../section-3/" rel="prev"/>
 <link href="../../../hardware/" rel="next"/>
 <link href="../../../assets/icons/favicon.svg" rel="icon"/>
-<meta content="mkdocs-1.6.1, mkdocs-material-9.5.41" name="generator"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.5.42" name="generator"/>
 <title>第四节 深空图像校准基础 - Kirastar - 科学天文摄影笔记</title>
 <link href="../../../assets/stylesheets/main.0253249f.min.css" rel="stylesheet"/>
 <link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
@@ -22,7 +22,7 @@
 <link href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" rel="stylesheet"/>
 <link href="../../../stylesheets/extra.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<meta content="第四节 深空图像校准基础" name="title"/><meta content="website" property="og:type"/><meta content="https://kirastar.zhenhuang.site/basic-principle/chapter-3/section-4" property="og:url"/><meta content="第四节 深空图像校准基础" property="og:title"/><meta content="" property="og:description"/><meta content="https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46-small.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://kirastar.zhenhuang.site/basic-principle/chapter-3/section-4" property="twitter:url"/><meta content="第四节 深空图像校准基础" property="twitter:title"/><meta content="" property="twitter:description"/><meta content="https://lfs.zhenhuang.site/images/IC1848-2024-04-16-11-18-46-small.png" property="twitter:image"/> <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+<meta content="第四节 深空图像校准基础" name="title"/><meta content="website" property="og:type"/><meta content="https://kirastar.zhenhuang.site/basic-principle/chapter-3/section-4" property="og:url"/><meta content="第四节 深空图像校准基础" property="og:title"/><meta content="对于非常暗弱的天体信号，校准帧是非常必要的，有助于我们从拍摄的原始图像中校准并去除相机、光学系统等的缺陷，从而仅保留天体信号、提升图像质量、增强图像间的一致性。校准帧通常包含偏置场（bias frame）、暗场（dark frame）、平场（flat frame）以及暗平场（dark-flat frame），每一类校准帧都在校准天体图像中起到重要作用。" property="og:description"/><meta content="https://lfs.zhenhuang.site/images/20241030115207-2024-10-30-11-52-09.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://kirastar.zhenhuang.site/basic-principle/chapter-3/section-4" property="twitter:url"/><meta content="第四节 深空图像校准基础" property="twitter:title"/><meta content="对于非常暗弱的天体信号，校准帧是非常必要的，有助于我们从拍摄的原始图像中校准并去除相机、光学系统等的缺陷，从而仅保留天体信号、提升图像质量、增强图像间的一致性。校准帧通常包含偏置场（bias frame）、暗场（dark frame）、平场（flat frame）以及暗平场（dark-flat frame），每一类校准帧都在校准天体图像中起到重要作用。" property="twitter:description"/><meta content="https://lfs.zhenhuang.site/images/20241030115207-2024-10-30-11-52-09.png" property="twitter:image"/> <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -438,11 +438,89 @@
 </li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    第四节 深空图像校准基础
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
 <a class="md-nav__link md-nav__link--active" href="./">
 <span class="md-ellipsis">
     第四节 深空图像校准基础
   </span>
 </a>
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1-calibration-frames">
+<span class="md-ellipsis">
+      1 校准帧 (Calibration Frames)
+    </span>
+</a>
+<nav aria-label="1 校准帧 (Calibration Frames)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#11-bias">
+<span class="md-ellipsis">
+      1.1 偏置场/偏置帧 (Bias)
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#12-dark">
+<span class="md-ellipsis">
+      1.2 暗场/暗帧 (Dark)
+    </span>
+</a>
+<nav aria-label="1.2 暗场/暗帧 (Dark)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#121">
+<span class="md-ellipsis">
+      1.2.1 暗电流
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#122">
+<span class="md-ellipsis">
+      1.2.2 辉光
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#123">
+<span class="md-ellipsis">
+      1.2.3 暗场校准
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#13-flat">
+<span class="md-ellipsis">
+      1.3 平场 (Flat)
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+<span class="md-ellipsis">
+      参考资料
+    </span>
+</a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -998,6 +1076,76 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1-calibration-frames">
+<span class="md-ellipsis">
+      1 校准帧 (Calibration Frames)
+    </span>
+</a>
+<nav aria-label="1 校准帧 (Calibration Frames)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#11-bias">
+<span class="md-ellipsis">
+      1.1 偏置场/偏置帧 (Bias)
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#12-dark">
+<span class="md-ellipsis">
+      1.2 暗场/暗帧 (Dark)
+    </span>
+</a>
+<nav aria-label="1.2 暗场/暗帧 (Dark)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#121">
+<span class="md-ellipsis">
+      1.2.1 暗电流
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#122">
+<span class="md-ellipsis">
+      1.2.2 辉光
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#123">
+<span class="md-ellipsis">
+      1.2.3 暗场校准
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#13-flat">
+<span class="md-ellipsis">
+      1.3 平场 (Flat)
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+<span class="md-ellipsis">
+      参考资料
+    </span>
+</a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -1008,12 +1156,73 @@
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2m3.1 5.07c.14 0 .28.05.4.16l1.27 1.27c.23.22.23.57 0 .78l-1 1-2.05-2.05 1-1c.1-.11.24-.16.38-.16m-1.97 1.74 2.06 2.06-6.06 6.06H7.07v-2.06z"></path></svg>
 </a>
 <h1 id="_1">第四节 深空图像校准基础<a class="headerlink" href="#_1" title="Permanent link">¶</a></h1>
+<h2 id="1-calibration-frames">1 校准帧 (Calibration Frames)<a class="headerlink" href="#1-calibration-frames" title="Permanent link">¶</a></h2>
+<p>对于非常暗弱的天体信号，校准帧是非常必要的，有助于我们从拍摄的原始图像中校准并去除相机、光学系统等的缺陷，从而仅保留天体信号、提升图像质量、增强图像间的一致性。校准帧通常包含偏置场（bias frame）、暗场（dark frame）、平场（flat frame）以及暗平场（dark-flat frame），每一类校准帧都在校准天体图像中起到重要作用。</p>
+<h3 id="11-bias">1.1 偏置场/偏置帧 (Bias)<a class="headerlink" href="#11-bias" title="Permanent link">¶</a></h3>
+<p>相机使用尽可能短的曝光时间得到的图片，就是偏置场（Bias frame），通常时间是在 <span class="arithmatex">\(\mu s\)</span> 级别。</p>
+<div class="admonition note">
+<p class="admonition-title">单反或微单相机的最短曝光时间</p>
+<p>对于单反或者微单相机而言，最短的曝光时间通常被设计为1/4000 s或者1/8000 s，这与机械快门/电子快门的设计相关。</p>
+</div>
+<p>由于时间足够短，因此偏置场中没有记录来自天体的光子、没有记录暗电流，仅包含了 <strong>CMOS出厂时设置的偏移（offset）值</strong>、<strong>用户拍摄时设定的偏移值</strong> 以及 <strong>读出噪声（readout noise）</strong> 。可以简单理解为，天体图像中的每一个像素都被加了一个偏移量，我们利用偏置场减去这个偏移量，就能够还原这部分对于天体图像的失真。因为偏置场与天体信号完全没有关系，所以在校准这部分信号的时候是利用减去（subtraction）的方法。</p>
+<p>在拍摄偏置场时，最好使用与亮场相同的设定（尤其是偏移的设定）以及温度，盖上镜头盖（或者相机盖）拍摄。但是单张时间显然不会也不可能与亮场相同。所以，只要拍摄时设定与温度相同，就可以使用该偏置场进行校准——换句话说，偏置场可以建库，从而能够重复使用。</p>
+<p>一般而言，越是新一代的CMOS（或者其他传感器），读出噪声会被控制得越低。CCD的读出噪声约为20e-，而最新一代的CMOS能够达到2-3e-甚至更低。因此，在CCD主导天文探测的时代，偏置场非常关键；CMOS主导的时代重要性略显下降，很多传感器甚至不需要拍摄偏置场也能获得干净的图像，例如IMX455（ZWO 6200 / QHY 600系列的传感器）。</p>
+<p>在单张原始天体图像中，使用肉眼很难发现其中偏置场的形状（pattern）；然而，当多张偏置场叠加起来时，就能够得到比较接近实际偏置场的图像，拉伸后用肉眼也可以发现其中的形状。</p>
+<p>在偏置场拍摄过程中，由于拍摄速度非常快、产生的数据量大、传感器发热量大，需要考虑相机存储的io速度以及在拍摄过程中的制冷功率。通常而言拍摄偏置场时传感器温度会快速上升，制冷功率也会上升，如果制冷功率无法控制温度恒定，最好使用间隔拍摄。</p>
+<h3 id="12-dark">1.2 暗场/暗帧 (Dark)<a class="headerlink" href="#12-dark" title="Permanent link">¶</a></h3>
+<p>暗场，顾名思义，是在没有外界光（不论是来自天体的光还是其他杂光）的情况下，使用与亮场相同的温度、相同的曝光时间、相同的设定（例如Gain和offset等），所得到的校准帧。</p>
+<p>暗场记录的主要是暗电流（或者称为热噪声、dark current、thermal noise、hot pixel等）、以及辉光（amplifier glow）（当然，偏置场也被记录到了）。</p>
+<h4 id="121">1.2.1 暗电流<a class="headerlink" href="#121" title="Permanent link">¶</a></h4>
+<p>其强度是一个只与 <strong>温度</strong> 有关的函数，显然温度越高，暗电流越强，宏观上看就是图像的噪声越多。因此在拍摄天体图像以及暗场时要控制温度，保证精确校准，这也就是冷冻相机存在的意义之一。</p>
+<h4 id="122">1.2.2 辉光<a class="headerlink" href="#122" title="Permanent link">¶</a></h4>
+<p>放大器辉光（amplifier glow / sensor glow / amp glow）是当CCD或CMOS内部的放大器里存在一定电压差时，电压驱动高速运动的电子产生的近红外光也被记录，例如放大器中MOSFET元件里的电子的电致发光（electroluminescence），从而在图像中表现出在靠近放大器的区域发光的现象。</p>
+<div class="admonition note">
+<p class="admonition-title">CMOS和CCD的辉光</p>
+<p>对于CCD而言，放大器通常是在芯片边缘，因此辉光通常是从侧边发出；而对于CMOS，每个像素都有放大器以及其他电气元件，因此辉光既有可能出现在图像边缘，也有可能分布在图像的中间或者其他位置。在早期，成本比CCD低的CMOS一直没普及的重要原因之一就是辉光太显著，甚至会把天体信号完全掩盖，严重影响天体观测。</p>
+</div>
+<p>辉光强度是与温度无关的，而与单张曝光时间有关，因为当单张曝光时间足够长时（比如几分钟至几十分钟），相机电气组件发出的微弱的近红外光才会被不断积累。因此对于辉光显著的探测器，在校准暗场时需要保证暗场与亮场的温度和曝光时间都一致（温度是为了保证暗电流校准，单张时间是为了保证辉光校准）。</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="IMX294芯片（ASI 294MC、QHY294C）的辉光" data-type="image" data-width="auto" href="https://lfs.zhenhuang.site/images/20241030115207-2024-10-30-11-52-09.png"><img alt="IMX294芯片（ASI 294MC、QHY294C）的辉光" src="https://lfs.zhenhuang.site/images/20241030115207-2024-10-30-11-52-09.png"/></a></p>
+<p><span class="caption">IMX294芯片（ASI 294MC、QHY294C）的辉光。来源：<a href="https://forums.sharpcap.co.uk/viewtopic.php?t=5561">Sharpcap forum</a> </span></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="IMX492芯片（ASI 294MM、QHY294M）的辉光" data-type="image" data-width="auto" href="https://lfs.zhenhuang.site/images/20241030115344-2024-10-30-11-53-46.png"><img alt="IMX492芯片（ASI 294MM、QHY294M）的辉光" src="https://lfs.zhenhuang.site/images/20241030115344-2024-10-30-11-53-46.png"/></a></p>
+<p><span class="caption">IMX492芯片（ASI 294MM、QHY294M）的辉光。来源：<a href="https://www.macobservatory.com/blog/2021/4/20/what-are-astrophotography-calibration-frames-and-why-should-i-use-them">macobservatory.com</a> </span></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="IMX071（ASI 071、Nikon D5100）的辉光" data-type="image" data-width="auto" href="https://lfs.zhenhuang.site/images/20241030115439-2024-10-30-11-54-40.png"><img alt="IMX071（ASI 071、Nikon D5100）的辉光" src="https://lfs.zhenhuang.site/images/20241030115439-2024-10-30-11-54-40.png"/></a></p>
+<p><span class="caption">IMX071（ASI 071、Nikon D5100）的辉光。来源：<a href="https://www.cloudynights.com/topic/676680-asi071mc-cool-amp-glow/">CloudyNights</a> </span></p>
+<p>有些单反或微单相机在天文改机后会产生辉光，因为辉光的波段是在IR-cut范围之外，又在BCF范围内。目前比较经典的有辉光相机包括294、174、178、071、183等较早的芯片。目前较新的相机绝大部分采取了辉光抑制技术，可以显著减少辉光的影响，例如533、571（ASI2600）、455（ASI6200/QHY600），因此可以认为这些相机做到了0辉光。不同厂商的辉光抑制效果有差异，对于相同的芯片，有些辉光处理得很好，几乎完全消除了辉光，而有些辉光抑制没有做好。</p>
+<div class="admonition note">
+<p class="admonition-title">传感器类型与辉光</p>
+<p>前照式和背照式的CMOS辉光差别不大，堆栈式增加了处理电路，如果堆栈式CMOS辉光抑制工艺做得不好，很可能辉光会急剧增加。</p>
+</div>
+<h4 id="123">1.2.3 暗场校准<a class="headerlink" href="#123" title="Permanent link">¶</a></h4>
+<p>由于在获取天体图像时，通常需要一个较长的曝光时间，在这样持续长时间曝光条件下，暗电流和辉光的效应会非常显著，因此使用暗场校准非常关键。</p>
+<div class="admonition warning">
+<p class="admonition-title">关于机内校准</p>
+<p>如果使用单反或者微单相机，相机通常会默认开启机内校准，这对于准确校准暗电流不利。目前已经能够破解暗电流的常用相机是尼康D5100，这台相机搭载了经典的1600万像素CMOS IMX071（与ASI071MC同款），只需要使用破解固件就能够解锁相机拍摄到的最原始的数据，性价比很高，所以称为天文神机。很显然，破解后失去机内自动校准，得到的图像质量会肉眼可见地下降，但是这也为精确拍摄并校准暗场创造了空间。</p>
+</div>
+<p>校准要点：</p>
+<ul>
+<li>对于暗电流的校准：最重要的是控制相机温度与亮场相同。如果相机温度与亮场不一致，并且相机无辉光，可以使用暗场优化（dark optimization）补偿。</li>
+<li>对于辉光的校准：（有显著辉光相机）<ul>
+<li>控制相机单张曝光时间与亮场相同。</li>
+<li><strong>不能使用暗场优化</strong>。暗场优化是通过给暗场乘以一个系数因子得到，如果开启暗场优化，辉光也会乘以一个系数，就会与亮场的辉光不同，校准就会失败。</li>
+</ul>
+</li>
+</ul>
+<p>暗场也可以建库，根据不同的曝光时间、不同的温度、不同的设定进行分类，从而可以重复使用。但是，暗场最好每隔3-4个月重新拍摄一次，因为传感器的暗电流pattern会随着时间变化，时间久了之后很可能会校准不精确。</p>
+<h3 id="13-flat">1.3 平场 (Flat)<a class="headerlink" href="#13-flat" title="Permanent link">¶</a></h3>
+<h2 id="_2">参考资料<a class="headerlink" href="#_2" title="Permanent link">¶</a></h2>
+<ul>
+<li>https://telescope.live/blog/learning-about-amp-glow</li>
+<li>https://astrobasics.de/en/basics/bias-flats-darks-darkflats/</li>
+<li>https://www.macobservatory.com/blog/2021/4/20/what-are-astrophotography-calibration-frames-and-why-should-i-use-them</li>
+<li>https://astroisk.nl/the-importance-of-calibration-frames-in-astrophotography/</li>
+<li>https://practicalastrophotography.com/a-brief-guide-to-calibration-frames/</li>
+</ul>
 <aside class="md-source-file">
 <span class="md-source-file__fact">
 <span class="md-icon" title="最后更新">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年5月24日</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年10月30日</span>
 </span>
 <span class="md-source-file__fact">
 <span class="md-icon" title="创建日期">
