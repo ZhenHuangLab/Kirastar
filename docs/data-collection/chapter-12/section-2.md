@@ -10,85 +10,85 @@ comments: true
 
 1、相机界面：
 
-![相机界面](https://lfs.zhenhuang.site/images/12-2-12-2024-05-21-10-58-33.png)
+![相机界面](https://lfs.zhenhuang.top/images/12-2-12-2024-05-21-10-58-33.png)
 
 2、滤镜轮界面：
 
-![滤镜轮界面](https://lfs.zhenhuang.site/images/12-2-13-2024-05-21-10-59-10.png)
+![滤镜轮界面](https://lfs.zhenhuang.top/images/12-2-13-2024-05-21-10-59-10.png)
 
 3、电动调焦器界面：
-![电调界面](https://lfs.zhenhuang.site/images/12-2-14-2024-05-21-10-59-34.png)
+![电调界面](https://lfs.zhenhuang.top/images/12-2-14-2024-05-21-10-59-34.png)
 
 4、望远镜（赤道仪）界面：
 
-![赤道仪界面](https://lfs.zhenhuang.site/images/12-2-15-2024-05-21-11-00-04.png)
+![赤道仪界面](https://lfs.zhenhuang.top/images/12-2-15-2024-05-21-11-00-04.png)
 
 5、导星设置界面：
 
-![导星设置界面](https://lfs.zhenhuang.site/images/12-2-16-2024-05-21-11-00-39.png)
+![导星设置界面](https://lfs.zhenhuang.top/images/12-2-16-2024-05-21-11-00-39.png)
 
 6、圆顶设置界面：
 
-![圆顶设置界面](https://lfs.zhenhuang.site/images/12-2-17-2024-05-21-11-01-02.png)
+![圆顶设置界面](https://lfs.zhenhuang.top/images/12-2-17-2024-05-21-11-01-02.png)
 
 ### 1.2 星图界面
 
-![星图界面](https://lfs.zhenhuang.site/images/12-2-18-2024-05-21-11-01-22.png)
-![星图界面2](https://lfs.zhenhuang.site/images/20240521170311-2024-05-21-17-03-12.png)
+![星图界面](https://lfs.zhenhuang.top/images/12-2-18-2024-05-21-11-01-22.png)
+![星图界面2](https://lfs.zhenhuang.top/images/20240521170311-2024-05-21-17-03-12.png)
 
 ### 1.3 构图助手界面
 
-![构图助手界面](https://lfs.zhenhuang.site/images/12-2-19-2024-05-21-11-01-43.png)
+![构图助手界面](https://lfs.zhenhuang.top/images/12-2-19-2024-05-21-11-01-43.png)
 
 ### 1.4 平场助手界面
 
-![平场助手界面](https://lfs.zhenhuang.site/images/12-2-20-2024-05-21-11-02-13.png)
+![平场助手界面](https://lfs.zhenhuang.top/images/12-2-20-2024-05-21-11-02-13.png)
 
 ### 1.5 序列器界面
 
 1、序列器主界面：
 
-![序列器主界面](https://lfs.zhenhuang.site/images/12-2-21-2024-05-21-11-02-39.png)
+![序列器主界面](https://lfs.zhenhuang.top/images/12-2-21-2024-05-21-11-02-39.png)
 
 2、简单序列器界面：
 
-![简单序列器界面](https://lfs.zhenhuang.site/images/12-2-22-2024-05-21-11-03-04.png)
+![简单序列器界面](https://lfs.zhenhuang.top/images/12-2-22-2024-05-21-11-03-04.png)
 
 3、高级序列器界面：
 
-![高级序列器界面](https://lfs.zhenhuang.site/images/12-2-23-2024-05-21-11-03-27.png)
+![高级序列器界面](https://lfs.zhenhuang.top/images/12-2-23-2024-05-21-11-03-27.png)
 
 ### 1.6 主控台界面
 
-![主控台界面](https://lfs.zhenhuang.site/images/12-2-24-2024-05-21-11-03-49.png)
+![主控台界面](https://lfs.zhenhuang.top/images/12-2-24-2024-05-21-11-03-49.png)
 
-![主控台界面](https://lfs.zhenhuang.site/images/12-2-25-2024-05-21-11-04-12.png)
+![主控台界面](https://lfs.zhenhuang.top/images/12-2-25-2024-05-21-11-04-12.png)
 
 ### 1.7 设置界面
 
 1、通用设置界面：
 
-![通用设置界面](https://lfs.zhenhuang.site/images/12-2-26-2024-05-21-11-06-55.png)
+![通用设置界面](https://lfs.zhenhuang.top/images/12-2-26-2024-05-21-11-06-55.png)
 
 2、设备选项设置界面：
 
-![设备选项设置界面](https://lfs.zhenhuang.site/images/12-2-27-2024-05-21-11-07-16.png)
+![设备选项设置界面](https://lfs.zhenhuang.top/images/12-2-27-2024-05-21-11-07-16.png)
 
 3、对焦选项设置：
 
-![对焦选项设置](https://lfs.zhenhuang.site/images/12-2-28-2024-05-21-11-07-41.png)
+![对焦选项设置](https://lfs.zhenhuang.top/images/12-2-28-2024-05-21-11-07-41.png)
 
 4、圆顶选项设置：
 
-![圆顶选项设置](https://lfs.zhenhuang.site/images/12-2-30-2024-05-21-11-08-48.png)
+![圆顶选项设置](https://lfs.zhenhuang.top/images/12-2-30-2024-05-21-11-08-48.png)
 
 5、主控台选项设置：
 
-![主控台选项](https://lfs.zhenhuang.site/images/12-2-31-2024-05-21-11-09-09.png)
+![主控台选项](https://lfs.zhenhuang.top/images/12-2-31-2024-05-21-11-09-09.png)
 
 6、插件设置：
 
-![插件的选项和设置](https://lfs.zhenhuang.site/images/12-2-32-2024-05-21-11-09-34.png)
+![插件的选项和设置](https://lfs.zhenhuang.top/images/12-2-32-2024-05-21-11-09-34.png)
 
 ## 2 亮场的拍摄
 
@@ -99,7 +99,7 @@ comments: true
 
 **2、相机制冷。** 连接好设备后，点击相机-制冷-开启制冷开启相机制冷，待芯片温度和相机功率逐渐趋于稳定。在等待的时间可以进行对极轴操作。
 
-![相机制冷：连接好设备后，点击相机-制冷-开启制冷开启相机制冷，待芯片温度和相机功率逐渐趋于稳定。在等待的时间可以进行对极轴操作。](https://lfs.zhenhuang.site/images/20240523165254-2024-05-23-16-52-55.png)
+![相机制冷：连接好设备后，点击相机-制冷-开启制冷开启相机制冷，待芯片温度和相机功率逐渐趋于稳定。在等待的时间可以进行对极轴操作。](https://lfs.zhenhuang.top/images/20240523165254-2024-05-23-16-52-55.png)
 
 **3、极轴。** 如果是固定台，通常不需要每次都对极轴，因为已经对好了，比如东四那个圆顶。如果是自己出摊：
 
@@ -123,7 +123,7 @@ comments: true
 **7、星点解析**
 
 - 拍摄一张照片，10s或者平常拍单张的时间，得到一张星点符合条件的照片
-- 点击主控台界面的「星点解析」<img src="https://lfs.zhenhuang.site/images/20240523165356-2024-05-23-16-53-57.png" width=5% class="skip_img"></img>工具，对该照片上的所有星点进行解析定位。
+- 点击主控台界面的「星点解析」<img src="https://lfs.zhenhuang.top/images/20240523165356-2024-05-23-16-53-57.png" width=5% class="skip_img"></img>工具，对该照片上的所有星点进行解析定位。
 - 如果解析失败，可能是导星脱线导致星点变形、对焦不准导致星点过大、曝光时间不足导致信噪比不够。
 
 **8、GOTO想拍摄的区域**
@@ -137,7 +137,7 @@ comments: true
     - 「旋转角度」调整后可在右侧旋转相机视场，一般不进行设置，除非使用了电动旋转器。
     - 确认参数无误后可以使用「指向并居中」GOTO至坐标，也可以「添加到序列」将该目标加入序列中。
 
-![GOTO目标，将目标添加至序列](https://lfs.zhenhuang.site/images/20240523165852-2024-05-23-16-58-53.png)
+![GOTO目标，将目标添加至序列](https://lfs.zhenhuang.top/images/20240523165852-2024-05-23-16-58-53.png)
 
 **9、设置序列并启动序列**
 
@@ -151,30 +151,30 @@ comments: true
 
 **10、拍摄过程中可以关注的地方**
 
-![主控台](https://lfs.zhenhuang.site/images/20240523170020-2024-05-23-17-00-22.png)
+![主控台](https://lfs.zhenhuang.top/images/20240523170020-2024-05-23-17-00-22.png)
 
 - 关注 **相机曝光状态** 。这一栏会显示曝光进度、图像正在保存、正在检测星点这三个状态。
 - 关注 **导星状态** 。
 - **关注最近一张的预览图**。图中的白框内的区域用于统计星点半宽（HFR）。可以随时放大查看一下星点的质量，例如星点是否圆润等等。点击「有九个格子形状」的按钮可以查看图像边缘星点，判断边缘处星点的质量、是否存在明显像差等。
 
-![关注最近一张的预览图](https://lfs.zhenhuang.site/images/20240523170050-2024-05-23-17-00-52.png)
-![关注最近一张的预览图，图中显示较边缘星点](https://lfs.zhenhuang.site/images/20240523170101-2024-05-23-17-01-03.png)
+![关注最近一张的预览图](https://lfs.zhenhuang.top/images/20240523170050-2024-05-23-17-00-52.png)
+![关注最近一张的预览图，图中显示较边缘星点](https://lfs.zhenhuang.top/images/20240523170101-2024-05-23-17-01-03.png)
 
 - **关注星点HFR历史** 。理想状态下，随着深夜的到来和光污染的减少，或者随着目标天体临近中天，星点数应该稳步提升，HFR也稳步下降。当观星条件差、或者对焦差时，星点数少且HFR高。星点HFR历史有助于我们判断在拍摄过程中拍摄质量是否出现下滑或者出现一些极端条件。
 
-<center><img src="https://lfs.zhenhuang.site/images/20240523170125-2024-05-23-17-01-27.png" width=40%></img></center>
+<center><img src="https://lfs.zhenhuang.top/images/20240523170125-2024-05-23-17-01-27.png" width=40%></img></center>
 
 - 关注中天翻转。中天翻转是拍摄过程中比较容易寄的地方。中天翻转前后二十分钟左右我们要密切关注赤道仪的状态。当中天翻转开始时，应当会出现如下这样的界面：
 
-![中天翻转启动](https://lfs.zhenhuang.site/images/20240523170228-2024-05-23-17-02-30.png)
+![中天翻转启动](https://lfs.zhenhuang.top/images/20240523170228-2024-05-23-17-02-30.png)
 
 赤道仪会首先停止自动导星（但此时相机可能不会停止拍摄），等到目标天体过中天一段时间后（这段时间可以在设置里面进行设置），赤道仪会进行中天翻转，翻转成功后重新进行自动对焦
 
-![重新自动对焦](https://lfs.zhenhuang.site/images/20240523170254-2024-05-23-17-02-55.png)
+![重新自动对焦](https://lfs.zhenhuang.top/images/20240523170254-2024-05-23-17-02-55.png)
 
 自动对焦成功后，会重新指向并居中目标天体。
 
-![重新指向并居中目标天体](https://lfs.zhenhuang.site/images/20240523170309-2024-05-23-17-03-10.png)
+![重新指向并居中目标天体](https://lfs.zhenhuang.top/images/20240523170309-2024-05-23-17-03-10.png)
 
 而后恢复导星，继续进行拍摄。
 
@@ -184,7 +184,7 @@ comments: true
 
 1、打开制冷，准备拍摄：
 
-![打开制冷准备拍摄](https://lfs.zhenhuang.site/images/12-2-1-2024-05-21-11-10-06.png)
+![打开制冷准备拍摄](https://lfs.zhenhuang.top/images/12-2-1-2024-05-21-11-10-06.png)
 
 * 制冷时持续分钟数不可太小，以防玻璃碎裂或者结露。
 * 确认滤镜轮、电调、望远镜的连接状态。
@@ -192,13 +192,13 @@ comments: true
 
 2、解除望远镜停放，打开“平场助手”，将望远镜指向天顶
 
-![解除望远镜停放，将望远镜指向天顶](https://lfs.zhenhuang.site/images/12-2-2-2024-05-21-11-10-28.png)
+![解除望远镜停放，将望远镜指向天顶](https://lfs.zhenhuang.top/images/12-2-2-2024-05-21-11-10-28.png)
 
-![望远镜指向天顶](https://lfs.zhenhuang.site/images/12-2-3-2024-05-21-11-10-53.png)
+![望远镜指向天顶](https://lfs.zhenhuang.top/images/12-2-3-2024-05-21-11-10-53.png)
 
 3、检查平场板是否有灰，将平场板盖在望远镜上。
 
-![清灰并将平场板盖在望远镜上](https://lfs.zhenhuang.site/images/12-2-4-2024-05-21-11-11-19.png)
+![清灰并将平场板盖在望远镜上](https://lfs.zhenhuang.top/images/12-2-4-2024-05-21-11-11-19.png)
 
 * 注意平场板上是否有灰，需要将灰尘清除；
 * 注意平场板边缘是否有减光，如果有需要避免；
@@ -206,21 +206,21 @@ comments: true
 
 4、打开平场板，调整平场板亮度。
 
-![平场板亮度调节](https://lfs.zhenhuang.site/images/12-2-5-2024-05-21-11-11-44.png)
+![平场板亮度调节](https://lfs.zhenhuang.top/images/12-2-5-2024-05-21-11-11-44.png)
 
 * 对于L/R/G/B这种宽带滤镜，亮度一般调节到最低亮度。
 * 对于Ha/OIII/SII这种窄带滤镜，亮度一般调节到较高亮度或者最高亮度（图中所用的是3nm的滤镜），这样可以缩短单张曝光时间至1秒或者几秒。
 
 5、选择拍摄模式。
 
-![拍摄模式的选择](https://lfs.zhenhuang.site/images/12-2-6-2024-05-21-11-12-13.png)
+![拍摄模式的选择](https://lfs.zhenhuang.top/images/12-2-6-2024-05-21-11-12-13.png)
 
 * Single mode一般用于对于每种滤镜分别进行平场拍摄，我一般使用这个；
 * Multi mode其实也没啥区别。只是把各个滤镜都列出来了而已。
 
 6、设置参数，进行拍摄。
 
-![设置参数，进行拍摄](https://lfs.zhenhuang.site/images/12-2-7-2024-05-21-11-12-35.png)
+![设置参数，进行拍摄](https://lfs.zhenhuang.top/images/12-2-7-2024-05-21-11-12-35.png)
 
 * 选择滤镜；
 * 按照实际情况，设置目标名称，最好能加上目标编号和目标拍摄时间；
@@ -234,14 +234,14 @@ comments: true
 
 开始拍摄后，右侧会显示拍摄出的平场图像。
 
-![进行拍摄界面](https://lfs.zhenhuang.site/images/12-2-8-2024-05-21-11-12-58.png)
+![进行拍摄界面](https://lfs.zhenhuang.top/images/12-2-8-2024-05-21-11-12-58.png)
 
 也可以返回相机界面，注意观察制冷状况。在高速拍摄时很可能出现温度波动或者达不到目标温度的“温飘”现象，如果出现需要及时停止，以防温度与亮场差距过大导致校准出问题。
 
-![关注制冷状况](https://lfs.zhenhuang.site/images/12-2-9-2024-05-21-11-13-24.png)
+![关注制冷状况](https://lfs.zhenhuang.top/images/12-2-9-2024-05-21-11-13-24.png)
 
 7、依次对各个滤镜进行平场拍摄。如果出现曝光时间计算失败问题，尝试调节“平场曝光步长”、“平均值容差”等参数，或者调节平场板亮度。
 
-![调节参数成功拍摄平场](https://lfs.zhenhuang.site/images/12-2-10-2024-05-21-11-13-48.png)
+![调节参数成功拍摄平场](https://lfs.zhenhuang.top/images/12-2-10-2024-05-21-11-13-48.png)
 
-![对各个通道逐个进行拍摄](https://lfs.zhenhuang.site/images/12-2-11-2024-05-21-11-14-13.png)
+![对各个通道逐个进行拍摄](https://lfs.zhenhuang.top/images/12-2-11-2024-05-21-11-14-13.png)

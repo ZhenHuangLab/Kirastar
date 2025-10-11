@@ -14,13 +14,13 @@ comments: true
 
 我们已经知道，早在17世纪牛顿就已经发现了光谱：白光透过棱镜时，不同颜色的光线以不同的角度进行偏转，从上到下按照波长递减的次序列出颜色。
 
-![Light_dispersion_conceptual_waves](https://lfs.zhenhuang.site/images/Light_dispersion_conceptual_waves350px-2024-10-30-11-31-59.gif)
+![Light_dispersion_conceptual_waves](https://lfs.zhenhuang.top/images/Light_dispersion_conceptual_waves350px-2024-10-30-11-31-59.gif)
 
 <span class="caption">图示为三棱镜和被色散的光线</span>
 
 当然，现在我们更多是从电磁波的角度理解光谱：复色光通过色散系统（比如棱镜等）分光后，根据光的频率（或波长）大小排列形成的图案。其中人眼可见的电磁波谱部分就是可见光谱，在这个频率范围内的电磁辐射即为可见光，波长一般从360-400nm至760-830nm。波长低于这个范围，则称为紫外线、X射线等；波长高于这个范围，称为红外线等。红外线和紫外线都无法使用肉眼直接观测到，但是可以通过特定的仪器（例如红外感光元件）进行观测。因此，除了可见光谱，还有红外光谱和紫外光谱。
 
-![可见光谱只占有宽广的电磁波谱的一小部分](https://lfs.zhenhuang.site/images/20241030113259-2024-10-30-11-33-00.png)
+![可见光谱只占有宽广的电磁波谱的一小部分](https://lfs.zhenhuang.top/images/20241030113259-2024-10-30-11-33-00.png)
 
 <span class="caption">可见光谱只占有宽广的电磁波谱的一小部分。由Ufoismey3k - 本W3C状态不明的矢量图使用Inkscape创作，CC BY-SA 4.0，https://commons.wikimedia.org/w/index.php?curid=108674004</span>
 
@@ -34,11 +34,11 @@ comments: true
 
 - 发射光谱：自行发光的物质所产生光的光谱
     - 线状光谱：只在某些特定的波长发出辐射，产生单色的、分离的线状光谱。
-    ![M42的光谱](https://lfs.zhenhuang.site/images/20241030113455-2024-10-30-11-34-56.png)
+    ![M42的光谱](https://lfs.zhenhuang.top/images/20241030113455-2024-10-30-11-34-56.png)
     <span class="caption">M42的光谱。图片来源：[Cloudy Nights](https://www.cloudynights.com/topic/750583-spectral-profiles-of-m42-v1150-tau-and-psi-per/)</span>
     - 带状光谱：发射某个波长范围内的辐射，产生带状的光谱。
     - 连续光谱：能够发射各种波长的辐射，形成不间断的连续光谱。
-    ![M31中心部分的光谱](https://lfs.zhenhuang.site/images/20241030113629-2024-10-30-11-36-29.png)
+    ![M31中心部分的光谱](https://lfs.zhenhuang.top/images/20241030113629-2024-10-30-11-36-29.png)
     <span class="caption">M31中心部分的光谱。曝光10min，分辨率为5Å。图源：https://www.astrogeo.va.it/astronom/spettri/galassieen.htm</span>
 - 吸收光谱：当白光通过物质（如气体）时，物质将从该白光中吸收符合其特征谱线的光，使得白光的连续谱中出现暗线，这样某些波长的辐射由于被物质吸收产生的光谱称为吸收光谱。
 - 拉曼光谱
@@ -94,7 +94,7 @@ comments: true
 - 地影（地球影）：蛾眉月时，可以看到月面上未被阳光照亮的部分也呈现出淡淡的灰色，尤其使用相机拍摄时拉高阴影部分可以看到未被太阳照亮的部分也反射微弱的光，这是由于投射到地球上的太阳光被地面反射后又投射到月球上造成的，（被地球的反射光照亮的），简称地球影。
 - 月相：月球大约每27.3天环绕地球一周，这是「恒星月」。由于地球同时也在围绕着太阳旋转，月球和太阳的相对位置大约29.5天重现一次，这是「朔望月」，是连续两次新月（朔）或者连续两次满月（望）之间的时间间隔，代表了月球盈亏（圆缺变化）的周期。
 
-![恒星月与朔望月的比较](https://lfs.zhenhuang.site/images/20241030114354-2024-10-30-11-43-55.png)
+![恒星月与朔望月的比较](https://lfs.zhenhuang.top/images/20241030114354-2024-10-30-11-43-55.png)
 <span class="caption">恒星月与朔望月的比较。图源基础天文学教程，邵华木等编著。</span>
 
 - 月相变化：与日、月、地三者相对位置相关，取决于太阳光线照射月球的方向和我们观测月球的视线方向。（月球本身始终是一半被照亮一半黑暗，只是其相对位置决定了我们能够在地球上看到多少反光的面积）

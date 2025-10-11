@@ -44,15 +44,15 @@ comments: true
 
 辉光强度是与温度无关的，而与单张曝光时间有关，因为当单张曝光时间足够长时（比如几分钟至几十分钟），相机电气组件发出的微弱的近红外光才会被不断积累。因此对于辉光显著的探测器，在校准暗场时需要保证暗场与亮场的温度和曝光时间都一致（温度是为了保证暗电流校准，单张时间是为了保证辉光校准）。
 
-![IMX294芯片（ASI 294MC、QHY294C）的辉光](https://lfs.zhenhuang.site/images/20241030115207-2024-10-30-11-52-09.png)
+![IMX294芯片（ASI 294MC、QHY294C）的辉光](https://lfs.zhenhuang.top/images/20241030115207-2024-10-30-11-52-09.png)
 
 <span class="caption">IMX294芯片（ASI 294MC、QHY294C）的辉光。来源：[Sharpcap forum](https://forums.sharpcap.co.uk/viewtopic.php?t=5561) </span>
 
-![IMX492芯片（ASI 294MM、QHY294M）的辉光](https://lfs.zhenhuang.site/images/20241030115344-2024-10-30-11-53-46.png)
+![IMX492芯片（ASI 294MM、QHY294M）的辉光](https://lfs.zhenhuang.top/images/20241030115344-2024-10-30-11-53-46.png)
 
 <span class="caption">IMX492芯片（ASI 294MM、QHY294M）的辉光。来源：[macobservatory.com](https://www.macobservatory.com/blog/2021/4/20/what-are-astrophotography-calibration-frames-and-why-should-i-use-them) </span>
 
-![IMX071（ASI 071、Nikon D5100）的辉光](https://lfs.zhenhuang.site/images/20241030115439-2024-10-30-11-54-40.png)
+![IMX071（ASI 071、Nikon D5100）的辉光](https://lfs.zhenhuang.top/images/20241030115439-2024-10-30-11-54-40.png)
 
 <span class="caption">IMX071（ASI 071、Nikon D5100）的辉光。来源：[CloudyNights](https://www.cloudynights.com/topic/676680-asi071mc-cool-amp-glow/) </span>
 
